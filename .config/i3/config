@@ -32,7 +32,7 @@ bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 # split in horizontal orientation
-bindsym $mod+b split h
+bindsym $mod+> split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -174,6 +174,7 @@ bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioPause exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+bindsym $mod+b	exec st -e ranger
 bindsym $mod+Shift+f exec firefox
 bindsym $mod+Return exec st 
 bindsym $mod+c exec --no-startup-id flash_window
