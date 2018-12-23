@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -82,12 +82,8 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-
-
-
-/* bg opacity*/
-unsigned int alpha = 255;
-
+/* bg opacity */
+unsigned int alpha = 0xcc;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -116,10 +112,7 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
-	"#cccccc",
-	"#555555",
-
-
+	"black",
 };
 
 
@@ -127,18 +120,39 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 256;
-static unsigned int defaultcs = 258;
-static unsigned int defaultrcs = 259;
+unsigned int defaultfg = 7;
+unsigned int defaultbg = 257;
+static unsigned int defaultcs = 256;
+static unsigned int defaultrcs = 257;
 
- /* Default shape of cursor
+/*
+ * Default shape of cursor
  * 2: Block ("█")
  * 4: Underline ("_")
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
 static unsigned int cursorshape = 2;
+
+/*
+ * Default columns and rows numbers
+ */
+
+static unsigned int cols = 80;
+static unsigned int rows = 24;
+
+/*
+ * Default colour and shape of the mouse cursor
+ */
+static unsigned int mouseshape = XC_xterm;
+static unsigned int mousefg = 7;
+static unsigned int mousebg = 0;
+
+/*
+ * Color used to display font attributes when fontconfig selected a font which
+ * doesn't match the ones requested.
+ */
+static unsigned int defaultattr = 11;
 
 /*
  * Xresources preferences to load at startup
@@ -173,27 +187,7 @@ ResourcePref resources[] = {
 		{ "tabspaces",    INTEGER, &tabspaces },
 		{ "cwscale",      FLOAT,   &cwscale },
 		{ "chscale",      FLOAT,   &chscale },
-		{ "alpha",        INTEGER, &alpha },
 };
-/*
- * Default columns and rows numbers
- */
-
-static unsigned int cols = 80;
-static unsigned int rows = 24;
-
-/*
- * Default colour and shape of the mouse cursor
- */
-static unsigned int mouseshape = XC_xterm;
-static unsigned int mousefg = 7;
-static unsigned int mousebg = 0;
-
-/*
- * Color used to display font attributes when fontconfig selected a font which
- * doesn't match the ones requested.
- */
-static unsigned int defaultattr = 11;
 
 /*
  * Internal mouse shortcuts.
@@ -223,6 +217,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	{ TERMMOD,              XK_I,           iso14755,       {.i =  0} },
+	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
+	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
 };
 
 /*
