@@ -1,25 +1,26 @@
 ! Transparency (0-255)
-*.alpha:	204
+st.alpha:	0.92
+*.background: #282828
+*.foreground: white
+*.cursorColor: white
+st.borderpx:	0	
 
+st.font: DejaVu Sans Mono for Powerline:size=13
 
-
-! Google Dark scheme
-*.foreground:   #c5c8c6
-*.background:   #1d1f21
-*.cursorColor:  #c5c8c6
-*.color0:       #1d1f21
-*.color8:       #969896
-*.color1:       #cc342b
-*.color9:       #cc342b
-*.color2:       #198844
-*.color10:      #198844
-*.color3:       #fba922
-*.color11:      #fba922
-*.color4:       #3971ed
-*.color12:      #3971ed
-*.color5:       #a36ac7
-*.color13:      #a36ac7
-*.color6:       #3971ed
-*.color14:      #3971ed
-*.color7:       #c5c8c6
-*.color15:      #ffffff
+!! gruvbox: 
+ *.color0: #1d2021
+ *.color1: #cc241d
+ *.color2: #98971a
+ *.color3: #d79921
+ *.color4: #458588
+ *.color5: #b16286
+ *.color6: #689d6a
+ *.color7: #a89984
+ *.color8: #928374
+ *.color9: #fb4934
+ *.color10: #b8bb26
+ *.color11: #fabd2f
+ *.color12: #83a598
+ *.color13: #d3869b
+ *.color14: #8ec07c
+ *.color15: #ebdbb2

@@ -1,14 +1,17 @@
-# basic gaps stuff
+# i3 config file (v4)
+
+
+#basic gaps stuff
 gaps inner 10
 gaps outer 10
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 1
 
 
 # mod
 set $mod Mod4
 
 # font
-font pango: Bitstream Vera 10
+font pango: DejaVu Sans 10
 
 # thin borders
 hide_edge_borders both
@@ -21,6 +24,8 @@ bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
+bindsym $mod+Left focus left
+bindsym $mod+Right focus right 
 
 # lock
 bindsym $mod+Shift+x exec i3lock --color 475263
@@ -153,7 +158,7 @@ for_window [class="Pavucontrol"] floating enable
 
 # default workspaces
 assign [class="Spotify"] $workspace10
-
+assign [class="TelegramDesktop"] $workspace9
 # workspace default monitors
 workspace $workspace1 output DVI-I-2
 workspace $workspace2 output DVI-I-2
@@ -165,28 +170,33 @@ workspace $workspace9 output DVI-I-2
 workspace $workspace10 output DVI-I-2
 
 # key-bindings
-bindsym XF86AudioMute exec amixer sset 'Master' toggle
-bindsym XF86AudioLowerVolume exec amixer sset 'Master' 5%-
-bindsym XF86AudioRaiseVolume exec amixer sset 'Master' 5%+
-bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+bindsym XF86AudioMute exec pulseaudio-ctl mute
+bindsym XF86AudioLowerVolume exec pulseaudio-ctl down
+bindsym XF86AudioRaiseVolume exec pulseaudio-ctl up
+bindsym XF86MonBrightnessUp exec bctl +10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec bctl -10 # decrease screen brightness
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioPause exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+b	exec st -e ranger
 bindsym $mod+Shift+f exec firefox
-bindsym $mod+Return exec st 
+bindsym $mod+Return exec st
 bindsym $mod+c exec --no-startup-id flash_window
 bindsym $mod+Shift+q kill
-bindsym Print exec screenshot
-bindsym $mod+d exec rofi -show run 
+bindsym Print exec maim ~/Pictures/$(date +%s).png
+bindsym $mod+d exec rofi -show run
 #-lines 3 -eh 2 -width 100 -padding 800 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"
 # startup
-exec_always --no-startup-id feh --bg-scale /home/suren/Pictures/Wallpapers/City.jpg
+exec_always --no-startup-id feh --bg-scale /home/suren/Pictures/Wallpapers/Forest_Lake.jpg
 exec --no-startup-id spotify
-exec_always --no-startup-id nm-applet	
+exec_always --no-startup-id nm-applet
 exec_always --no-startup-id compton -f
 exec_always --no-startup-id flashfocus
+exec --no-startup-id gxkb
+exec --no-startup-id cbatticon BAT1 -i symbolic -u 1
+exec --no-startup-id redshift-gtk
+
 # Keys
 
+# vim:filetype=i3config
