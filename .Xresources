@@ -1,11 +1,14 @@
 ! Transparency (0-255)
-st.alpha:	0.92
+st.alpha:	0.60
 *.background: #282828
-*.foreground: white
-*.cursorColor: white
+*.foreground: #ebdbb2
+*.cursorColor: #ebdbb2
 st.borderpx:	0	
 
-st.font: DejaVu Sans Mono for Powerline:size=13
+st.font: Dejavu Sans Mono for Powerline:size=13:antialias=true:autohint=true
+
+st.font2: MaterialIcons
+
 
 !! gruvbox: 
  *.color0: #1d2021

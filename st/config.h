@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Dejavu Sans Mono:size=13";
+static char *font2[] = { "Dejavu Sans Mono for Powerline:size=8:antialias=true:autohint=true"  };
 static int borderpx = 2;
 
 /*
@@ -56,6 +57,17 @@ static unsigned int blinktimeout = 800;
  */
 static unsigned int cursorthickness = 2;
 
+/*
+ * 1: render most of the lines/blocks characters without using the font for
+ *    perfect alignment between cells (U2500 - U259F except dashes/diagonals).
+ *    Bold affects lines thickness if boxdraw_bold is not 0. Italic is ignored.
+ * 0: disable (render all U25XX glyphs normally from the font).
+ */
+const int boxdraw = 1;
+const int boxdraw_bold = 1;
+
+/* braille (U28XX):  1: render as adjacent "pixels",  0: use font */
+const int boxdraw_braille = 1;
 /*
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
  * it
@@ -153,6 +165,8 @@ static unsigned int mousebg = 0;
  */
 ResourcePref resources[] = {
 		{ "font",         STRING,  &font },
+		{ "font2",	  STRING,  &font2[0] },
+		{ "font3",	  STRING,  &font2[1] },
 		{ "color0",       STRING,  &colorname[0] },
 		{ "color1",       STRING,  &colorname[1] },
 		{ "color2",       STRING,  &colorname[2] },

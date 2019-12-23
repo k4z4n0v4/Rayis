@@ -25,10 +25,10 @@ bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
 bindsym $mod+Left focus left
-bindsym $mod+Right focus right 
+bindsym $mod+Right focus right
 
 # lock
-bindsym $mod+Shift+x exec i3lock --color 475263
+bindsym $mod+Shift+x exec ~/.config/i3/scripts/lock.sh
 
 # move focused window
 bindsym $mod+Shift+h move left
@@ -94,6 +94,9 @@ bindsym $mod+8 workspace $workspace8
 bindsym $mod+9 workspace $workspace9
 bindsym $mod+0 workspace $workspace10
 
+# move window/container to workspace
+bindsym $mod+Shift+Tab move workspace to output right
+bindsym $mod+Tab move container to output right
 # reload the configuration file
 bindsym $mod+Shift+c reload
 
@@ -123,8 +126,8 @@ mode "resize" {
 # resize mode
 bindsym $mod+r mode "resize"
 
-set $bg-color 	         #2f343f
-set $inactive-bg-color   #2f343f
+set $bg-color 	         #384457
+set $inactive-bg-color   #384457
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935
@@ -137,17 +140,17 @@ client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-co
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
 
 # bar
-bar {
-  	status_command i3blocks -c /home/suren/.config/i3/i3blocks.conf
-	colors {
-		background $bg-color
-	    	separator #757575
-		#                  border             background         text
-		focused_workspace  $bg-color          $bg-color          $text-color
-		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
-	}
-}
+#bar {
+#  	status_command i3blocks -c /home/suren/.config/i3/i3blocks.conf
+##	colors {
+#		background $bg-color
+#	    	separator #757575
+#		#                  border             background         text
+#		focused_workspace  $bg-color          $bg-color          $text-color
+#		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+#		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+#	}
+#}
 
 
 # sticky window
@@ -184,19 +187,19 @@ bindsym $mod+Shift+f exec firefox
 bindsym $mod+Return exec st
 bindsym $mod+c exec --no-startup-id flash_window
 bindsym $mod+Shift+q kill
-bindsym Print exec maim ~/Pictures/$(date +%s).png
+bindsym Print exec  maim -s -m 1 ~/Pictures/"$(date +%H:%M)".png
 bindsym $mod+d exec rofi -show run
-#-lines 3 -eh 2 -width 100 -padding 800 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"
+
 # startup
-exec_always --no-startup-id feh --bg-scale /home/suren/Pictures/Wallpapers/Forest_Lake.jpg
-exec --no-startup-id spotify
+exec_always --no-startup-id /home/suren/.config/polybar/launch.sh
+exec_always --no-startup-id feh --bg-scale /home/suren/Pictures/Wallpapers/Highway\ Sunset.jpg
+#exec --no-startup-id spotify
 exec_always --no-startup-id nm-applet
 exec_always --no-startup-id compton -f
 exec_always --no-startup-id flashfocus
 exec --no-startup-id gxkb
-exec --no-startup-id cbatticon BAT1 -i symbolic -u 1
-exec --no-startup-id redshift-gtk
-
+#exec --no-startup-id cbatticon BAT1 -i symbolic -u 1
+#exec --no-startup-id redshift-gtk
 # Keys
 
 # vim:filetype=i3config
