@@ -1,0 +1,79 @@
+From ed9359221c52f239d887b6ee4de152428316dd73 Mon Sep 17 00:00:00 2001
+From: PratikBhusal <PratikBhusal@users.noreply.github.com>
+Date: Sat, 14 Dec 2019 19:53:28 -0600
+Subject: [PATCH] Extract Xresources patch by @melek to dmenu
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+This patch was origionally made by Michał Lemke has been slightly
+modified to work with dmenu 4.9.
+
+This patch adds the ability to configure st via Xresources. At startup,
+st will read and apply the change to the applicable resource. Below are
+the resources that can be changed and what they change:
+
+dmenu.font          : font or font set
+dmenu.background    : normal background color
+dmenu.foreground    : normal foreground color
+dmenu.selbackground : selected background color
+dmenu.selforeground : selected foreground color
+---
+ dmenu.c | 27 +++++++++++++++++++++++++++
+ 1 file changed, 27 insertions(+)
+
+diff --git a/dmenu.c b/dmenu.c
+index 6b8f51b..3373abe 100644
+--- a/dmenu.c
++++ b/dmenu.c
+@@ -15,6 +15,7 @@
+ #include <X11/extensions/Xinerama.h>
+ #endif
+ #include <X11/Xft/Xft.h>
++#include <X11/Xresource.h>
+ 
+ #include "drw.h"
+ #include "util.h"
+@@ -687,6 +688,31 @@ usage(void)
+ 	exit(1);
+ }
+ 
++void
++read_Xresources(void) {
++	XrmInitialize();
++
++	char* xrm;
++	if ((xrm = XResourceManagerString(drw->dpy))) {
++		char *type;
++		XrmDatabase xdb = XrmGetStringDatabase(xrm);
++		XrmValue xval;
++
++		if (XrmGetResource(xdb, "dmenu.font", "*", &type, &xval) == True) /* font or font set */
++			fonts[0] = strdup(xval.addr);
++		if (XrmGetResource(xdb, "dmenu.background", "*", &type, &xval) == True)  /* normal background color */
++			colors[SchemeSel][ColBg] = strdup(xval.addr);
++		if (XrmGetResource(xdb, "dmenu.foreground", "*", &type, &xval) == True)  /* normal foreground color */
++			colors[SchemeNorm][ColFg] = strdup(xval.addr);
++		if (XrmGetResource(xdb, "dmenu.selbackground", "*", &type, &xval) == True)  /* selected background color */
++			colors[SchemeSel][ColBg] = strdup(xval.addr);
++		if (XrmGetResource(xdb, "dmenu.selforeground", "*", &type, &xval) == True)  /* selected foreground color */
++			colors[SchemeSel][ColFg] = strdup(xval.addr);
++
++		XrmDestroyDatabase(xdb);
++	}
++}
++
+ int
+ main(int argc, char *argv[])
+ {
+@@ -743,6 +769,7 @@ main(int argc, char *argv[])
+ 		die("could not get embedding window attributes: 0x%lx",
+ 		    parentwin);
+ 	drw = drw_create(dpy, screen, root, wa.width, wa.height);
++	read_Xresources();
+ 	if (!drw_fontset_create(drw, fonts, LENGTH(fonts)))
+ 		die("no fonts could be loaded.");
+ 	lrpad = drw->fonts->h;
+-- 
+2.24.1
+
