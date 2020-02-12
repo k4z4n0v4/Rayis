@@ -70,6 +70,10 @@ modules-left = i3
 modules-center = 
 modules-right = 
 
+tray-position = right
+tray-maxsize = 23
+tray-padding = 2
+
 
 [bar/top]
 monitor = ${env:MONITOR:} 
@@ -79,7 +83,7 @@ height = 30
 ;offset-y = 1%
 radius = 0
 fixed-center = false
-
+enable-ipc = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
@@ -93,18 +97,20 @@ padding-right = 5
 
 module-margin = 4  
 
-font-0 = fixed:pixelsize=10:antialias=tru:antialias=true;1
+font-0 = fixed:pixelsize=11:antialias=tru:antialias=true;1
 font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
-font-2 = MaterialIcons:size=10;1
-font-3 = Fontawesome:pixelsize=10:antialias=true;1
+font-2 = MaterialIcons:size=13;3
+font-3 = Fontawesome:pixelsize=13:antialias=true;1
 
 modules-left =  powermenu mpd
-modules-right = filesystem pulseaudio xkeyboard memory cpu eth date 
+modules-center = spotify previous playpause next
+modules-right = filesystem pulseaudio xkeyboard memory cpu eth updates-arch-combined date 
 
 
 
-tray-position = center
-tray-padding = 2
+;tray-position = center
+;tray-maxsize = 22
+;tray-padding = 2
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm
@@ -129,7 +135,7 @@ label = %title:0:30:...%
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 format-prefix-underline = ${colors.green}
 
@@ -298,7 +304,7 @@ ramp-coreload-7-foreground = ${colors.green}
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = ""
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 format-underline = #4bffdc
 label = %percentage_used%%
@@ -328,7 +334,7 @@ animation-packetloss-1-foreground = ${bar/top.foreground}
 animation-packetloss-framerate = 500
 [module/eth]
 type = internal/network
-interface = enp4s0
+interface = enp2s0
 interval = 3.0
 
 format-connected-underline = #55aa55
@@ -426,20 +432,20 @@ ramp-foreground = ${colors.foreground}
 [module/powermenu]
 type = custom/menu
 
-format-padding = 5
+format-padding = 3
 
 label-open = 
 label-close = 
 
-menu-0-0 = Terminate WM
+menu-0-0 = "Terminate WM | "
 menu-0-0-foreground = #fba922
 menu-0-0-exec = i3 exit 
-menu-0-1 = Reboot
+menu-0-1 = "Reboot | "
 menu-0-1-foreground = #fba922
-menu-0-1-exec = menu_open-1
-menu-0-2 = Power off
+menu-0-1-exec = reboot
+menu-0-2 = Power off 
 menu-0-2-foreground = #fba922
-menu-0-2-exec = menu_open-2
+menu-0-2-exec = shutdown now
 
 menu-1-0 = Cancel
 menu-1-0-foreground = #fba922
@@ -455,6 +461,12 @@ menu-2-1 = Cancel
 menu-2-1-foreground = #fba922
 menu-2-1-exec = menu_open-0
 
+[module/updates-arch-combined]
+type = custom/script
+exec = ~/.config/polybar/polybar-scripts/updates-arch-combined.sh
+label = " %output%"
+interval = 600
+
 [settings]
 screenchange-reload = true
 ;compositing-background = xor
@@ -467,4 +479,54 @@ screenchange-reload = true
 margin-top = 5
 margin-bottom = 5
 
+
+[module/previous]
+type = custom/script
+interval = 86400
+format = "%{T3}<label>"
+format-padding = 5
+; Previous song icon
+exec = echo ""
+; Check if spotify is running before displaying the icon
+;exec-if = "pgrep spotify"
+format-underline = #1db954
+line-size = 1
+click-left = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
+
+[module/next]
+type = custom/script
+interval = 86400
+format = "%{T3}<label>"
+format-padding = 5
+; Next song icon
+exec = echo ""
+; Check if spotify is running before displaying the icon
+;exec-if = "pgrep spotify"
+format-underline = #1db954
+line-size = 1
+click-left = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
+
+[module/playpause]
+type = custom/ipc
+; Default
+hook-0 = echo ""
+; Playing
+hook-1 = echo ""
+; Paused
+hook-2 = echo ""
+initial = 1
+format-underline = #1db954
+line-size = 1
+click-left = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
+
+[module/spotify]
+type = custom/ipc
+hook-0 = echo ""
+hook-1 = python3 ~/.config/polybar/spotify/spotify_status.py
+initial = 1
+format-padding = 4
+format-underline = #1db954
+line-size = 1
+; [i3wm only] - Uncomment the below line to focus on Spotify when clicking on the song name (credits to https://github.com/Esya)
+click-left = i3-msg '[class="Spotify"] focus'
 ; vim:ft=dosini
