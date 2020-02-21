@@ -3,10 +3,10 @@
 
 B='#00000000'  # blank
 C='#ffffff22'  # clear ish
-D='#ff00ffcc'  # default
-T='#ee00eeee'  # text
-W='#880000bb'  # wrong
-V='#bb00bbbb'  # verifying
+D='#506070cc'  # default
+T='#dcdcccee'  # text
+W='#93e0e3bb'  # wrong
+V='#94bff3bb'  # verifying
 
 i3lock \
 --insidevercolor=$C   \
@@ -29,14 +29,13 @@ i3lock \
 --bshlcolor=$W        \
 \
 --screen 1            \
---blur 5              \
+--blur 6              \
 --clock               \
 --indicator           \
 --timestr="%H:%M:%S"  \
 --datestr="%A, %m %Y" \
 --keylayout 2         \
 
-# --veriftext="Drinking verification can..."
 # --wrongtext="Nope!"
 # --textsize=20
 # --modsize=10

@@ -1,12 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/suren/.config/dunst'
+let g:netrw_dirhist_4='/home/suren/.config'
+let g:netrw_dirhist_3='/home/suren/.config/polybar'
+let g:netrw_dirhist_2='/etc/X11/xorg.conf.d'
 let g:netrw_dirhist_1='/home/suren/.config/nvim/plugged/vimtex/autoload/vimtex/compiler'
 let g:netrw_dirhist_0='/home/suren/Latex'
 let g:netrw_dirhist_9='/home/suren/.config/nvim/plugged/vim-airline/autoload/airline/extensions'
 let g:netrw_dirhist_8='/home/suren/.config/nvim/plugged/vim-airline/autoload/airline'
 let g:netrw_dirhist_7='/home/suren/.config'
 let g:netrw_dirhist_6='/home/suren/.config/nvim/plugged/vim-airline-themes/plugin'
-let g:netrw_dirhist_5='/home/suren/.config/nvim/plugged/vim-airline-themes'
-let g:netrw_dirhist_4='/home/suren/st-0.8.1/patches'
-let g:netrw_dirhist_3='/home/suren/.cache/pacaur/st/src'
-let g:netrw_dirhist_2='/home/suren/st-0.8.1'

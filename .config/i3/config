@@ -1,9 +1,11 @@
-
+# i3 config file (v4)
 
 
 #basic gaps stuff
+gaps top 30
 gaps inner 10
-gaps outer 10
+gaps bottom 0
+#gaps outer 30
 for_window [class="^.*"] border pixel 1
 
 
@@ -82,6 +84,12 @@ bindsym $mod+Shift+8 move container to workspace $workspace8
 bindsym $mod+Shift+9 move container to workspace $workspace9
 bindsym $mod+Shift+0 move container to workspace $workspace10
 
+
+# enable scratchpad
+bindsym $mod+Shift+m move scratchpad
+bindsym $mod+m  scratchpad show
+
+
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
 bindsym $mod+2 workspace $workspace2
@@ -159,9 +167,12 @@ bindsym $mod+Shift+s sticky toggle
 # floating
 for_window [class="Pavucontrol"] floating enable
 
+
 # default workspaces
 for_window [class = "Spotify"] move to workspace $workspace10
 assign [class="TelegramDesktop"] $workspace9
+
+
 # workspace default monitors
 workspace $workspace1 output DVI-I-2
 workspace $workspace2 output DVI-I-2
@@ -185,22 +196,24 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+b	exec st -e ranger
 bindsym $mod+Shift+f exec qutebrowser
 bindsym $mod+Return exec st
-bindsym $mod+c exec --no-startup-id flash_window
+bindsym $mod+c exec flash_window
 bindsym $mod+Shift+q kill
 bindsym Print exec  maim -s -m 1 ~/Pictures/"$(date +%H:%M)".png
-bindsym $mod+d exec dmenu_run 
-
+bindsym $mod+d exec  dmenu_run
+bindsym $mod+t exec  telegram-desktop; workspace $workspace9
+bindsym Control+Shift+m exec pactl  set-sink-mute alsa_output.pci-0000_00_1f.3.hdmi-stereo toggle
 # startup
+exec --no-startup-id autotiling
+exec xss-lock -- /home/suren/.config/i3/scripts/lock.sh &
 exec --no-startup-id spotify
 exec_always --no-startup-id /home/suren/.config/polybar/spotify/launchlistener.sh
 exec_always --no-startup-id /home/suren/.config/polybar/launch.sh
-exec_always --no-startup-id feh --bg-scale /home/suren/Pictures/Wallpapers/Highway\ Sunset.jpg
+exec_always --no-startup-id feh --bg-scale /home/suren/Pictures/Wallpapers/North_Pole.jpg
 exec_always --no-startup-id nm-applet
 exec_always --no-startup-id compton -f
 exec_always --no-startup-id flashfocus
 exec --no-startup-id gxkb
-#exec --no-startup-id cbatticon BAT1 -i symbolic -u 1
-#exec --no-startup-id redshift-gtk
+exec --no-startup-id sudo bitlbee -Fnv
 # Keys
 
 # vim:filetype=i3config

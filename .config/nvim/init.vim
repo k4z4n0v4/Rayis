@@ -1,5 +1,7 @@
 " TODO:
 "	# Make errors appear before warnings in loclist/quickfix
+"	# Make echodoc preview close automatically
+
 
 call plug#begin()
 	Plug 'flazz/vim-colorschemes'
@@ -14,11 +16,14 @@ call plug#begin()
 	Plug 'lervag/vimtex'
 	Plug 'Shougo/echodoc.vim'
 	Plug 'tpope/vim-fugitive'
+	Plug 'preservim/nerdtree'
 call plug#end()
 
+
+set modifiable
 set showmatch
 set scrolloff=1
-set sidescrolloff=5
+set sidescrolloff=3
 set clipboard=unnamedplus
 set noshowmode " Disable vim's own mod indicator
 set nu
@@ -26,6 +31,11 @@ set encoding=utf-8
 set cursorcolumn
 set cursorline
 let g:tex_flavor = "latex"
+
+
+" This will look in the current directory for tags and work up the tree towards root until one is found
+set tags=./tags;/
+
 " PEP 8 stuff
 au BufNewFile,BufRead *.py set tabstop=4
 au BufNewFile,BufRead *.py set softtabstop=4
@@ -36,14 +46,18 @@ au BufNewFile,BufRead *.py set autoindent
 au BufNewFile,BufRead *.py set fileformat=unix
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
+
+nnoremap <buffer> <F5> :exec '!python' shellescape(@%, 1)<cr>
+
+
 " Use the below highlight group when displaying bad whitespace is desired.
 highlight BadWhitespace ctermbg=red guibg=red
 
-let g:jellyx_italic = 1
 
-colorscheme jellyx
-
-
+" Set colorscheme 
+colorscheme zenburn
+let g:zenburn_alternate_Visual = 1
+let g:zenburn_transparent = 1
 
 "------------------------------------------------------------------- Polyglot
 
@@ -54,11 +68,11 @@ let g:polyglot_disabled = ['latex']
 
 " Make airline pointy
 let g:airline_powerline_fonts = 1
+let g:zenburn_high_Contrast = 1
+let g:airline_theme = 'zenburn'
 
-let g:airline_theme = 'jellybeans'
-
-let g:XkbSwitchLib = "/usr/lib/libxkbswitch.so"
 "------------------------------------------------------------------- Indent-Guides
+
 " Disable indent-guides for vim
 let g:indent_guides_exclude_filetypes = ['vim']
 
@@ -102,10 +116,21 @@ augroup CloseLoclistWindowGroup
 augroup END
 
 "------------------------------------------------------------------- Echodoc
-
 let g:echodoc#enable_at_startup = 1
-
 let g:echodoc#type = 'floating'
+highlight link EchoDocFloat Pmenu
 
-
+"-------------------------------------------------------------------  Vimtex
 let g:vimtex_quickfix_method = "pplatex"
+
+
+"------------------------------------------------------------------- NerdTree
+
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+nnoremap <Leader>f :NERDTreeToggle <Enter>
+nnoremap <silent> <Leader>v :NERDTreeFind<CR>
+let NERDTreeQuitOnOpen = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1

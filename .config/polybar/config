@@ -16,50 +16,80 @@
 ;
 ;==========================================================
 
+
 [colors]
-black = ${xrdb:color0:#1d2021}
-darkred = ${xrdb:color1:#cc241d}
-darkgreen = ${xrdb:color2:#98971a}
-darkyellow = ${xrdb:color3:#d79921}
-darkblue = ${xrdb:color4:#458588}
-darkmagenta = ${xrdb:color5:#b16286}
-darkcyan = ${xrdb:color6:#689d6a}
-lightgray = ${xrdb:color7:#a89984}
-gray = ${xrdb:color8:#928374}
-red = ${xrdb:color9:#fb4934}
-green = ${xrdb:color10:#b8bb26}
-yellow = ${xrdb:color11:#fabd2f}
-blue = ${xrdb:color12:#83a598}
-magenta = ${xrdb:color13:#d3869b}
-cyan = ${xrdb:color14:#8ec07c}
-white = ${xrdb:color15:#ebdbb2}
-background = ${xrdb:background:#1d2021}
-foreground = ${xrdb:foreground:#ebdbb2}
+black = ${xrdb:color0}
+darkred = ${xrdb:color1}
+darkgreen = ${xrdb:color2}
+darkyellow = ${xrdb:color3}
+darkblue = ${xrdb:color4}
+darkmagenta = ${xrdb:color5}
+darkcyan = ${xrdb:color6}
+lightgray = ${xrdb:color7}
+gray = ${xrdb:color8}
+red = ${xrdb:color9}
+green = ${xrdb:color10}
+yellow = ${xrdb:color11}
+blue = ${xrdb:color12}
+magenta = ${xrdb:color13}
+cyan = ${xrdb:color14}
+white = ${xrdb:color15}
+background = ${xrdb:foreground}
+foreground = ${xrdb:background}
+transparent = #40dcdccc
+
+[bar/top]
+monitor = ${env:monitor:} 
+width = 80%
+height = 30
+offset-x = 10%
+offset-y = 5
+radius = 10
+fixed-center = true 
+enable-ipc = true
+background = ${colors.transparent}
+foreground = ${colors.foreground}
+line-size = 3
+override-redirect = true
+wm-restack = i3
+border-size = 0
+border-color = #00000000
+padding-left = 3
+padding-right = 3
+cursor-click = pointer
+cursor-scroll = ns-resize
+module-margin = 4  
+format-underline = ${colors.cyan}
+
+
+font-0 = fixed:pixelsize=11:antialias=tru:antialias=true;1
+font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
+font-2 = MaterialIcons:size=13;3
+font-3 = Fontawesome:pixelsize=13:antialias=true;1
+
+modules-left = spotify previous playpause next
+modules-right = usb filesystem pulseaudio xkeyboard memory cpu vpn-protonvpn-status eth updates-arch-combined date powermenu
+
+
+
+
 
 [bar/bot]
 monitor = ${env:MONITOR:} 
 bottom = true
 width = 100%
 height = 30
-;offset-x = 1%
-;offset-y = 1%
-radius = 0
-fixed-center = false
-
-background = ${colors.background}
+radius = 10
+fixed-center = true
+background = ${colors.transparent}
 foreground = ${colors.foreground}
-
 line-size = 2
-#line-color = #000
-
 border-size = 0
-border-color = #00000000
-
+border-color = ${colors.transparent}
 padding-left = 0
-padding-right = 2
-
-module-margin-left = 1
-module-margin-right = 2
+padding-right = 0
+module-margin-left = 0
+module-margin-right = 0
 
 font-0 = fixed:pixelsize=11:antialias=tru:antialias=true;1
 font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
@@ -67,69 +97,21 @@ font-2 = MaterialIcons:size=10;1
 font-3 = Fontawesome:pixelsize=12:antialias=true;2
 
 modules-left = i3 
-modules-center = 
-modules-right = 
+modules-center = xwindow
+
 
 tray-position = right
 tray-maxsize = 23
 tray-padding = 2
 
 
-[bar/top]
-monitor = ${env:MONITOR:} 
-width = 100%
-height = 30
-;offset-x = 1%
-;offset-y = 1%
-radius = 0
-fixed-center = false
-enable-ipc = true
-background = ${colors.background}
-foreground = ${colors.foreground}
 
-line-size = 2
-#line-color = #000
-
-border-size = 0
-border-color = #00000000
-padding-left = 0
-padding-right = 5
-
-module-margin = 4  
-
-font-0 = fixed:pixelsize=11:antialias=tru:antialias=true;1
-font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
-font-2 = MaterialIcons:size=13;3
-font-3 = Fontawesome:pixelsize=13:antialias=true;1
-
-modules-left =  powermenu mpd
-modules-center = spotify previous playpause next
-modules-right = filesystem pulseaudio xkeyboard memory cpu eth updates-arch-combined date 
-
-
-
-;tray-position = center
-;tray-maxsize = 22
-;tray-padding = 2
-;tray-background = #0063ff
-
-;wm-restack = bspwm
-;wm-restack = i3
-
-;override-redirect = true
-
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
-
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
-
-cursor-click = pointer
-cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:30:...%
+label = %title%
+
+
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -137,10 +119,10 @@ blacklist-0 = num lock
 
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
-format-prefix-underline = ${colors.green}
+format-prefix-underline = ${colors.cyan}
 
 label-layout = %layout%
-label-layout-underline = ${colors.green}
+label-layout-underline = ${colors.cyan}
 
 label-indicator-padding = 2
 label-indicator-margin = 1
@@ -152,32 +134,17 @@ type = internal/fs
 interval = 25
 
 mount-0 = /
-
+label-mounted-underline = ${colors.cyan}
 label-mounted = %mountpoint%: %free%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground}
 
-#[module/bspwm]
-#type = internal/bspwm
-#
-#label-focused = %index%
-#label-focused-background = ${colors.background}
-#label-focused-underline= ${colors.blue}
-#label-focused-padding = 2
-#
-#label-occupied = %index%
-#label-occupied-padding = 2
-#
-#label-urgent = %index%!
-#label-urgent-background = ${colors.red}
-#label-urgent-padding = 2
-#
-#label-empty = %index%
-#label-empty-foreground = ${colors.foreground}
-#label-empty-padding = 2
-
-; Separator in between workspaces
-; label-separator = |
+[module/usb]
+type = custom/script
+exec = /home/suren/.config/polybar/polybar-scripts/system-usb-udev.sh
+tail = true
+click-left = /home/suren/.config/polybar/polybar-scripts/system-usb-udev.sh --mount &
+click-right = /home/suren/.config/polybar/polybar-scripts/system-usb-udev.sh --unmount &
 
 [module/i3]
 type = internal/i3
@@ -189,18 +156,19 @@ wrapping-scroll = false
 pin-workspaces = true
 
 label-mode-padding = 2 
-label-mode-foreground = #000
+label-mode-foreground = ${colors.foreground}
 label-mode-background = ${colors.blue}
 
 ; focused = Active workspace on focused monitor
 label-focused = %name% 
 label-focused-background = ${colors.background}
+label-focused-foreground = ${colors.foreground}
 label-focused-underline= ${colors.blue}
 label-focused-padding = 2
 
 ; unfocused = Inactive workspace on any monitor
 label-unfocused = %name%
-label-unfocused-foreground = ${colors.gray}
+label-unfocused-foreground = ${colors.foreground}
 label-unfocused-padding = 2
 
 ; visible = Active workspace on unfocused monitor
@@ -247,6 +215,9 @@ bar-progress-fill-font = 2
 bar-progress-empty = ─
 bar-progress-empty-font = 2
 bar-progress-empty-foreground = #44
+
+
+
 [module/xbacklight]
 type = internal/xbacklight
 
@@ -273,42 +244,60 @@ card = intel_backlight
 type = internal/cpu
 interval = 0.5
 format = <label> <ramp-coreload>
+format-underline = ${colors.cyan}
 label = CPU
 
 ramp-coreload-0 = ▁
 ramp-coreload-0-font = 2
-ramp-coreload-0-foreground = ${colors.green}
+ramp-coreload-0-foreground = ${colors.darkblue}
 ramp-coreload-1 = ▂
 ramp-coreload-1-font = 2
-ramp-coreload-1-foreground = ${colors.green}
+ramp-coreload-1-foreground = ${colors.darkblue}
 ramp-coreload-2 = ▃
 ramp-coreload-2-font = 2
-ramp-coreload-2-foreground = ${colors.green}
+ramp-coreload-2-foreground = ${colors.darkblue}
 ramp-coreload-3 = ▄
 ramp-coreload-3-font = 2
-ramp-coreload-3-foreground = ${colors.green}
+ramp-coreload-3-foreground = ${colors.darkblue}
 ramp-coreload-4 = ▅
 ramp-coreload-4-font = 2
-ramp-coreload-4-foreground = ${colors.green}
+ramp-coreload-4-foreground = ${colors.darkblue}
 ramp-coreload-5 = ▆
 ramp-coreload-5-font = 2
-ramp-coreload-5-foreground = ${colors.green}
+ramp-coreload-5-foreground = ${colors.darkblue}
 ramp-coreload-6 = ▇
 ramp-coreload-6-font = 2
-ramp-coreload-6-foreground = ${colors.green}
+ramp-coreload-6-foreground = ${colors.darkblue}
 ramp-coreload-7 = █
 ramp-coreload-7-font = 2
-ramp-coreload-7-foreground = ${colors.green}
+ramp-coreload-7-foreground = ${colors.darkblue}
 
 
 [module/memory]
 type = internal/memory
 interval = 2
+format = <label> <ramp-used>
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
-format-underline = #4bffdc
+format-underline = ${colors.cyan}
 label = %percentage_used%%
 
+ramp-used-0 = ▁
+ramp-used-0-foreground = ${colors.darkblue}
+ramp-used-1 = ▂
+ramp-used-1-foreground = ${colors.darkblue}
+ramp-used-2 = ▃
+ramp-used-2-foreground = ${colors.darkblue}
+ramp-used-3 = ▄
+ramp-used-3-foreground = ${colors.darkblue}
+ramp-used-4 = ▅
+ramp-used-4-foreground = ${colors.darkblue}
+ramp-used-5 = ▆
+ramp-used-5-foreground = ${colors.darkblue}
+ramp-used-6 = ▇
+ramp-used-6-foreground = ${colors.darkblue}
+ramp-used-7 = █
+ramp-used-7-foreground = ${colors.darkblue}
 
 [module/wireless-network]
 type = internal/network
@@ -332,21 +321,25 @@ animation-packetloss-0-foreground = #ffa64c
 animation-packetloss-1 = 
 animation-packetloss-1-foreground = ${bar/top.foreground}
 animation-packetloss-framerate = 500
+
+
 [module/eth]
 type = internal/network
 interface = enp2s0
-interval = 3.0
-
-format-connected-underline = #55aa55
-format-connected-prefix = " "
+interval = 0.5
+format-connected-underline = ${colors.cyan}
+#format-connected-prefix = "VPN"
 format-connected-prefix-foreground = ${colors.foreground}
-label-connected = %local_ip%
+label-connected = " %downspeed%   %upspeed%"
 
-format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground}
+format-disconnected = <label-disconnected>
+label-disconnected = disconnected
+label-disconnected-foreground = ${colors.foreground}
+
+[module/vpn-protonvpn-status]
+type = custom/script
+exec = /home/suren/.config/polybar/polybar-scripts/vpn-anyconnect-status.sh
+tail = true
 
 [module/date]
 type = internal/date
@@ -360,7 +353,7 @@ time-alt = %H:%M:%S
 
 format-prefix =  
 format-prefix-foreground = ${colors.foreground}
-format-underline = #0a6cf5
+format-underline = ${colors.cyan}
 
 label = %date% %time%
 
@@ -369,10 +362,12 @@ type = internal/pulseaudio
 sink = alsa_output.pci-0000_00_1b.0.analog-stereo
 use-ui-max = false
 
-format-volume = <ramp-volume> <label-volume>
+format-volume = <ramp-volume><label-volume>
 label-muted =   muted
 label-muted-foreground = #66
-
+label-muted-underline = ${colors.cyan}
+label-volume-underline = ${colors.cyan}
+ramp-volume-underline = ${colors.cyan}
 ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
@@ -432,40 +427,44 @@ ramp-foreground = ${colors.foreground}
 [module/powermenu]
 type = custom/menu
 
-format-padding = 3
+#format-padding = 1
 
 label-open = 
 label-close = 
 
 menu-0-0 = "Terminate WM | "
-menu-0-0-foreground = #fba922
+menu-0-0-foreground = ${colors.foreground}
 menu-0-0-exec = i3 exit 
 menu-0-1 = "Reboot | "
-menu-0-1-foreground = #fba922
+menu-0-1-foreground = ${colors.foreground}
 menu-0-1-exec = reboot
 menu-0-2 = Power off 
-menu-0-2-foreground = #fba922
+menu-0-2-foreground = ${colors.foreground}
 menu-0-2-exec = shutdown now
 
 menu-1-0 = Cancel
-menu-1-0-foreground = #fba922
+menu-1-0-foreground = ${colors.foreground}
 menu-1-0-exec = menu_open-0
 menu-1-1 = Reboot
-menu-1-1-foreground = #fba922
+menu-1-1-foreground = ${colors.foreground}
 menu-1-1-exec = sudo reboot
 
 menu-2-0 = Power off
-menu-2-0-foreground = #fba922
+menu-2-0-foreground = {colors.foreground}
 menu-2-0-exec = sudo poweroff
 menu-2-1 = Cancel
-menu-2-1-foreground = #fba922
+menu-2-1-foreground = {colors.foreground}
 menu-2-1-exec = menu_open-0
 
 [module/updates-arch-combined]
 type = custom/script
 exec = ~/.config/polybar/polybar-scripts/updates-arch-combined.sh
 label = " %output%"
-interval = 600
+interval = 60
+format-underline = ${colors.cyan}
+click-left = "~/.config/polybar/polybar-scripts/selector.sh"
+click-right = yes | sudo  pacman -Syu && notify-send "Finished Applying:" "Arch Updates"
+
 
 [settings]
 screenchange-reload = true
@@ -482,26 +481,28 @@ margin-bottom = 5
 
 [module/previous]
 type = custom/script
-interval = 86400
+;interval = 86400
+tail = true
 format = "%{T3}<label>"
 format-padding = 5
 ; Previous song icon
 exec = echo ""
 ; Check if spotify is running before displaying the icon
-;exec-if = "pgrep spotify"
+exec-if = "pgrep spotify"
 format-underline = #1db954
 line-size = 1
 click-left = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
 
 [module/next]
 type = custom/script
-interval = 86400
+;interval = 86400
+tail = true
 format = "%{T3}<label>"
 format-padding = 5
 ; Next song icon
 exec = echo ""
 ; Check if spotify is running before displaying the icon
-;exec-if = "pgrep spotify"
+exec-if = "pgrep spotify"
 format-underline = #1db954
 line-size = 1
 click-left = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
@@ -522,11 +523,14 @@ click-left = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org
 [module/spotify]
 type = custom/ipc
 hook-0 = echo ""
-hook-1 = python3 ~/.config/polybar/spotify/spotify_status.py
+hook-1 = "python ~/.config/polybar/spotify/spotify_status.py"
 initial = 1
 format-padding = 4
 format-underline = #1db954
 line-size = 1
 ; [i3wm only] - Uncomment the below line to focus on Spotify when clicking on the song name (credits to https://github.com/Esya)
 click-left = i3-msg '[class="Spotify"] focus'
+
+
+
 ; vim:ft=dosini
