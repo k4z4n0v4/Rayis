@@ -1,0 +1,2383 @@
+2020-02-17 18:24:14	-->	suren (suren@localhost) has joined #trusted
+2020-02-17 18:24:14	ℹ 	Channel #trusted: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-17 19:04:56	ℹ 	irc: disconnected from server
+2020-02-18 09:28:02	-->	suren (suren@localhost) has joined #trusted
+2020-02-18 09:28:02	ℹ 	Channel #trusted: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-18 09:46:03	@suren	henlo people
+2020-02-18 09:47:17	<--	suren (suren@localhost) has left #trusted (WeeChat 2.7)
+2020-02-18 13:24:40	-->	suren (suren@localhost) has joined #trusted
+2020-02-18 13:24:40	ℹ 	Topic for #trusted is "Laptop Hacking Coffee/moderator-talk"
+2020-02-18 13:24:40	ℹ 	Topic set by root (root@localhost) on Tue, 18 Feb 2020 13:24:40
+2020-02-18 13:24:40	ℹ 	Channel #trusted: 115 nicks (2 ops, 0 halfops, 0 voices, 113 normals)
+2020-02-18 13:25:09	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-18 13:25:45	<--	suren (suren@localhost) has left #trusted (WeeChat 2.7)
+2020-02-18 13:25:45	ℹ 	#trusted: Error joining channel (check control channel?)
+2020-02-18 13:27:20	-->	suren (suren@localhost) has joined #trusted
+2020-02-18 13:27:20	ℹ 	Topic for #trusted is "Welcome to the real hackerman space! :sunglasses: For TRUSTED and PARTNERS"
+2020-02-18 13:27:20	ℹ 	Topic set by root (root@localhost) on Tue, 18 Feb 2020 13:27:20
+2020-02-18 13:27:20	ℹ 	Channel #trusted: 116 nicks (2 ops, 0 halfops, 0 voices, 114 normals)
+2020-02-18 13:27:27	delta	Congrats, its an impressive piece of work
+2020-02-18 13:27:30	chick3nman	only 1 space in the whole thing
+2020-02-18 13:27:37	chick3nman	fuckin imports
+2020-02-18 13:28:06	@suren	henlo peeps :wave:
+2020-02-18 13:28:07	chick3nman	doing back to back mods with inverse mods
+2020-02-18 13:28:14	chick3nman	its a fucking nightmare
+2020-02-18 13:28:16	chick3nman	math is hard
+2020-02-18 13:28:48	ophelia	__import__("module") should work
+2020-02-18 13:28:52	ophelia	fuck
+2020-02-18 13:28:58	chick3nman	oh yeah
+2020-02-18 13:28:59	chick3nman	maybe
+2020-02-18 13:29:01	chick3nman	i know what you meant
+2020-02-18 13:29:02	delta	Hm, is 2 tb enough to fit a list of all primes known to man?
+2020-02-18 13:29:05	ophelia	EDIT: ```python
+2020-02-18 13:29:05	ophelia	__import__("module") should work```
+2020-02-18 13:29:08	chick3nman	uhhhhhhhhhh
+2020-02-18 13:29:11	chick3nman	probably not even close
+2020-02-18 13:29:15	chick3nman	there are single primes that big arent there
+2020-02-18 13:29:34	chick3nman	oh no
+2020-02-18 13:29:38	delta	Well fuck
+2020-02-18 13:29:39	chick3nman	just proofs that big
+2020-02-18 13:29:40	chick3nman	not primes
+2020-02-18 13:30:04	chick3nman	```
+2020-02-18 13:30:04	chick3nman	The record is currently held by 282,589,933 − 1 with 24,862,048 digits, found by GIMPS in December 2018.[1] Its value is:
+2020-02-18 13:30:04	chick3nman	    148894445742041325547806458472397916603026273992795324185271289425213239361064475310309971132180337174752834401423587560 ...
+2020-02-18 13:30:04	chick3nman	    (24,861,808 digits omitted)
+2020-02-18 13:30:04	chick3nman	    ... 062107557947958297531595208807192693676521782184472526640076912114355308311969487633766457823695074037951210325217902591[6]
+2020-02-18 13:30:04	chick3nman	The first and last 120 digits are shown above.
+2020-02-18 13:30:04	chick3nman	```
+2020-02-18 13:30:10	delta	When i get back imma run a search on the amount of primes that are less than 617 didgets
+2020-02-18 13:30:33	chick3nman	EDIT: ```
+2020-02-18 13:30:33	chick3nman	The record is currently held by 2^82,589,933 − 1 with 24,862,048 digits, found by GIMPS in December 2018.[1] Its value is:
+2020-02-18 13:30:33	chick3nman	    148894445742041325547806458472397916603026273992795324185271289425213239361064475310309971132180337174752834401423587560 ...
+2020-02-18 13:30:33	chick3nman	    (24,861,808 digits omitted)
+2020-02-18 13:30:33	chick3nman	    ... 062107557947958297531595208807192693676521782184472526640076912114355308311969487633766457823695074037951210325217902591[6]
+2020-02-18 13:30:33	chick3nman	The first and last 120 digits are shown above.
+2020-02-18 13:30:33	chick3nman	```
+2020-02-18 13:30:51	delta	Why do primes need to be so fucking big?
+2020-02-18 13:30:55	delta	:peepoBAN: <https://cdn.discordapp.com/emojis/643998312789442561.png>
+2020-02-18 13:31:11	chick3nman	because why not
+2020-02-18 13:31:12	chick3nman	lol
+2020-02-18 13:31:43	delta	Cant argue with that
+2020-02-18 13:32:15	delta	Are there any rsa attacks that still work in this day and age?
+2020-02-18 13:33:11	chick3nman	plenty
+2020-02-18 13:33:22	chick3nman	weak keys are a real problem
+2020-02-18 13:33:29	chick3nman	but usually only happen in rare instances
+2020-02-18 13:33:55	chick3nman	unless something bad is happening elsewhere, its by random bad luck chance to get a real weak key
+2020-02-18 13:34:12	chick3nman	something vulnerable to like, Fermat's factorization method
+2020-02-18 13:34:21	chick3nman	or something with a known prime or whatever
+2020-02-18 13:34:23	chick3nman	http://factordb.com/status.php
+2020-02-18 13:34:33	delta	Im guessing a key with a modulo of 617 chars is not considered weak?
+2020-02-18 13:34:33	chick3nman	factor db lists over a billion numbers, lots of primes, and their factors
+2020-02-18 13:34:41	delta	Factor db is great
+2020-02-18 13:34:42	chick3nman	and its only 835GB
+2020-02-18 13:34:51	chick3nman	617 characters
+2020-02-18 13:34:52	chick3nman	hmm
+2020-02-18 13:34:53	chick3nman	one sec
+2020-02-18 13:35:15	chick3nman	where is the key from
+2020-02-18 13:35:24	delta	Jwt signing
+2020-02-18 13:35:24	chick3nman	that sounds ~2048 bits in length
+2020-02-18 13:35:37	delta	Via rsa256
+2020-02-18 13:35:40	chick3nman	thats normally strong, though ive broken 2048 before in a weak key scenario
+2020-02-18 13:35:43	chick3nman	oh wait what
+2020-02-18 13:35:49	chick3nman	signing?
+2020-02-18 13:35:49	delta	Doing a bit of in house research
+2020-02-18 13:35:53	chick3nman	and JWT?
+2020-02-18 13:36:00	chick3nman	hmmm
+2020-02-18 13:36:12	chick3nman	let me see
+2020-02-18 13:36:44	delta	I can send a full brief later today but i got bored yesterday so decided to continue poking at my jwt research
+2020-02-18 13:36:59	delta	And that landed me at this rsa conundrum
+2020-02-18 13:38:15	chick3nman	well
+2020-02-18 13:38:16	chick3nman	in theory
+2020-02-18 13:38:19	chick3nman	if there are signatures
+2020-02-18 13:38:23	chick3nman	weak nonces are a possibility
+2020-02-18 13:38:32	chick3nman	same as the attack i did in the above ECDSA
+2020-02-18 13:38:35	chick3nman	but for RSA
+2020-02-18 13:38:46	delta	What would consitute as a weak nonce?
+2020-02-18 13:39:02	chick3nman	well reuse would be bad
+2020-02-18 13:39:19	chick3nman	but further, i think knowing several could lead to key breaks as well
+2020-02-18 13:39:26	chick3nman	though in RSA i think nonces are public information
+2020-02-18 13:39:48	chick3nman	in ECDSA the nonce is used as an ephemeral key and is secret and the signed nonce value is whats given
+2020-02-18 13:40:01	chick3nman	reuse is an immediate break in keys like this
+2020-02-18 13:41:21	delta	Hm, unfortunatly im on mobile atm and all relevant info is on my pc
+2020-02-18 13:43:29	chick3nman	ok
+2020-02-18 13:44:09	delta	Ill check when i get back and then we can continue the convo:GWslippyPeepoS: <https://cdn.discordapp.com/emojis/407618446814216202.png>
+2020-02-18 13:46:15	chick3nman	ight
+2020-02-18 13:46:54	<--	EvilRobotOverlord (EvilRobotOverlord@discord) has left #trusted ()
+2020-02-18 13:50:53	-->	arsenyca (arsenyca@discord) has joined #trusted
+2020-02-18 13:50:53	-->	Ben_Reilly (Ben_Reilly@discord) has joined #trusted
+2020-02-18 13:57:45	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-18 13:58:48	-->	felix (felix@discord) has joined #trusted
+2020-02-18 13:59:22	-->	Can’t_Nerf_These_Hands (Can’t_Nerf_These_Hands@discord) has joined #trusted
+2020-02-18 13:59:32	-->	Capt_gr8_1 (Capt_gr8_1@discord) has joined #trusted
+2020-02-18 14:01:10	<--	-_- (-_-@discord) has left #trusted ()
+2020-02-18 14:02:23	-->	ARCHBHA (ARCHBHA@discord) has joined #trusted
+2020-02-18 14:03:32	<--	felix (felix@discord) has left #trusted ()
+2020-02-18 14:03:51	-->	felix (felix@discord) has joined #trusted
+2020-02-18 14:05:36	-->	zeroosmilee (zeroosmilee@discord) has joined #trusted
+2020-02-18 14:07:13	<--	felix (felix@discord) has left #trusted ()
+2020-02-18 14:07:36	<--	zeroosmilee (zeroosmilee@discord) has left #trusted ()
+2020-02-18 14:07:44	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-18 14:08:42	-->	_7h30 (7h30@discord) has joined #trusted
+2020-02-18 14:09:21	-->	CAT_ (CAT@discord) has joined #trusted
+2020-02-18 14:09:29	-->	BRGX (BRGX@discord) has joined #trusted
+2020-02-18 14:09:51	-->	_0x221B (0x221B@discord) has joined #trusted
+2020-02-18 14:09:51	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-18 14:12:31	-->	felix (felix@discord) has joined #trusted
+2020-02-18 14:14:31	<--	felix (felix@discord) has left #trusted ()
+2020-02-18 14:16:31	-->	CaveVenom1 (CaveVenom1@discord) has joined #trusted
+2020-02-18 14:17:42	-->	_73pp31in (73pp31in@discord) has joined #trusted
+2020-02-18 14:18:33	-->	Boombastick (Boombastick@discord) has joined #trusted
+2020-02-18 14:20:12	-->	Bottersnike (Bottersnike@discord) has joined #trusted
+2020-02-18 14:22:52	-->	abhinavx0r (abhinavx0r@discord) has joined #trusted
+2020-02-18 14:24:21	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-18 14:24:26	-->	BUGGY (BUGGY@discord) has joined #trusted
+2020-02-18 14:25:49	-->	Benwick (Benwick@discord) has joined #trusted
+2020-02-18 14:26:29	-->	felix (felix@discord) has joined #trusted
+2020-02-18 14:28:12	<--	felix (felix@discord) has left #trusted ()
+2020-02-18 14:30:01	-->	boombudder (boombudder@discord) has joined #trusted
+2020-02-18 14:30:39	-->	ajo2313 (ajo2313@discord) has joined #trusted
+2020-02-18 14:31:22	-->	Ando (Ando@discord) has joined #trusted
+2020-02-18 14:34:21	-->	Alfreaca (Alfreaca@discord) has joined #trusted
+2020-02-18 14:42:17	-->	akshatmittal (akshatmittal@discord) has joined #trusted
+2020-02-18 14:43:32	-->	allsaint (allsaint@discord) has joined #trusted
+2020-02-18 14:49:32	-->	westy (westy@discord) has joined #trusted
+2020-02-18 14:53:14	-->	CapePouvoir (CapePouvoir@discord) has joined #trusted
+2020-02-18 14:54:49	-->	a_lonely_spoon (a_lonely_spoon@discord) has joined #trusted
+2020-02-18 14:55:37	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-18 15:05:24	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-18 15:06:07	-->	_St4cky_ (<_St4cky_>@discord) has joined #trusted
+2020-02-18 15:07:53	-->	EvilRobotOverlord (EvilRobotOverlord@discord) has joined #trusted
+2020-02-18 15:08:04	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-18 15:12:58	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-18 15:15:30	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-18 15:16:14	-->	ARALEZ (ARALEZ@discord) has joined #trusted
+2020-02-18 15:17:39	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-18 15:17:52	-->	bab314 (bab314@discord) has joined #trusted
+2020-02-18 15:18:14	<--	ARALEZ (ARALEZ@discord) has quit (Leaving...)
+2020-02-18 15:21:50	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-18 15:22:18	-->	-Chindits-|_Burjy (-Chindits-|_Burjy@discord) has joined #trusted
+2020-02-18 15:22:51	-->	Cat (Cat@discord) has joined #trusted
+2020-02-18 15:23:06	-->	_4n0n (4n0n@discord) has joined #trusted
+2020-02-18 15:23:56	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-18 15:24:43	-->	𝙕𝙊𝙒𝙉_🥡 ("𝙕𝙊𝙒𝙉_🥡@discord) has joined #trusted
+2020-02-18 15:30:03	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-18 15:30:18	-->	Grimoire (Grimoire@discord) has joined #trusted
+2020-02-18 15:32:03	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-18 15:37:35	-->	Bingham (Bingham@discord) has joined #trusted
+2020-02-18 15:44:43	-->	Alexxas (Alexxas@discord) has joined #trusted
+2020-02-18 15:45:07	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-18 15:47:07	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-18 15:48:14	-->	AidBucket (AidBucket@discord) has joined #trusted
+2020-02-18 15:48:15	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-18 15:48:55	<--	AidBucket (AidBucket@discord) has left #trusted ()
+2020-02-18 15:50:44	-->	Bradass87 (Bradass87@discord) has joined #trusted
+2020-02-18 15:52:59	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-18 15:53:59	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-18 15:54:10	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-18 15:58:22	-->	Coco (Coco@discord) has joined #trusted
+2020-02-18 15:58:55	-->	Baba_Yaga (Baba_Yaga@discord) has joined #trusted
+2020-02-18 16:08:02	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-18 16:08:19	-->	zeroosmilee (zeroosmilee@discord) has joined #trusted
+2020-02-18 16:12:36	-->	bored (bored@discord) has joined #trusted
+2020-02-18 16:18:29	<--	Grimoire (Grimoire@discord) has left #trusted ()
+2020-02-18 16:34:54	-->	alekos (alekos@discord) has joined #trusted
+2020-02-18 16:35:14	-->	alokraj (alokraj@discord) has joined #trusted
+2020-02-18 16:35:51	-->	B3gGin3R (B3gGin3R@discord) has joined #trusted
+2020-02-18 16:36:15	<--	EvilRobotOverlord (EvilRobotOverlord@discord) has left #trusted ()
+2020-02-18 16:39:33	-->	Aitorxuxu (Aitorxuxu@discord) has joined #trusted
+2020-02-18 16:41:45	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-18 16:43:45	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-18 16:43:45	-->	asdertoid (asdertoid@discord) has joined #trusted
+2020-02-18 16:44:05	-->	BeatBot (BeatBot@discord) has joined #trusted
+2020-02-18 16:48:18	-->	Alex_Kord (Alex_Kord.@discord) has joined #trusted
+2020-02-18 16:48:38	-->	_5ribal (5ribal@discord) has joined #trusted
+2020-02-18 16:49:04	-->	CuddleDeath (CuddleDeath@discord) has joined #trusted
+2020-02-18 16:53:47	-->	pain (.pain@discord) has joined #trusted
+2020-02-18 16:56:54	-->	Bin (Bin@discord) has joined #trusted
+2020-02-18 16:58:32	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-18 17:02:16	inot_ahackerprinti[1]	I go to sleep for a few hours and everyone solves all the problems of the world...
+2020-02-18 17:11:53	-->	_47thChromosome (47thChromosome@discord) has joined #trusted
+2020-02-18 17:13:20	-->	battlefist (battlefist@discord) has joined #trusted
+2020-02-18 17:13:24	-->	maverickNerd (maverickNerd@discord) has joined #trusted
+2020-02-18 17:13:39	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-18 17:15:24	<--	maverickNerd (maverickNerd@discord) has left #trusted ()
+2020-02-18 17:17:23	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-18 17:17:35	-->	ak103 (ak103@discord) has joined #trusted
+2020-02-18 17:19:03	<--	Pyro57 (Pyro57@discord) has left #trusted ()
+2020-02-18 17:20:18	<--	zeroosmilee (zeroosmilee@discord) has left #trusted ()
+2020-02-18 17:30:33	-->	bet (bet@discord) has joined #trusted
+2020-02-18 17:30:36	-->	_1☭𝓙𝓐𝓚✪ (1☭𝓙𝓐𝓚✪𝓑☭@discord) has joined #trusted
+2020-02-18 17:31:36	-->	Anas (Anas@discord) has joined #trusted
+2020-02-18 17:34:07	<--	Fish_Tank (Fish_Tank@discord) has left #trusted ()
+2020-02-18 17:34:17	-->	An0thER1 (An0thER1@discord) has joined #trusted
+2020-02-18 17:37:51	-->	wabbitboi (wabbitboi@discord) has joined #trusted
+2020-02-18 17:38:33	-->	bilguun (bilguun@discord) has joined #trusted
+2020-02-18 17:39:51	<--	wabbitboi (wabbitboi@discord) has left #trusted ()
+2020-02-18 17:39:52	<--	westy (westy@discord) has left #trusted ()
+2020-02-18 17:42:10	-->	Aeth3real (Aeth3real@discord) has joined #trusted
+2020-02-18 17:50:49	-->	_Leo_ ((_Leo_)@discord) has joined #trusted
+2020-02-18 17:56:31	-->	_164318791904 (164318791904@discord) has joined #trusted
+2020-02-18 17:57:22	<--	_Leo_ ((_Leo_)@discord) has left #trusted ()
+2020-02-18 18:00:19	-->	abelnr (abelnr@discord) has joined #trusted
+2020-02-18 18:02:14	-->	felix (felix@discord) has joined #trusted
+2020-02-18 18:05:07	<--	felix (felix@discord) has left #trusted ()
+2020-02-18 18:05:38	-->	_Leo_ ((_Leo_)@discord) has joined #trusted
+2020-02-18 18:06:02	-->	ARALEZ (ARALEZ@discord) has joined #trusted
+2020-02-18 18:07:39	-->	Hez (Hez@discord) has joined #trusted
+2020-02-18 18:09:40	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-18 18:10:52	-->	Advanced_Persistent_Squi (Advanced_Persistent_Squirrel@discord) has joined #trusted
+2020-02-18 18:12:11	-->	Pyro57 (Pyro57@discord) has joined #trusted
+2020-02-18 18:16:12	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-18 18:18:12	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-18 18:18:22	-->	Avaesta (Avaesta@discord) has joined #trusted
+2020-02-18 18:19:35	-->	Hez (Hez@discord) has joined #trusted
+2020-02-18 18:20:43	-->	Azrael- (Azrael-@discord) has joined #trusted
+2020-02-18 18:22:16	<--	_Leo_ ((_Leo_)@discord) has left #trusted ()
+2020-02-18 18:23:04	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-18 18:23:17	-->	_Leo_ ((_Leo_)@discord) has joined #trusted
+2020-02-18 18:25:17	<--	_Leo_ ((_Leo_)@discord) has quit (Leaving...)
+2020-02-18 18:33:08	-->	vruh (vruh@discord) has joined #trusted
+2020-02-18 18:36:52	-->	ballsohard (ballsohard@discord) has joined #trusted
+2020-02-18 18:42:44	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-18 18:49:12	-->	BeefDumpling (BeefDumpling@discord) has joined #trusted
+2020-02-18 18:49:24	<--	ARALEZ (ARALEZ@discord) has quit (Leaving...)
+2020-02-18 18:50:01	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-18 18:51:58	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-18 18:53:58	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-18 18:56:50	<--	yyyyy (yyyyy@discord) has quit (Leaving...)
+2020-02-18 18:56:51	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-18 18:56:59	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-18 19:00:05	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-18 19:03:06	-->	ARALEZ (ARALEZ@discord) has joined #trusted
+2020-02-18 19:05:01	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-18 19:10:02	ℹ 	irc: disconnected from server
+2020-02-19 09:18:39	-->	suren (suren@localhost) has joined #trusted
+2020-02-19 09:18:39	ℹ 	Channel #trusted: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 09:18:41	ℹ 	root has changed topic for #trusted to "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 09:18:41	ℹ 	root has changed topic for #trusted from "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!" to "Welcome to the real hackerman space! :sunglasses: For TRUSTED and PARTNERS"
+2020-02-19 09:18:41	-->	Hez (Hez@discord) has joined #trusted
+2020-02-19 09:18:41	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-19 09:18:41	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-19 09:18:41	-->	ShazBot (ShazBot@discord) has joined #trusted
+2020-02-19 09:18:41	-->	Waffles (Waffles@discord) has joined #trusted
+2020-02-19 09:18:41	-->	Jesse (Jesse@discord) has joined #trusted
+2020-02-19 09:18:41	-->	FredBoat♪♪ (FredBoat♪♪@discord) has joined #trusted
+2020-02-19 09:18:41	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-19 09:18:41	-->	Swayella (Swayella@discord) has joined #trusted
+2020-02-19 09:18:41	-->	Salient (Salient@discord) has joined #trusted
+2020-02-19 09:18:41	-->	ser3n1ty (ser3n1ty@discord) has joined #trusted
+2020-02-19 09:18:41	-->	Dyno (Dyno@discord) has joined #trusted
+2020-02-19 09:18:41	-->	inot_ahackerprinti[1] (i=("not_a","hacker");print(i[1])@discord) has joined #trusted
+2020-02-19 09:18:41	-->	chick3nman (chick3nman@discord) has joined #trusted
+2020-02-19 09:18:41	-->	Kaoli (Kaoli@discord) has joined #trusted
+2020-02-19 09:18:41	-->	Svelteٴ (Svelteٴ@discord) has joined #trusted
+2020-02-19 09:18:41	-->	-_- (-_-@discord) has joined #trusted
+2020-02-19 09:18:41	-->	CyberDecker (CyberDecker@discord) has joined #trusted
+2020-02-19 09:18:41	-->	Single (Single@discord) has joined #trusted
+2020-02-19 09:18:41	-->	longears (longears@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Banana (Banana@discord) has joined #trusted
+2020-02-19 09:18:47	-->	h_saxon (h_saxon@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Dank_Memer (Dank_Memer@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Tatsu (Tatsu@discord) has joined #trusted
+2020-02-19 09:18:47	-->	USESTOnigiriMajorblaze ((US,EST)Onigiri/Majorblaze@discord) has joined #trusted
+2020-02-19 09:18:47	-->	_13enny7W (13enny7W@discord) has joined #trusted
+2020-02-19 09:18:47	-->	_1psaonly (1psaonly@discord) has joined #trusted
+2020-02-19 09:18:47	-->	_2MittJack (2MittJack@discord) has joined #trusted
+2020-02-19 09:18:47	-->	_Atlas_ (_Atlas_@discord) has joined #trusted
+2020-02-19 09:18:47	-->	A2 (A2@discord) has joined #trusted
+2020-02-19 09:18:47	-->	AAnonAAron (AAnonAAron@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Aaronius (Aaronius@discord) has joined #trusted
+2020-02-19 09:18:47	-->	aczio (aczio@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Adachi (Adachi@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Adamsas (Adamsas@discord) has joined #trusted
+2020-02-19 09:18:47	-->	AhdB (AhdB@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Aladeen (Aladeen@discord) has joined #trusted
+2020-02-19 09:18:47	-->	AldoRaine (AldoRaine@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Alexissahagun (Alexissahagun@discord) has joined #trusted
+2020-02-19 09:18:47	-->	algiuxas (algiuxas@discord) has joined #trusted
+2020-02-19 09:18:47	-->	alox (alox@discord) has joined #trusted
+2020-02-19 09:18:47	-->	amankh (amankh@discord) has joined #trusted
+2020-02-19 09:18:47	-->	AngryKillerSloth (AngryKillerSloth@discord) has joined #trusted
+2020-02-19 09:18:47	-->	AnonimER (AnonimER@discord) has joined #trusted
+2020-02-19 09:18:47	-->	anthouse (anthouse@discord) has joined #trusted
+2020-02-19 09:18:47	-->	aoighost (aoighost@discord) has joined #trusted
+2020-02-19 09:18:47	-->	araith (araith@discord) has joined #trusted
+2020-02-19 09:18:47	-->	ARPmac (ARPmac@discord) has joined #trusted
+2020-02-19 09:18:47	-->	ascai (ascai@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Asmarus (Asmarus@discord) has joined #trusted
+2020-02-19 09:18:47	-->	AssassinOTP (AssassinOTP@discord) has joined #trusted
+2020-02-19 09:18:47	-->	ASSMDSVD (ASSMDSVD@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Augment (Augment@discord) has joined #trusted
+2020-02-19 09:18:47	-->	avinaS (avinaS@discord) has joined #trusted
+2020-02-19 09:18:47	-->	ayjay (ayjay@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Azrael- (Azrael-@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Aztrum (Aztrum@discord) has joined #trusted
+2020-02-19 09:18:47	-->	B1gD4ddy (B1gD4ddy@discord) has joined #trusted
+2020-02-19 09:18:47	-->	ballsohard (ballsohard@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Bean (Bean@discord) has joined #trusted
+2020-02-19 09:18:47	-->	bella (bella@discord) has joined #trusted
+2020-02-19 09:18:47	-->	ben (ben@discord) has joined #trusted
+2020-02-19 09:18:47	-->	bennees (bennees@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Benotto (Benotto@discord) has joined #trusted
+2020-02-19 09:18:47	-->	bhu (bhu@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Big_Boss_Foxhound_CEO (Big_Boss_(Foxhound_CEO)@discord) has joined #trusted
+2020-02-19 09:18:47	-->	bioniclady (bioniclady@discord) has joined #trusted
+2020-02-19 09:18:47	-->	BlackBox (BlackBox@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Blazerawl (Blazerawl@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Bleh_King (Bleh_King@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Bleu (Bleu@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Bluntest (Bluntest@discord) has joined #trusted
+2020-02-19 09:18:47	-->	BobVance (BobVance@discord) has joined #trusted
+2020-02-19 09:18:47	-->	BowseR (BowseR@discord) has joined #trusted
+2020-02-19 09:18:47	-->	bradfordbc (bradfordbc@discord) has joined #trusted
+2020-02-19 09:18:47	-->	BrianGoldYT (BrianGoldYT@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Brisbane_Mania (Brisbane_Mania@discord) has joined #trusted
+2020-02-19 09:18:47	-->	BrokenPixels™ (BrokenPixels™@discord) has joined #trusted
+2020-02-19 09:18:47	-->	brokkr (brokkr@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Brolveth (Brolveth@discord) has joined #trusted
+2020-02-19 09:18:47	-->	Brooks (Brooks@discord) has joined #trusted
+2020-02-19 09:18:47	-->	brute5o5 (brute5o5@discord) has joined #trusted
+2020-02-19 09:18:47	-->	BuckeyeFan79 (BuckeyeFan79@discord) has joined #trusted
+2020-02-19 09:18:51	v01dwalk-	[00:32:52] Kiro is busy w school
+2020-02-19 09:18:51	v01dwalk-	[00:32:58] svelte is his discount replacement
+2020-02-19 09:18:51	ophelia	[00:33:03] k i r o
+2020-02-19 09:18:51	v01dwalk-	[00:33:05] ;)
+2020-02-19 09:18:51	delta	[00:33:06] Svelte i got funnier things to remind you with
+2020-02-19 09:18:51	Hez	[00:33:09] did you just imply svelte is dollar store kiro
+2020-02-19 09:18:51	ophelia	[00:33:09] miss him
+2020-02-19 09:18:51	Dusty	[00:33:10] 🔨 🌙
+2020-02-19 09:18:51	yyyyy	[00:33:17] Petition for kiro-fanclub role
+2020-02-19 09:18:51	v01dwalk-	[00:33:26] maybe hez ;P
+2020-02-19 09:18:51	Hez	[00:33:53] I mean, to be fair
+2020-02-19 09:18:51	Svelteٴ	[00:33:57] :moon2WAH: <https://cdn.discordapp.com/emojis/502706923788042240.png>
+2020-02-19 09:18:51	delta	[00:34:07] Ait ffs, cant find the image anymore
+2020-02-19 09:18:51	Hez	[00:34:08] we did oust frint0. I suppose that's sort of like a communist revolution
+2020-02-19 09:18:51	Hez	[00:34:15] anarchy man will fit right in
+2020-02-19 09:18:51	v01dwalk-	[00:34:20] longears, infi & kiro are my only favs atm
+2020-02-19 09:18:51	yyyyy	[00:34:27] Coup d'etat
+2020-02-19 09:18:51	v01dwalk-	[00:34:31] also the most active ;P
+2020-02-19 09:18:51	yyyyy	[00:34:35] @v01dwalk- wait until I carry you in csgo
+2020-02-19 09:18:51	delta	[00:34:37] Wait, found it
+2020-02-19 09:18:51	Dusty	[00:34:39] He got welcomed but then disappeared.
+2020-02-19 09:18:51	delta	[00:34:43] @Svelteٴ https://cdn.discordapp.com/attachments/584960570319699984/637717085102932004/svelte_spam-memes3.png
+2020-02-19 09:18:51	Hez	[00:34:43] he's like an anarcho-communist superhero
+2020-02-19 09:18:51	zer0_c00l	[00:34:44] kiro, infinite arent active
+2020-02-19 09:18:51	zer0_c00l	[00:34:46] wtf
+2020-02-19 09:18:51	v01dwalk-	[00:34:49] @yyyyy pls do
+2020-02-19 09:18:51	delta	[00:34:52] Infinite is active now and then
+2020-02-19 09:18:51	yyyyy	[00:34:54] Infinite is active!
+2020-02-19 09:18:51	v01dwalk-	[00:34:54] i suck at it now
+2020-02-19 09:18:51	Hez	[00:34:56] supa sped already changed his name to anarchy man
+2020-02-19 09:18:51	zer0_c00l	[00:34:57] now and then
+2020-02-19 09:18:51	yyyyy	[00:35:06] Infinite sometimes hops into vc with his baby :kermLove: <https://cdn.discordapp.com/emojis/618816511561433090.png>
+2020-02-19 09:18:51	v01dwalk-	[00:35:10] hes active when he has time
+2020-02-19 09:18:51	delta	[00:35:11] Just like zer0 is a sysadmin now and then
+2020-02-19 09:18:51	yyyyy	[00:35:17] He's active at night
+2020-02-19 09:18:51	zer0_c00l	[00:35:36] depends on which side of the planet youre on
+2020-02-19 09:18:51	delta	[00:35:51] Ffs, i was gonna head out and then this guy in #welcome dragged me back
+2020-02-19 09:18:51	yyyyy	[00:35:58] he's active at night on the best coast
+2020-02-19 09:18:51	Hez	[00:35:59] HE'S TYPING
+2020-02-19 09:18:51	ophelia	[00:36:24] it’s sped :(
+2020-02-19 09:18:51	Hez	[00:36:30] fuck
+2020-02-19 09:18:51	Hez	[00:36:33] I'm :rarted: <https://cdn.discordapp.com/emojis/567817264372383744.png>
+2020-02-19 09:18:51	Svelteٴ	[00:36:44] https://discordapp.com/channels/326839256758616068/564938286901100545/585234098990350336
+2020-02-19 09:18:51	Svelteٴ	[00:36:48] This is one of my favorite moments
+2020-02-19 09:18:51	yyyyy	[00:37:24] y'all are bullying this poor comrade
+2020-02-19 09:18:51	Dusty	[00:37:24] Calling all girl-children to have some fun in Welcome.
+2020-02-19 09:18:51	zer0_c00l	[00:37:30] lmao, when human was still here
+2020-02-19 09:18:51	yyyyy	[00:37:32] all he wants to do is find some friends on /pol/ k
+2020-02-19 09:18:51	Hez	[00:38:14] uh oh
+2020-02-19 09:18:51	delta	[00:40:47] Yo fun shit, apperantly the "channel slow mo timer" is client side upon confirmation that the message has been sucessfully sent and recieved. I smell potential for abuse
+2020-02-19 09:24:20	<--	yyyyy (yyyyy@discord) has quit (Leaving...)
+2020-02-19 09:26:29	-->	EvilRobotOverlord (EvilRobotOverlord@discord) has joined #trusted
+2020-02-19 09:28:16	-->	infiniterecursive (infiniterecursive@discord) has joined #trusted
+2020-02-19 09:28:29	<--	EvilRobotOverlord (EvilRobotOverlord@discord) has left #trusted ()
+2020-02-19 09:29:02	infiniterecursive	@yyyyy @v01dwalk- good lookin out fam
+2020-02-19 09:33:53	-->	EvilRobotOverlord (EvilRobotOverlord@discord) has joined #trusted
+2020-02-19 09:34:16	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-19 09:35:17	yyyyy	😰
+2020-02-19 09:36:34	<--	EvilRobotOverlord (EvilRobotOverlord@discord) has left #trusted ()
+2020-02-19 09:37:27	-->	EvilRobotOverlord (EvilRobotOverlord@discord) has joined #trusted
+2020-02-19 09:39:27	<--	EvilRobotOverlord (EvilRobotOverlord@discord) has left #trusted ()
+2020-02-19 09:41:56	<--	yyyyy (yyyyy@discord) has quit (Leaving...)
+2020-02-19 09:46:24	<--	Single (Single@discord) has left #trusted ()
+2020-02-19 09:48:12	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-19 09:50:17	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-19 09:51:35	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-19 09:53:25	-->	Soul (Soul@discord) has joined #trusted
+2020-02-19 09:54:25	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-19 09:54:36	-->	Single (Single@discord) has joined #trusted
+2020-02-19 09:56:28	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-19 09:57:25	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-19 09:58:40	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-19 09:59:25	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-19 09:59:50	-->	Pyro57 (Pyro57@discord) has joined #trusted
+2020-02-19 09:59:51	<--	yyyyy (yyyyy@discord) has left #trusted ()
+2020-02-19 10:00:40	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-19 10:06:49	v01dwalk-	@infiniterecursive wot?
+2020-02-19 10:11:43	<--	Pyro57 (Pyro57@discord) has left #trusted ()
+2020-02-19 10:16:43	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-19 10:17:33	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-19 10:29:00	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-19 10:54:20	<--	Fish_Tank (Fish_Tank@discord) has left #trusted ()
+2020-02-19 10:54:28	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-19 10:57:54	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-19 11:00:34	<--	Svelteٴ (Svelteٴ@discord) has left #trusted ()
+2020-02-19 11:30:46	ℹ 	irc: disconnected from server
+2020-02-19 11:37:50	-->	suren (suren@localhost) has joined #trusted
+2020-02-19 11:37:50	ℹ 	Channel #trusted: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 11:38:03	ℹ 	root has changed topic for #trusted to "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 11:38:03	ℹ 	root has changed topic for #trusted from "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!" to "Welcome to the real hackerman space! :sunglasses: For TRUSTED and PARTNERS"
+2020-02-19 11:38:03	-->	Hez (Hez@discord) has joined #trusted
+2020-02-19 11:38:03	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-19 11:38:03	-->	westy (westy@discord) has joined #trusted
+2020-02-19 11:38:03	-->	ShazBot (ShazBot@discord) has joined #trusted
+2020-02-19 11:38:03	-->	Waffles (Waffles@discord) has joined #trusted
+2020-02-19 11:38:03	-->	Jesse (Jesse@discord) has joined #trusted
+2020-02-19 11:38:03	-->	FredBoat♪♪ (FredBoat♪♪@discord) has joined #trusted
+2020-02-19 11:38:03	-->	zeroosmilee (zeroosmilee@discord) has joined #trusted
+2020-02-19 11:38:03	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-19 11:38:03	-->	Swayella (Swayella@discord) has joined #trusted
+2020-02-19 11:38:03	-->	Salient (Salient@discord) has joined #trusted
+2020-02-19 11:38:03	-->	ser3n1ty (ser3n1ty@discord) has joined #trusted
+2020-02-19 11:38:03	-->	Dyno (Dyno@discord) has joined #trusted
+2020-02-19 11:38:03	-->	inot_ahackerprinti[1] (i=("not_a","hacker");print(i[1])@discord) has joined #trusted
+2020-02-19 11:38:03	-->	chick3nman (chick3nman@discord) has joined #trusted
+2020-02-19 11:38:03	-->	Kaoli (Kaoli@discord) has joined #trusted
+2020-02-19 11:38:03	-->	-_- (-_-@discord) has joined #trusted
+2020-02-19 11:38:03	-->	CyberDecker (CyberDecker@discord) has joined #trusted
+2020-02-19 11:38:03	-->	Single (Single@discord) has joined #trusted
+2020-02-19 11:38:03	-->	longears (longears@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Banana (Banana@discord) has joined #trusted
+2020-02-19 11:38:09	-->	h_saxon (h_saxon@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Dank_Memer (Dank_Memer@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Tatsu (Tatsu@discord) has joined #trusted
+2020-02-19 11:38:09	-->	___SniperX-D___ (!___SniperX-D___!@discord) has joined #trusted
+2020-02-19 11:38:09	-->	USESTOnigiriMajorblaze ((US,EST)Onigiri/Majorblaze@discord) has joined #trusted
+2020-02-19 11:38:09	-->	_0294nutanic (0294nutanic@discord) has joined #trusted
+2020-02-19 11:38:09	-->	_0xDEDCA1 (0xDEDCA1@discord) has joined #trusted
+2020-02-19 11:38:09	-->	_1psaonly (1psaonly@discord) has joined #trusted
+2020-02-19 11:38:09	-->	_3b1e21a84115a152d177dd (3b1e21a84115a152d177dd7d93e40ca6@discord) has joined #trusted
+2020-02-19 11:38:09	-->	_7761616461616661616b (7761616461616661616b@discord) has joined #trusted
+2020-02-19 11:38:09	-->	_Atlas_ (_Atlas_@discord) has joined #trusted
+2020-02-19 11:38:09	-->	A2 (A2@discord) has joined #trusted
+2020-02-19 11:38:09	-->	AAnonAAron (AAnonAAron@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Adamsas (Adamsas@discord) has joined #trusted
+2020-02-19 11:38:09	-->	AGI (AGI@discord) has joined #trusted
+2020-02-19 11:38:09	-->	AIex (AIex@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Aldrims (Aldrims@discord) has joined #trusted
+2020-02-19 11:38:09	-->	algiuxas (algiuxas@discord) has joined #trusted
+2020-02-19 11:38:09	-->	alox (alox@discord) has joined #trusted
+2020-02-19 11:38:09	-->	amankh (amankh@discord) has joined #trusted
+2020-02-19 11:38:09	-->	An1 (An1@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Anakin695 (Anakin695@discord) has joined #trusted
+2020-02-19 11:38:09	-->	AngryKillerSloth (AngryKillerSloth@discord) has joined #trusted
+2020-02-19 11:38:09	-->	AnonimER (AnonimER@discord) has joined #trusted
+2020-02-19 11:38:09	-->	aoighost (aoighost@discord) has joined #trusted
+2020-02-19 11:38:09	-->	araith (araith@discord) has joined #trusted
+2020-02-19 11:38:09	-->	arcSin (arcSin@discord) has joined #trusted
+2020-02-19 11:38:09	-->	ARPmac (ARPmac@discord) has joined #trusted
+2020-02-19 11:38:09	-->	arsenyca (arsenyca@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Asif (Asif@discord) has joined #trusted
+2020-02-19 11:38:09	-->	ASSMDSVD (ASSMDSVD@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Augment (Augment@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Autism (Autism@discord) has joined #trusted
+2020-02-19 11:38:09	-->	avinaS (avinaS@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Azrael- (Azrael-@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Aztrum (Aztrum@discord) has joined #trusted
+2020-02-19 11:38:09	-->	B1gD4ddy (B1gD4ddy@discord) has joined #trusted
+2020-02-19 11:38:09	-->	babbadeckl (babbadeckl@discord) has joined #trusted
+2020-02-19 11:38:09	-->	bella (bella@discord) has joined #trusted
+2020-02-19 11:38:09	-->	ben (ben@discord) has joined #trusted
+2020-02-19 11:38:09	-->	bennees (bennees@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Benotto (Benotto@discord) has joined #trusted
+2020-02-19 11:38:09	-->	bhu (bhu@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Big_Boss_Foxhound_CEO (Big_Boss_(Foxhound_CEO)@discord) has joined #trusted
+2020-02-19 11:38:09	-->	bioniclady (bioniclady@discord) has joined #trusted
+2020-02-19 11:38:09	-->	BlackBox (BlackBox@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Bleu (Bleu@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Bluntest (Bluntest@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Boulle (Boulle@discord) has joined #trusted
+2020-02-19 11:38:09	-->	BowseR (BowseR@discord) has joined #trusted
+2020-02-19 11:38:09	-->	bradfordbc (bradfordbc@discord) has joined #trusted
+2020-02-19 11:38:09	-->	BrianGoldYT (BrianGoldYT@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Brisbane_Mania (Brisbane_Mania@discord) has joined #trusted
+2020-02-19 11:38:09	-->	BrokenPixels™ (BrokenPixels™@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Brolveth (Brolveth@discord) has joined #trusted
+2020-02-19 11:38:09	-->	Brooks (Brooks@discord) has joined #trusted
+2020-02-19 11:38:09	-->	brute5o5 (brute5o5@discord) has joined #trusted
+2020-02-19 11:38:09	-->	BuckeyeFan79 (BuckeyeFan79@discord) has joined #trusted
+2020-02-19 11:38:09	-->	budgiebot (budgiebot@discord) has joined #trusted
+2020-02-19 11:38:09	-->	BURNMEAUX (BURNMEAUX@discord) has joined #trusted
+2020-02-19 11:38:09	-->	caaz (caaz@discord) has joined #trusted
+2020-02-19 11:46:59	-->	Soul (Soul@discord) has joined #trusted
+2020-02-19 11:49:49	<--	westy (westy@discord) has left #trusted ()
+2020-02-19 11:53:38	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-19 11:55:12	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 11:55:12	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 11:55:17	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 11:55:31	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 12:07:13	-->	EvilRobotOverlord (EvilRobotOverlord@discord) has joined #trusted
+2020-02-19 12:15:29	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-19 12:17:35	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-19 12:20:26	<--	EvilRobotOverlord (EvilRobotOverlord@discord) has left #trusted ()
+2020-02-19 12:31:32	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-19 12:33:28	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-19 12:33:50	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-19 12:36:22	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-19 12:44:46	-->	Coco (Coco@discord) has joined #trusted
+2020-02-19 12:47:28	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 12:49:47	xDark	:pepeWoah: <https://cdn.discordapp.com/emojis/643998314278420480.png>
+2020-02-19 12:50:13	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 12:51:30	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 12:55:18	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 12:59:46	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 13:00:46	-->	TheGhostNova (TheGhostNova@discord) has joined #trusted
+2020-02-19 13:32:37	-->	EvilRobotOverlord (EvilRobotOverlord@discord) has joined #trusted
+2020-02-19 13:35:59	<--	EvilRobotOverlord (EvilRobotOverlord@discord) has left #trusted ()
+2020-02-19 13:49:15	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 13:49:51	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 13:53:23	goeo_	hey
+2020-02-19 14:01:14	-->	Benwick (Benwick@discord) has joined #trusted
+2020-02-19 14:07:36	<--	zeroosmilee (zeroosmilee@discord) has left #trusted ()
+2020-02-19 14:09:32	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 14:16:53	-->	westy (westy@discord) has joined #trusted
+2020-02-19 14:19:04	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-19 14:19:04	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-19 14:21:47	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 14:30:19	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-19 14:32:19	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-19 14:40:11	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 14:42:23	<--	TheGhostNova (TheGhostNova@discord) has left #trusted ()
+2020-02-19 14:54:44	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 14:56:12	<--	Benwick (Benwick@discord) has left #trusted ()
+2020-02-19 14:56:45	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 14:56:54	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 14:58:54	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 15:04:26	-->	Cat (Cat@discord) has joined #trusted
+2020-02-19 15:06:15	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 15:08:15	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 15:10:12	ℹ 	irc: disconnected from server
+2020-02-19 15:42:11	-->	suren (suren@localhost) has joined #trusted
+2020-02-19 15:42:11	ℹ 	Channel #trusted: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 15:42:24	ℹ 	root has changed topic for #trusted to "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 15:42:24	ℹ 	root has changed topic for #trusted from "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!" to "Welcome to the real hackerman space! :sunglasses: For TRUSTED and PARTNERS"
+2020-02-19 15:42:24	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-19 15:42:24	-->	westy (westy@discord) has joined #trusted
+2020-02-19 15:42:24	-->	ShazBot (ShazBot@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Waffles (Waffles@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Jesse (Jesse@discord) has joined #trusted
+2020-02-19 15:42:24	-->	FredBoat♪♪ (FredBoat♪♪@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Swayella (Swayella@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Salient (Salient@discord) has joined #trusted
+2020-02-19 15:42:24	-->	ser3n1ty (ser3n1ty@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Dyno (Dyno@discord) has joined #trusted
+2020-02-19 15:42:24	-->	ilija (ilija@discord) has joined #trusted
+2020-02-19 15:42:24	-->	inot_ahackerprinti[1] (i=("not_a","hacker");print(i[1])@discord) has joined #trusted
+2020-02-19 15:42:24	-->	chick3nman (chick3nman@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Kaoli (Kaoli@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Cat (Cat@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Belissimoo (Belissimoo@discord) has joined #trusted
+2020-02-19 15:42:24	-->	-_- (-_-@discord) has joined #trusted
+2020-02-19 15:42:24	-->	CyberDecker (CyberDecker@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Single (Single@discord) has joined #trusted
+2020-02-19 15:42:24	-->	EvilRobotOverlord (EvilRobotOverlord@discord) has joined #trusted
+2020-02-19 15:42:24	-->	longears (longears@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Banana (Banana@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Coco (Coco@discord) has joined #trusted
+2020-02-19 15:42:24	-->	h_saxon (h_saxon@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Dank_Memer (Dank_Memer@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Tatsu (Tatsu@discord) has joined #trusted
+2020-02-19 15:42:24	-->	USESTOnigiriMajorblaze ((US,EST)Onigiri/Majorblaze@discord) has joined #trusted
+2020-02-19 15:42:24	-->	-Chindits-|_Burjy (-Chindits-|_Burjy@discord) has joined #trusted
+2020-02-19 15:42:24	-->	_0294nutanic (0294nutanic@discord) has joined #trusted
+2020-02-19 15:42:24	-->	_0xDEDCA1 (0xDEDCA1@discord) has joined #trusted
+2020-02-19 15:42:24	-->	_13enny7W (13enny7W@discord) has joined #trusted
+2020-02-19 15:42:24	-->	_73pp31in (73pp31in@discord) has joined #trusted
+2020-02-19 15:42:24	-->	_7761616461616661616b (7761616461616661616b@discord) has joined #trusted
+2020-02-19 15:42:24	-->	_St4cky_ (<_St4cky_>@discord) has joined #trusted
+2020-02-19 15:42:24	-->	_Atlas_ (_Atlas_@discord) has joined #trusted
+2020-02-19 15:42:24	-->	A2 (A2@discord) has joined #trusted
+2020-02-19 15:42:24	-->	aa37 (aa37@discord) has joined #trusted
+2020-02-19 15:42:24	-->	AAnonAAron (AAnonAAron@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Adamsas (Adamsas@discord) has joined #trusted
+2020-02-19 15:42:24	-->	AIex (AIex@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Aitorxuxu (Aitorxuxu@discord) has joined #trusted
+2020-02-19 15:42:24	-->	akshatmittal (akshatmittal@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Aladeen (Aladeen@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Aldrims (Aldrims@discord) has joined #trusted
+2020-02-19 15:42:24	-->	aleksandarlazarevic (aleksandarlazarevic@discord) has joined #trusted
+2020-02-19 15:42:24	-->	alox (alox@discord) has joined #trusted
+2020-02-19 15:42:24	-->	amankh (amankh@discord) has joined #trusted
+2020-02-19 15:42:24	-->	An1 (An1@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Ando (Ando@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Andrei (Andrei@discord) has joined #trusted
+2020-02-19 15:42:24	-->	AngryKillerSloth (AngryKillerSloth@discord) has joined #trusted
+2020-02-19 15:42:24	-->	AnonimER (AnonimER@discord) has joined #trusted
+2020-02-19 15:42:24	-->	aoighost (aoighost@discord) has joined #trusted
+2020-02-19 15:42:24	-->	araith (araith@discord) has joined #trusted
+2020-02-19 15:42:24	-->	ASSMDSVD (ASSMDSVD@discord) has joined #trusted
+2020-02-19 15:42:24	-->	atgyvenęs_kiborgas (atgyvenęs_kiborgas@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Augment (Augment@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Autism (Autism@discord) has joined #trusted
+2020-02-19 15:42:24	-->	ayjay (ayjay@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Aztrum (Aztrum@discord) has joined #trusted
+2020-02-19 15:42:24	-->	B1gD4ddy (B1gD4ddy@discord) has joined #trusted
+2020-02-19 15:42:24	-->	babbadeckl (babbadeckl@discord) has joined #trusted
+2020-02-19 15:42:24	-->	ben (ben@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Ben_Reilly (Ben_Reilly@discord) has joined #trusted
+2020-02-19 15:42:24	-->	bennees (bennees@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Benotto (Benotto@discord) has joined #trusted
+2020-02-19 15:42:24	-->	bhu (bhu@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Big_Boss_Foxhound_CEO (Big_Boss_(Foxhound_CEO)@discord) has joined #trusted
+2020-02-19 15:42:24	-->	bioniclady (bioniclady@discord) has joined #trusted
+2020-02-19 15:42:24	-->	boombudder (boombudder@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Bottersnike (Bottersnike@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Boulle (Boulle@discord) has joined #trusted
+2020-02-19 15:42:24	-->	BowseR (BowseR@discord) has joined #trusted
+2020-02-19 15:42:24	-->	bradfordbc (bradfordbc@discord) has joined #trusted
+2020-02-19 15:42:24	-->	BRGX (BRGX@discord) has joined #trusted
+2020-02-19 15:42:24	-->	BrianGoldYT (BrianGoldYT@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Brisbane_Mania (Brisbane_Mania@discord) has joined #trusted
+2020-02-19 15:42:24	-->	BrokenPixels™ (BrokenPixels™@discord) has joined #trusted
+2020-02-19 15:42:24	-->	Brooks (Brooks@discord) has joined #trusted
+2020-02-19 15:42:24	-->	BryanC12 (BryanC12@discord) has joined #trusted
+2020-02-19 15:42:24	-->	BuckeyeFan79 (BuckeyeFan79@discord) has joined #trusted
+2020-02-19 15:42:24	-->	BURNMEAUX (BURNMEAUX@discord) has joined #trusted
+2020-02-19 15:42:24	-->	caaz (caaz@discord) has joined #trusted
+2020-02-19 15:42:24	-->	cain (cain@discord) has joined #trusted
+2020-02-19 15:45:28	<--	EvilRobotOverlord (EvilRobotOverlord@discord) has left #trusted ()
+2020-02-19 15:45:52	-->	Vert3xo (Vert3xo@discord) has joined #trusted
+2020-02-19 15:48:28	-->	EvilRobotOverlord (EvilRobotOverlord@discord) has joined #trusted
+2020-02-19 15:51:09	<--	EvilRobotOverlord (EvilRobotOverlord@discord) has left #trusted ()
+2020-02-19 15:51:18	<--	Vert3xo (Vert3xo@discord) has left #trusted ()
+2020-02-19 15:55:15	-->	EvilRobotOverlord (EvilRobotOverlord@discord) has joined #trusted
+2020-02-19 15:58:20	-->	Hez (Hez@discord) has joined #trusted
+2020-02-19 15:59:06	<--	EvilRobotOverlord (EvilRobotOverlord@discord) has left #trusted ()
+2020-02-19 16:00:20	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-19 16:04:08	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 16:06:38	-->	Vert3xo (Vert3xo@discord) has joined #trusted
+2020-02-19 16:08:38	<--	Vert3xo (Vert3xo@discord) has left #trusted ()
+2020-02-19 16:18:43	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 16:22:02	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 16:32:35	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-19 16:33:06	<--	ilija (ilija@discord) has left #trusted ()
+2020-02-19 16:34:35	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-19 16:38:45	ℹ 	irc: disconnected from server
+2020-02-19 17:35:08	-->	suren (suren@localhost) has joined #trusted
+2020-02-19 17:35:08	ℹ 	Channel #trusted: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 17:35:25	ℹ 	root has changed topic for #trusted to "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 17:35:25	ℹ 	root has changed topic for #trusted from "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!" to "Welcome to the real hackerman space! :sunglasses: For TRUSTED and PARTNERS"
+2020-02-19 17:35:25	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-19 17:35:25	-->	ShazBot (ShazBot@discord) has joined #trusted
+2020-02-19 17:35:25	-->	Waffles (Waffles@discord) has joined #trusted
+2020-02-19 17:35:25	-->	Jesse (Jesse@discord) has joined #trusted
+2020-02-19 17:35:25	-->	FredBoat♪♪ (FredBoat♪♪@discord) has joined #trusted
+2020-02-19 17:35:25	-->	Swayella (Swayella@discord) has joined #trusted
+2020-02-19 17:35:25	-->	Salient (Salient@discord) has joined #trusted
+2020-02-19 17:35:25	-->	ser3n1ty (ser3n1ty@discord) has joined #trusted
+2020-02-19 17:35:25	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 17:35:25	-->	Dyno (Dyno@discord) has joined #trusted
+2020-02-19 17:35:25	-->	Pyro57 (Pyro57@discord) has joined #trusted
+2020-02-19 17:35:25	-->	TheGhostNova (TheGhostNova@discord) has joined #trusted
+2020-02-19 17:35:25	-->	inot_ahackerprinti[1] (i=("not_a","hacker");print(i[1])@discord) has joined #trusted
+2020-02-19 17:35:25	-->	chick3nman (chick3nman@discord) has joined #trusted
+2020-02-19 17:35:25	-->	Kaoli (Kaoli@discord) has joined #trusted
+2020-02-19 17:35:25	-->	Cat (Cat@discord) has joined #trusted
+2020-02-19 17:35:25	-->	Belissimoo (Belissimoo@discord) has joined #trusted
+2020-02-19 17:35:25	-->	-_- (-_-@discord) has joined #trusted
+2020-02-19 17:35:25	-->	CyberDecker (CyberDecker@discord) has joined #trusted
+2020-02-19 17:35:25	-->	Single (Single@discord) has joined #trusted
+2020-02-19 17:35:25	-->	EvilRobotOverlord (EvilRobotOverlord@discord) has joined #trusted
+2020-02-19 17:35:25	-->	longears (longears@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Banana (Banana@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Coco (Coco@discord) has joined #trusted
+2020-02-19 17:35:32	-->	h_saxon (h_saxon@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Skyzar (Skyzar@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Dank_Memer (Dank_Memer@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Tatsu (Tatsu@discord) has joined #trusted
+2020-02-19 17:35:32	-->	𝙕𝙊𝙒𝙉_🥡 ("𝙕𝙊𝙒𝙉_🥡@discord) has joined #trusted
+2020-02-19 17:35:32	-->	startup_guy ((startup_guy)@discord) has joined #trusted
+2020-02-19 17:35:32	-->	USESTOnigiriMajorblaze ((US,EST)Onigiri/Majorblaze@discord) has joined #trusted
+2020-02-19 17:35:32	-->	pain (.pain@discord) has joined #trusted
+2020-02-19 17:35:32	-->	_0294nutanic (0294nutanic@discord) has joined #trusted
+2020-02-19 17:35:32	-->	_0xDEDCA1 (0xDEDCA1@discord) has joined #trusted
+2020-02-19 17:35:32	-->	_4N0N_H4X0R||Floof (4N0N_H4X0R||Floof@discord) has joined #trusted
+2020-02-19 17:35:32	-->	_St4cky_ (<_St4cky_>@discord) has joined #trusted
+2020-02-19 17:35:32	-->	_Atlas_ (_Atlas_@discord) has joined #trusted
+2020-02-19 17:35:32	-->	a_lonely_spoon (a_lonely_spoon@discord) has joined #trusted
+2020-02-19 17:35:32	-->	A2 (A2@discord) has joined #trusted
+2020-02-19 17:35:32	-->	AAnonAAron (AAnonAAron@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Abdullah3916 (Abdullah3916@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Adamsas (Adamsas@discord) has joined #trusted
+2020-02-19 17:35:32	-->	AIex (AIex@discord) has joined #trusted
+2020-02-19 17:35:32	-->	akshatmittal (akshatmittal@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Aladeen (Aladeen@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Aldrims (Aldrims@discord) has joined #trusted
+2020-02-19 17:35:32	-->	alekos (alekos@discord) has joined #trusted
+2020-02-19 17:35:32	-->	aleksandarlazarevic (aleksandarlazarevic@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Alfreaca (Alfreaca@discord) has joined #trusted
+2020-02-19 17:35:32	-->	algiuxas (algiuxas@discord) has joined #trusted
+2020-02-19 17:35:32	-->	alox (alox@discord) has joined #trusted
+2020-02-19 17:35:32	-->	amankh (amankh@discord) has joined #trusted
+2020-02-19 17:35:32	-->	An1 (An1@discord) has joined #trusted
+2020-02-19 17:35:32	-->	AngryKillerSloth (AngryKillerSloth@discord) has joined #trusted
+2020-02-19 17:35:32	-->	AngusRed (AngusRed@discord) has joined #trusted
+2020-02-19 17:35:32	-->	AnonimER (AnonimER@discord) has joined #trusted
+2020-02-19 17:35:32	-->	aoighost (aoighost@discord) has joined #trusted
+2020-02-19 17:35:32	-->	ASSMDSVD (ASSMDSVD@discord) has joined #trusted
+2020-02-19 17:35:32	-->	atgyvenęs_kiborgas (atgyvenęs_kiborgas@discord) has joined #trusted
+2020-02-19 17:35:32	-->	AU-6H_🥕🐡 (AU-6H_🥕🐡@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Augment (Augment@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Autism (Autism@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Aztrum (Aztrum@discord) has joined #trusted
+2020-02-19 17:35:32	-->	B1gD4ddy (B1gD4ddy@discord) has joined #trusted
+2020-02-19 17:35:32	-->	babbadeckl (babbadeckl@discord) has joined #trusted
+2020-02-19 17:35:32	-->	ben (ben@discord) has joined #trusted
+2020-02-19 17:35:32	-->	bennees (bennees@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Benotto (Benotto@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Big_Boss_Foxhound_CEO (Big_Boss_(Foxhound_CEO)@discord) has joined #trusted
+2020-02-19 17:35:32	-->	bioniclady (bioniclady@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Blazerawl (Blazerawl@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Bleh_King (Bleh_King@discord) has joined #trusted
+2020-02-19 17:35:32	-->	boombudder (boombudder@discord) has joined #trusted
+2020-02-19 17:35:32	-->	Bottersnike (Bottersnike@discord) has joined #trusted
+2020-02-19 17:35:32	-->	BOUKRIM_ABDELADIM (BOUKRIM_ABDELADIM@discord) has joined #trusted
+2020-02-19 17:35:32	-->	BowseR (BowseR@discord) has joined #trusted
+2020-02-19 17:36:00	-->	Benwick (Benwick@discord) has joined #trusted
+2020-02-19 17:37:57	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 17:38:00	<--	Benwick (Benwick@discord) has left #trusted ()
+2020-02-19 17:46:23	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-19 17:47:59	<--	EvilRobotOverlord (EvilRobotOverlord@discord) has left #trusted ()
+2020-02-19 17:48:32	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-19 17:48:48	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 17:51:16	v01dwalk-	Goeo :kermLove: <https://cdn.discordapp.com/emojis/618816511561433090.png>
+2020-02-19 17:51:55	v01dwalk-	How’s my favourite sarcastic hacker cutie?
+2020-02-19 17:53:28	@suren	aww. im good dear, how are you?
+2020-02-19 17:53:46	<--	Pyro57 (Pyro57@discord) has left #trusted ()
+2020-02-19 17:55:18	v01dwalk-	MUT
+2020-02-19 17:55:24	v01dwalk-	How’re u bb
+2020-02-19 18:03:25	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-19 18:03:36	@suren	Perfect bud
+2020-02-19 18:03:38	@suren	you say 
+2020-02-19 18:03:43	@suren	how have you been?
+2020-02-19 18:08:51	v01dwalk-	Been missin ur touch ;)
+2020-02-19 18:12:06	-->	Pyro57 (Pyro57@discord) has joined #trusted
+2020-02-19 18:20:31	@suren	:smirk:
+2020-02-19 18:23:11	Pyro57	oooo touch?
+2020-02-19 18:29:23	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-19 18:37:59	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-19 18:39:05	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-19 18:39:49	ℹ 	irc: disconnected from server
+2020-02-19 18:41:32	-->	suren (suren@localhost) has joined #trusted
+2020-02-19 18:41:32	ℹ 	Channel #trusted: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 18:41:44	ℹ 	root has changed topic for #trusted to "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 18:41:44	ℹ 	root has changed topic for #trusted from "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!" to "Welcome to the real hackerman space! :sunglasses: For TRUSTED and PARTNERS"
+2020-02-19 18:41:44	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-19 18:41:44	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-19 18:41:44	-->	ShazBot (ShazBot@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Waffles (Waffles@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Jesse (Jesse@discord) has joined #trusted
+2020-02-19 18:41:44	-->	FredBoat♪♪ (FredBoat♪♪@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Swayella (Swayella@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Salient (Salient@discord) has joined #trusted
+2020-02-19 18:41:44	-->	ser3n1ty (ser3n1ty@discord) has joined #trusted
+2020-02-19 18:41:44	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Dyno (Dyno@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Pyro57 (Pyro57@discord) has joined #trusted
+2020-02-19 18:41:44	-->	inot_ahackerprinti[1] (i=("not_a","hacker");print(i[1])@discord) has joined #trusted
+2020-02-19 18:41:44	-->	chick3nman (chick3nman@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Kaoli (Kaoli@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Cat (Cat@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Belissimoo (Belissimoo@discord) has joined #trusted
+2020-02-19 18:41:44	-->	-_- (-_-@discord) has joined #trusted
+2020-02-19 18:41:44	-->	CyberDecker (CyberDecker@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Single (Single@discord) has joined #trusted
+2020-02-19 18:41:44	-->	longears (longears@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Banana (Banana@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Coco (Coco@discord) has joined #trusted
+2020-02-19 18:41:44	-->	h_saxon (h_saxon@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Skyzar (Skyzar@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Dank_Memer (Dank_Memer@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Tatsu (Tatsu@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Grimoire (Grimoire@discord) has joined #trusted
+2020-02-19 18:41:44	-->	___SniperX-D___ (!___SniperX-D___!@discord) has joined #trusted
+2020-02-19 18:41:44	-->	𝙕𝙊𝙒𝙉_🥡 ("𝙕𝙊𝙒𝙉_🥡@discord) has joined #trusted
+2020-02-19 18:41:44	-->	startup_guy ((startup_guy)@discord) has joined #trusted
+2020-02-19 18:41:44	-->	USESTOnigiriMajorblaze ((US,EST)Onigiri/Majorblaze@discord) has joined #trusted
+2020-02-19 18:41:44	-->	-Chindits-|_Burjy (-Chindits-|_Burjy@discord) has joined #trusted
+2020-02-19 18:41:44	-->	pain (.pain@discord) has joined #trusted
+2020-02-19 18:41:44	-->	_0294nutanic (0294nutanic@discord) has joined #trusted
+2020-02-19 18:41:44	-->	_13enny7W (13enny7W@discord) has joined #trusted
+2020-02-19 18:41:44	-->	_164318791904 (164318791904@discord) has joined #trusted
+2020-02-19 18:41:44	-->	_1☭𝓙𝓐𝓚✪ (1☭𝓙𝓐𝓚✪𝓑☭@discord) has joined #trusted
+2020-02-19 18:41:44	-->	_4N0N_H4X0R||Floof (4N0N_H4X0R||Floof@discord) has joined #trusted
+2020-02-19 18:41:44	-->	_7761616461616661616b (7761616461616661616b@discord) has joined #trusted
+2020-02-19 18:41:44	-->	_St4cky_ (<_St4cky_>@discord) has joined #trusted
+2020-02-19 18:41:44	-->	_Atlas_ (_Atlas_@discord) has joined #trusted
+2020-02-19 18:41:44	-->	a_lonely_spoon (a_lonely_spoon@discord) has joined #trusted
+2020-02-19 18:41:44	-->	A2 (A2@discord) has joined #trusted
+2020-02-19 18:41:44	-->	AAnonAAron (AAnonAAron@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Abdullah3916 (Abdullah3916@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Adamsas (Adamsas@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Advanced_Persistent_Squi (Advanced_Persistent_Squirrel@discord) has joined #trusted
+2020-02-19 18:41:44	-->	ak103 (ak103@discord) has joined #trusted
+2020-02-19 18:41:44	-->	akshatmittal (akshatmittal@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Aldrims (Aldrims@discord) has joined #trusted
+2020-02-19 18:41:44	-->	alekos (alekos@discord) has joined #trusted
+2020-02-19 18:41:44	-->	aleksandarlazarevic (aleksandarlazarevic@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Alfreaca (Alfreaca@discord) has joined #trusted
+2020-02-19 18:41:44	-->	alox (alox@discord) has joined #trusted
+2020-02-19 18:41:44	-->	amankh (amankh@discord) has joined #trusted
+2020-02-19 18:41:44	-->	An1 (An1@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Andrei (Andrei@discord) has joined #trusted
+2020-02-19 18:41:44	-->	AngryKillerSloth (AngryKillerSloth@discord) has joined #trusted
+2020-02-19 18:41:44	-->	AngusRed (AngusRed@discord) has joined #trusted
+2020-02-19 18:41:44	-->	AnonimER (AnonimER@discord) has joined #trusted
+2020-02-19 18:41:44	-->	aoighost (aoighost@discord) has joined #trusted
+2020-02-19 18:41:44	-->	araith (araith@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Arrow03 (Arrow03@discord) has joined #trusted
+2020-02-19 18:41:44	-->	ASSMDSVD (ASSMDSVD@discord) has joined #trusted
+2020-02-19 18:41:44	-->	atgyvenęs_kiborgas (atgyvenęs_kiborgas@discord) has joined #trusted
+2020-02-19 18:41:44	-->	AU-6H_🥕🐡 (AU-6H_🥕🐡@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Augment (Augment@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Autism (Autism@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Avaesta (Avaesta@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Avenskyler (Avenskyler@discord) has joined #trusted
+2020-02-19 18:41:44	-->	AyeCandy (AyeCandy@discord) has joined #trusted
+2020-02-19 18:41:44	-->	azrod (azrod@discord) has joined #trusted
+2020-02-19 18:41:44	-->	Aztrum (Aztrum@discord) has joined #trusted
+2020-02-19 18:41:44	-->	B1gD4ddy (B1gD4ddy@discord) has joined #trusted
+2020-02-19 18:41:44	-->	babbadeckl (babbadeckl@discord) has joined #trusted
+2020-02-19 18:41:44	-->	ben (ben@discord) has joined #trusted
+2020-02-19 18:45:09	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-19 18:45:12	<--	yyyyy (yyyyy@discord) has left #trusted ()
+2020-02-19 18:45:59	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-19 18:50:03	<--	yyyyy (yyyyy@discord) has left #trusted ()
+2020-02-19 18:58:15	-->	Soul (Soul@discord) has joined #trusted
+2020-02-19 19:04:38	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-19 19:04:47	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-19 19:07:28	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-19 19:18:08	⚡	zer0_c00l touch
+2020-02-19 19:21:26	zer0_c00l	https://discordapp.com/channels/326839256758616068/564940102615433216/679709357155418160
+2020-02-19 19:21:32	zer0_c00l	that's like heccin da gibson
+2020-02-19 19:21:36	zer0_c00l	:HACKS: <https://cdn.discordapp.com/emojis/568437486670577674.gif>
+2020-02-19 19:22:55	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-19 19:24:55	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-19 19:30:06	Pyro57	```
+2020-02-19 19:30:06	Pyro57	touch foo
+2020-02-19 19:30:06	Pyro57	sudo find ./ -name foo -exec /bin/bash \;
+2020-02-19 19:30:06	Pyro57	```
+2020-02-19 19:30:06	Pyro57	am I root now?
+2020-02-19 19:30:15	zer0_c00l	not quite
+2020-02-19 19:30:51	Pyro57	😦
+2020-02-19 19:30:57	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-19 19:32:38	zer0_c00l	what is the ls -la output for foo when you touch it?  nvm, ill check.  i need to get this damned linux for windows set up
+2020-02-19 19:32:50	zer0_c00l	whats it called?
+2020-02-19 19:33:17	zer0_c00l	sol
+2020-02-19 19:35:24	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-19 19:36:49	Pyro57	I call it The first step twords microsoft admitting the nt kernel is shite and will never be fixed so we need to port windows to use the linux kernel
+2020-02-19 19:36:54	Pyro57	but they call it WSL
+2020-02-19 19:37:33	yyyyy	I live wsl
+2020-02-19 19:37:46	yyyyy	Omnomnomnom
+2020-02-19 19:38:50	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 19:39:06	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 19:39:26	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 19:41:26	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 19:43:46	<--	yyyyy (yyyyy@discord) has quit (Leaving...)
+2020-02-19 19:44:00	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-19 19:44:52	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 19:47:32	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 19:49:13	<--	yyyyy (yyyyy@discord) has quit (Leaving...)
+2020-02-19 19:58:29	zer0_c00l	it's bullshit that the kali wsl doesnt come with the tools, especially msf
+2020-02-19 20:04:32	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-19 20:05:29	Pyro57	wait
+2020-02-19 20:05:34	Pyro57	why even have kali wsl then
+2020-02-19 20:05:40	Pyro57	why not just debian then add a repo
+2020-02-19 20:06:57	-->	EvilRobotOverlord (EvilRobotOverlord@discord) has joined #trusted
+2020-02-19 20:09:56	v01dwalk-	Because Microsoft
+2020-02-19 20:11:05	<--	EvilRobotOverlord (EvilRobotOverlord@discord) has left #trusted ()
+2020-02-19 20:13:24	zer0_c00l	@Pyro57 that's what i was thinking afterwards
+2020-02-19 20:13:41	yyyyy	At least MS is trying to be more open-source
+2020-02-19 20:17:53	Pyro57	ehhhhh they are trying to integrate better with open-source
+2020-02-19 20:18:19	Pyro57	but I think that's because they want to port Windows to the Linux kernel because kernel dev is expensive and not how they make their money anymore
+2020-02-19 20:28:19	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-19 20:30:19	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-19 20:33:28	-->	Hez (Hez@discord) has joined #trusted
+2020-02-19 20:36:21	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 20:40:11	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 20:40:45	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 20:42:29	yyyyy	I think 50% of their 2019 income was from Cloud?
+2020-02-19 20:42:30	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 20:42:33	yyyyy	iirc
+2020-02-19 20:44:47	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 20:46:18	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 20:46:46	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 20:49:01	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 21:05:20	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-19 21:07:20	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-19 21:09:35	Pyro57	yeup azure and office 365 is their bread maker now
+2020-02-19 21:10:24	-->	Svelteٴ (Svelteٴ@discord) has joined #trusted
+2020-02-19 21:17:52	zer0_c00l	https://discordapp.com/channels/326839256758616068/564940102615433216/679736332972458015
+2020-02-19 21:17:55	zer0_c00l	:peepoDetective: <https://cdn.discordapp.com/emojis/570300270089732096.png>
+2020-02-19 21:18:01	zer0_c00l	sounds like a perv in our mist
+2020-02-19 21:30:32	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-19 21:30:36	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-19 21:33:57	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-19 21:35:57	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-19 21:47:18	-->	Vert3xo (Vert3xo@discord) has joined #trusted
+2020-02-19 21:55:24	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 21:55:28	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 21:55:31	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 21:57:47	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-19 21:59:55	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 22:00:55	-->	infiniterecursive (infiniterecursive@discord) has joined #trusted
+2020-02-19 22:01:51	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-19 22:03:13	-->	ARALEZ (ARALEZ@discord) has joined #trusted
+2020-02-19 22:11:56	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 22:12:02	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 22:17:51	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 22:20:26	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-19 22:20:27	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 22:22:26	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-19 22:22:50	Dusty	@yyyyy
+2020-02-19 22:22:50	Dusty	https://cdn.discordapp.com/attachments/564925054765367296/679755200789217295/nom.jpg
+2020-02-19 22:23:03	Shikata	hmmm
+2020-02-19 22:23:15	Dusty	Still singing to me from the oven.
+2020-02-19 22:23:25	yyyyy	The shape is beautiful!
+2020-02-19 22:23:55	Shikata	ururururur
+2020-02-19 22:23:57	Dusty	Thanks! Used a slightly different method this time.
+2020-02-19 22:23:58	Shikata	food good
+2020-02-19 22:24:04	infiniterecursive	mmmmm
+2020-02-19 22:24:30	Dusty	No extra flour at all, just enough water to keep it from sticking to my hands. Effective.
+2020-02-19 22:29:12	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-19 22:33:40	<--	Vert3xo (Vert3xo@discord) has left #trusted ()
+2020-02-19 22:34:26	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-19 22:34:27	-->	Vert3xo (Vert3xo@discord) has joined #trusted
+2020-02-19 22:35:51	<--	ARALEZ (ARALEZ@discord) has quit (Leaving...)
+2020-02-19 22:36:36	zer0_c00l	making me hungry
+2020-02-19 22:36:48	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 22:38:53	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 22:38:59	<--	Single (Single@discord) has left #trusted ()
+2020-02-19 22:39:02	-->	Single (Single@discord) has joined #trusted
+2020-02-19 22:40:12	<--	Single (Single@discord) has left #trusted ()
+2020-02-19 22:40:13	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-19 22:40:14	-->	Single (Single@discord) has joined #trusted
+2020-02-19 22:40:31	Dusty	Four loaves. Enough for everyone.
+2020-02-19 22:40:48	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-19 22:40:51	Dusty	Honey or butter or marmite. No matter.
+2020-02-19 22:41:08	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 22:41:41	yyyyy	They look very tearable 🙂
+2020-02-19 22:41:44	v01dwalk-	Reverse engineering my esports leagues anti cheat because client side spyware bad
+2020-02-19 22:41:44	<--	Belissimoo (Belissimoo@discord) has quit (Leaving...)
+2020-02-19 22:41:47	v01dwalk-	:^)
+2020-02-19 22:42:13	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-19 22:43:08	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 22:43:29	Dusty	The slashes are convenient for portioning. Why slice when you can tear?
+2020-02-19 22:44:13	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 22:44:25	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-19 22:44:43	delta	> Reverse engineering my esports leagues anti cheat because client side spyware bad
+2020-02-19 22:44:43	delta	Dude if i die to anyone with the name `v01d` in it in the coming month i'm 100% gonna claim it was you hacking
+2020-02-19 22:45:47	⚡	Dusty bad dancer blames the legs
+2020-02-19 22:46:36	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-19 22:46:53	⚡	delta a bad siege player blames blitz and pretty much anything besides themselfs
+2020-02-19 22:47:16	delta	seriously though, im done with getting insta flashed
+2020-02-19 22:47:24	⚡	zer0_c00l a bad hacker blames the computer
+2020-02-19 22:49:27	v01dwalk-	@delta reverse engineering to see how it behaves. Not to cheat lol
+2020-02-19 22:49:38	v01dwalk-	Not battleye either
+2020-02-19 22:54:54	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-19 22:55:56	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-19 22:57:17	-->	westy (westy@discord) has joined #trusted
+2020-02-19 22:58:34	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-19 22:58:38	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-19 23:00:35	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-19 23:02:35	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-19 23:02:43	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-19 23:07:33	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-19 23:12:18	-->	Hez (Hez@discord) has joined #trusted
+2020-02-19 23:15:37	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-19 23:17:53	-->	Bencey_ (Bencey_@discord) has joined #trusted
+2020-02-19 23:20:08	<--	Bencey_ (Bencey_@discord) has left #trusted ()
+2020-02-19 23:21:10	-->	Bencey_ (Bencey_@discord) has joined #trusted
+2020-02-19 23:23:10	<--	Bencey_ (Bencey_@discord) has left #trusted ()
+2020-02-19 23:25:05	xDark	@Dusty nice legs, buddy. Mind if I snatch them?
+2020-02-19 23:25:39	Pyro57	you just wanted to say the word snatch
+2020-02-19 23:31:14	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 23:35:33	xDark	@Pyro57 How's work going?
+2020-02-19 23:35:52	-->	Bencey_ (Bencey_@discord) has joined #trusted
+2020-02-19 23:36:04	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 23:37:52	<--	Bencey_ (Bencey_@discord) has left #trusted ()
+2020-02-19 23:38:53	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 23:39:01	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 23:39:06	Pyro57	its going, am on call this week so the sleep depravation is catching up with me... other than that just peachy
+2020-02-19 23:39:19	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 23:39:46	-->	Bencey_ (Bencey_@discord) has joined #trusted
+2020-02-19 23:40:04	<--	Bencey_ (Bencey_@discord) has left #trusted ()
+2020-02-19 23:42:51	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 23:43:31	xDark	:tbh: <https://cdn.discordapp.com/emojis/568435592011186177.png>
+2020-02-19 23:43:36	xDark	You're extremely unlucky.
+2020-02-19 23:44:25	yyyyy	Being on-call is rough. The weekend is near though 🙂 (assuming you have off)
+2020-02-19 23:45:06	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-19 23:45:12	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 23:46:24	xDark	:yeet: <https://cdn.discordapp.com/emojis/568422904463753226.png> being on-call is the easiest way to grow your hatred towards the others in the office.
+2020-02-19 23:47:12	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-19 23:47:15	-->	Hez (Hez@discord) has joined #trusted
+2020-02-19 23:47:22	infiniterecursive	so it sounds like your company's version of on call means people are actually going to call?
+2020-02-19 23:47:43	xDark	For me, it usually happens.
+2020-02-19 23:47:46	infiniterecursive	for most IT people it's rare and very bad when they actually get called
+2020-02-19 23:48:21	xDark	I usually get a call or two for the week when I'm on call. They tend to be short and easy to go through.
+2020-02-19 23:48:29	xDark	Usually something that should be on refuses to turn on.
+2020-02-19 23:48:39	xDark	Or people expecting a machine to run without any fuel.
+2020-02-19 23:49:08	Pyro57	so "on call" here on the SOC team means mandatory check in and alarm reviews off hours
+2020-02-19 23:49:16	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-19 23:49:22	-->	vruh (vruh@discord) has joined #trusted
+2020-02-19 23:49:32	xDark	:pepeLaughPoint: <https://cdn.discordapp.com/emojis/647889253661016066.png>
+2020-02-19 23:49:37	Pyro57	no that people will actually call in, but we have to while at home remote in and check the alarm systems it sucks
+2020-02-19 23:49:50	xDark	That indeed sucks.
+2020-02-19 23:49:55	xDark	At least the bonus is a plus.
+2020-02-19 23:50:01	infiniterecursive	damn, are you getting paid overtime for that?
+2020-02-19 23:50:06	yyyyy	^
+2020-02-19 23:50:08	Pyro57	I was when I was hourly
+2020-02-19 23:50:11	infiniterecursive	sounds like you're actually on night shift
+2020-02-19 23:50:14	Pyro57	now that I'm salaried nope
+2020-02-19 23:50:15	xDark	You are telling me that now they don't?
+2020-02-19 23:50:16	yyyyy	this better comply with <state> labor law bb
+2020-02-19 23:50:17	infiniterecursive	but they just do it remote
+2020-02-19 23:50:18	yyyyy	😦
+2020-02-19 23:50:30	xDark	Homie, I'm salaried and they have to pay me for it.
+2020-02-19 23:50:36	infiniterecursive	free labor, kind of
+2020-02-19 23:51:00	Pyro57	kind of... since the off hours work is in the job description technically the off hours are included in my salary pay
+2020-02-19 23:51:07	infiniterecursive	right
+2020-02-19 23:51:08	Pyro57	already so yeahh....
+2020-02-19 23:51:15	xDark	Oh then yeah that's fair
+2020-02-19 23:51:32	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-19 23:51:37	xDark	Always remember, your comfort and health > The company's future.
+2020-02-19 23:51:50	xDark	These jerks would replace you with an intern if they could.
+2020-02-19 23:51:51	Pyro57	still kinda sucks.... we are hoping to go the route of an mssp being our level one SOC and we get freed up to test our defenses, threat hunt, and only respond to credible threats
+2020-02-19 23:51:52	infiniterecursive	are you working normal hours + "on-call" aka, stay up all night for checks?
+2020-02-19 23:52:00	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-19 23:52:02	Pyro57	correct
+2020-02-19 23:52:05	infiniterecursive	damn
+2020-02-19 23:52:17	Pyro57	8 hours in the day + off hours checkins during on call week
+2020-02-19 23:52:28	xDark	That includes the weekends right?
+2020-02-19 23:52:34	infiniterecursive	I hope you're in a big shop to spread that around
+2020-02-19 23:52:47	Pyro57	yeup, oncall rotation starts on a friday and goes until thursday
+2020-02-19 23:52:54	Pyro57	ehhh every 5 weeks give or take
+2020-02-19 23:52:57	Pyro57	so 5 of us on rotation
+2020-02-19 23:53:02	infiniterecursive	oof
+2020-02-19 23:53:23	infiniterecursive	at least you're getting paid better now 🙂
+2020-02-19 23:53:57	Pyro57	yeup! so can't complain too much.... but still will cause lack of sleep makes me grumpy
+2020-02-19 23:54:22	-->	zeroosmilee (zeroosmilee@discord) has joined #trusted
+2020-02-19 23:54:34	xDark	Nothing a good chug of hot redbull mixed in with paracetamol won't fix.
+2020-02-19 23:55:02	Pyro57	lol coffee and tea do me fine most of the time, sometimes I'll grab a monster if I really need a kick
+2020-02-19 23:55:22	zer0_c00l	i get 2 hours on call time, plus whatever else is over, if i get called out.  if i get called out on a monday, i get double that.  i once got called out on christmas day
+2020-02-19 23:55:25	zer0_c00l	that landed on a monday
+2020-02-19 23:55:35	xDark	Zer0
+2020-02-19 23:55:38	xDark	Fucking hell
+2020-02-19 23:55:43	xDark	Are you a millionaire right now?
+2020-02-19 23:55:48	zer0_c00l	hah
+2020-02-19 23:55:53	zer0_c00l	not even fucking close
+2020-02-19 23:56:02	zer0_c00l	rarely get called out
+2020-02-19 23:56:13	zer0_c00l	i did this weekend, and i wasnt even on call
+2020-02-19 23:56:27	zer0_c00l	shows how much they trust me over the co worker
+2020-02-19 23:56:36	xDark	:tbh: <https://cdn.discordapp.com/emojis/568435592011186177.png>
+2020-02-19 23:56:42	xDark	Or he played his cards right.
+2020-02-19 23:56:58	xDark	Made them think he is a retard so they will always call someone else in.
+2020-02-19 23:57:20	zer0_c00l	her*
+2020-02-19 23:57:27	<--	zeroosmilee (zeroosmilee@discord) has left #trusted ()
+2020-02-19 23:57:31	xDark	Well, mental illness knows no gender.
+2020-02-19 23:57:35	zer0_c00l	lmao
+2020-02-19 23:57:45	zer0_c00l	is that true @yyyyy ?
+2020-02-19 23:57:48	zer0_c00l	anyway
+2020-02-19 23:57:54	Pyro57	I used to get double time for off hours checkins
+2020-02-19 23:57:59	Pyro57	buuut ehh
+2020-02-19 23:58:08	zer0_c00l	but yeah, my co worker is clueless when it gets to anything past modem/ routers, and troubleshooting speeds
+2020-02-19 23:58:10	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-19 23:58:18	Pyro57	new pay ie roughly 1.75x what I was getting anyways so
+2020-02-19 23:58:36	xDark	:wtfpercy: <https://cdn.discordapp.com/emojis/587733799161299010.png> are you all getting paid 100k+?
+2020-02-19 23:58:43	zer0_c00l	fuck
+2020-02-19 23:58:45	zer0_c00l	i wish
+2020-02-19 23:58:45	-->	Belissimoo (Belissimoo@discord) has joined #trusted
+2020-02-19 23:58:46	Pyro57	lawl nope was just working for pennies before
+2020-02-19 23:58:51	-->	Hez (Hez@discord) has joined #trusted
+2020-02-19 23:58:59	xDark	I'm gonna poach you all, one day.
+2020-02-19 23:59:04	-->	zeroosmilee (zeroosmilee@discord) has joined #trusted
+2020-02-19 23:59:05	zer0_c00l	i mean, once i get my certs, then ill be looking
+2020-02-19 23:59:18	zer0_c00l	ima tell my boss, i want 75k a year or im gone
+2020-02-19 23:59:21	xDark	MindBreak Inc.
+2020-02-19 23:59:36	xDark	Make them even pay for these certs.
+2020-02-19 23:59:40	xDark	:tbh: <https://cdn.discordapp.com/emojis/568435592011186177.png>
+2020-02-19 23:59:50	zer0_c00l	they do
+2020-02-20 00:00:06	Pyro57	I've got one cert I'm hopefully gonna get soon, then the GCIH in april so I should be able to get a decent raise after getting those under my belt
+2020-02-20 00:00:11	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-20 00:00:22	zer0_c00l	my boss understands that i may not want to stay because of the pay and is still actively encouraging me to get more certs that the company will pay for
+2020-02-20 00:00:34	Pyro57	fuck the 14GB image file is taking a while to dd over to the usb drive
+2020-02-20 00:00:40	xDark	What a great boss
+2020-02-20 00:00:55	Pyro57	nice
+2020-02-20 00:01:02	zer0_c00l	yall ever use gns3?
+2020-02-20 00:01:04	xDark	Pyro u installing arch
+2020-02-20 00:01:04	xDark	?
+2020-02-20 00:01:04	<--	zeroosmilee (zeroosmilee@discord) has left #trusted ()
+2020-02-20 00:01:16	zer0_c00l	the PA-ngfw wants 32 gigs of ram
+2020-02-20 00:01:21	xDark	oooof
+2020-02-20 00:01:23	Pyro57	I already have arch installed, making a live USB for black arch
+2020-02-20 00:01:36	Pyro57	so I can boot it on any PC
+2020-02-20 00:02:53	delta	:yuhYeet: <https://cdn.discordapp.com/emojis/568422906124697834.png>
+2020-02-20 00:03:07	delta	Dude you know how much trouble i've had making an arch live boot?
+2020-02-20 00:03:10	Pyro57	I suppose I could have just gone through the arch install process manually and installing it to the USB drive, then adding black arch repos and installing the tools I need.... but laziness and its not gona be my primary isntall anyways
+2020-02-20 00:03:46	Pyro57	finally
+2020-02-20 00:03:46	Pyro57	https://cdn.discordapp.com/attachments/564925054765367296/679780600688803909/unknown.png
+2020-02-20 00:04:09	delta	Pyroshackinboz
+2020-02-20 00:04:17	-->	Triangles (Triangles@discord) has joined #trusted
+2020-02-20 00:04:18	delta	Pyros-hack-in-box
+2020-02-20 00:04:29	delta	Pyros-hack-inbox
+2020-02-20 00:04:39	delta	Pyro-sha-cki-box
+2020-02-20 00:04:45	Pyro57	I was intending pryos-hackin-box
+2020-02-20 00:04:51	Pyro57	but any of those work tbh
+2020-02-20 00:05:05	delta	Py-rosha-ckibo-x
+2020-02-20 00:05:13	delta	Sounds greek
+2020-02-20 00:05:46	delta	Pyros-hackin-box fits better tho
+2020-02-20 00:06:16	yyyyy	@zer0_c00l I'm sure there are mental illnesses which disproportionally affect men vs women and vice-versa. For example, postpartum depression primarily affects women who have recently given birth, but it also affects men (I thought to a smaller degree, however)
+2020-02-20 00:06:39	Pyro57	brb gonna test that live usb I made
+2020-02-20 00:07:43	delta	@yyyyy out of curiosity, why is that? Differences in hormonal levels in regards to emtional feedback?
+2020-02-20 00:08:37	<--	Pyro57 (Pyro57@discord) has left #trusted ()
+2020-02-20 00:09:05	yyyyy	@delta I would think so, as women undergo serious hormonal changes before/during/after pregnancy, but I'm not really knowledgeable about psychology. Maybe we can ask our resident psychology nerd once he comes back from uni. 🙂
+2020-02-20 00:09:24	delta	Who would that be?
+2020-02-20 00:09:24	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-20 00:09:31	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-20 00:09:41	delta	Dont tell me its kiro
+2020-02-20 00:09:54	yyyyy	Correct!
+2020-02-20 00:09:58	delta	....
+2020-02-20 00:10:15	delta	Brb, digging through #dirt-on-stafg
+2020-02-20 00:10:20	delta	EDIT: Brb, digging through #dirt-on-staft
+2020-02-20 00:10:25	delta	EDIT: Brb, digging through #dirt-on-staff
+2020-02-20 00:10:39	infiniterecursive	@zer0_c00l only toyed with GNS3, need to brush it off. I need to learn the palo alto firewalls and found an image for GNS3.
+2020-02-20 00:11:16	yyyyy	He's mentioned he's getting a psych degree several times, maybe check in #casual-observations-about-staff
+2020-02-20 00:12:21	zer0_c00l	@infiniterecursive i work with pa-fw every day.   that reminds me, i really need to start on the script for auto update config for the spare, i even dreamt about doing it last night
+2020-02-20 00:12:48	xDark	:wtfpercy: <https://cdn.discordapp.com/emojis/587733799161299010.png> You know who else has a psych degree?
+2020-02-20 00:12:55	zer0_c00l	your therapist
+2020-02-20 00:12:57	zer0_c00l	EDIT: your therapist?
+2020-02-20 00:12:59	xDark	True
+2020-02-20 00:13:01	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-20 00:13:01	delta	Nah nevermind, i found it  @yyyyy
+2020-02-20 00:13:05	delta	https://discordapp.com/channels/326839256758616068/564925054765367296/608839302528499739
+2020-02-20 00:13:08	xDark	She's an angel.
+2020-02-20 00:13:15	delta	I may be a tard but not that retarded
+2020-02-20 00:13:19	delta	:peepoBAN: <https://cdn.discordapp.com/emojis/643998312789442561.png>
+2020-02-20 00:13:22	xDark	Honestly, If you peeps lived near me. I would recommend her.
+2020-02-20 00:13:38	xDark	:Pog: <https://cdn.discordapp.com/emojis/567817256923430912.png> She helped in unleashing my inner shit poster that doesn't fear people no more.
+2020-02-20 00:13:48	delta	Dark is like that mountain troll, just ask for what you want and do the opposite
+2020-02-20 00:13:51	yyyyy	I've stopped seeing a psychologist but was considering doing it again 🙂
+2020-02-20 00:14:04	xDark	Yennie
+2020-02-20 00:14:05	xDark	DO IT
+2020-02-20 00:14:19	xDark	@delta I'm no troll tho, and I give genuine advice.
+2020-02-20 00:14:25	delta	:monkaHmm: <https://cdn.discordapp.com/emojis/567817256373977099.png>
+2020-02-20 00:14:27	delta	Debatable
+2020-02-20 00:14:30	yyyyy	Hmm, but expensive.
+2020-02-20 00:14:49	xDark	Hmmm I forgot about the American healthcare system.
+2020-02-20 00:15:01	xDark	:shortBus: <https://cdn.discordapp.com/emojis/585560910828142592.png> Move to Europe?
+2020-02-20 00:15:03	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-20 00:15:06	delta	Although i am in a fuck everyone mood sooo...
+2020-02-20 00:15:09	delta	https://cdn.discordapp.com/attachments/584960570319699984/678869620186284062/Screenshot_20200217-0844262.png
+2020-02-20 00:15:21	xDark	:pepeLaughPoint: <https://cdn.discordapp.com/emojis/647889253661016066.png>
+2020-02-20 00:15:27	xDark	Thanks for using this.
+2020-02-20 00:15:49	xDark	@delta have I told you that I honestly like talking to you?
+2020-02-20 00:15:59	xDark	@zer0_c00l You are a smart funny guy.
+2020-02-20 00:16:05	yyyyy	That was kind of creepy 🙂
+2020-02-20 00:16:06	delta	Hm, you havent and im doubting it
+2020-02-20 00:16:22	xDark	@Pyro57 You are amazing and you motivate me to work.
+2020-02-20 00:16:34	zer0_c00l	@xDark you been acting strange lately
+2020-02-20 00:16:35	xDark	@yyyyy you kinda cool and smart and I aspire to be like you.
+2020-02-20 00:16:42	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-20 00:16:48	zer0_c00l	if, that is your real name
+2020-02-20 00:16:51	zer0_c00l	:pepeThink: <https://cdn.discordapp.com/emojis/615668347954135149.png>
+2020-02-20 00:17:03	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-20 00:17:11	yyyyy	Zer0, are you really a nudist?
+2020-02-20 00:17:14	zer0_c00l	no
+2020-02-20 00:17:16	delta	Not sure if this new dark mood is flattering, refreshing or terrifying
+2020-02-20 00:17:19	zer0_c00l	why do you still have that note
+2020-02-20 00:17:23	zer0_c00l	you said you were going to del
+2020-02-20 00:17:24	yyyyy	¯\_(ツ)_/¯
+2020-02-20 00:17:32	xDark	Why is it terrifying?
+2020-02-20 00:17:44	delta	Cause some notes are too good to remove  @zer0_c00l
+2020-02-20 00:17:46	delta	https://cdn.discordapp.com/attachments/584960570319699984/667836838840369201/zer03.png
+2020-02-20 00:18:29	xDark	https://cdn.discordapp.com/attachments/564925054765367296/679784304519151650/unknown.png
+2020-02-20 00:18:38	delta	Because dark, some people suddenly spray a mass i loved you all before poping off. Thats the terifing potential
+2020-02-20 00:18:46	delta	31 thank you very much
+2020-02-20 00:18:56	xDark	Nah I'm bored.
+2020-02-20 00:19:07	yyyyy	I have no note for you, delta
+2020-02-20 00:19:14	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-20 00:19:22	delta	Also, i've disagreed more with vent than even zero so not sure where that leaves me
+2020-02-20 00:19:29	zer0_c00l	@yyyyy why not?
+2020-02-20 00:19:37	delta	Yennie, if you end up making one. Pls get the age right
+2020-02-20 00:19:43	xDark	https://cdn.discordapp.com/attachments/564925054765367296/679784613207605283/unknown.png
+2020-02-20 00:20:07	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-20 00:20:11	zer0_c00l	https://cdn.discordapp.com/attachments/564925054765367296/679784730610106401/unknown.png
+2020-02-20 00:20:11	xDark	@delta homie, you only disagree with the people that you like.
+2020-02-20 00:20:20	xDark	I will add that one, zero
+2020-02-20 00:20:48	delta	Whilst true in general, i have argued for a long fucking time with peeps i hayed because we didnt see eye to ehe
+2020-02-20 00:20:55	zer0_c00l	imagine disagreeing with westy
+2020-02-20 00:21:04	xDark	Westy is a nice fella.
+2020-02-20 00:21:04	delta	But then peepingtom called me a waste of air and i stopped doing that
+2020-02-20 00:21:08	delta	Good times
+2020-02-20 00:21:11	zer0_c00l	EDIT: imagine delta disagreeing with westy
+2020-02-20 00:21:14	xDark	Ooooof
+2020-02-20 00:21:19	xDark	Peeping tom was nice.
+2020-02-20 00:21:25	delta	He was a dipshit
+2020-02-20 00:21:26	xDark	Mutso was nice
+2020-02-20 00:21:31	zer0_c00l	he was gay
+2020-02-20 00:21:32	delta	Either that or he didnt like me
+2020-02-20 00:21:38	xDark	You all generalyl hate EEEs
+2020-02-20 00:21:38	xDark	I feel attacked
+2020-02-20 00:21:39	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-20 00:21:41	delta	Dude
+2020-02-20 00:21:42	xDark	Computer nerds
+2020-02-20 00:21:50	delta	He told me to stab myself with a rusty knife
+2020-02-20 00:21:53	zer0_c00l	https://cdn.discordapp.com/attachments/564925054765367296/679785160920924161/unknown.png
+2020-02-20 00:21:54	xDark	Oooof
+2020-02-20 00:21:55	delta	I did kinda feel attacked
+2020-02-20 00:22:02	delta	Just a tad bit
+2020-02-20 00:22:17	xDark	To whom was he saying that?
+2020-02-20 00:22:20	delta	Me
+2020-02-20 00:22:20	zer0_c00l	me
+2020-02-20 00:22:25	xDark	Damn
+2020-02-20 00:22:28	zer0_c00l	the screenshot is me
+2020-02-20 00:22:32	xDark	Hot headed peeps
+2020-02-20 00:22:33	delta	Oh right
+2020-02-20 00:22:37	zer0_c00l	i dumbed him and he made a huge ass fucking deal
+2020-02-20 00:22:39	zer0_c00l	then i chilled
+2020-02-20 00:22:43	delta	The knife was in dms with me
+2020-02-20 00:22:43	zer0_c00l	and he was begging me to ban
+2020-02-20 00:22:44	xDark	Was he drunk?
+2020-02-20 00:22:51	delta	I posted the transcripts in here a while back
+2020-02-20 00:22:53	xDark	Were they drunk?
+2020-02-20 00:22:56	zer0_c00l	lmao
+2020-02-20 00:23:14	zer0_c00l	https://cdn.discordapp.com/attachments/564925054765367296/679785499178696747/Screenshot_20200214-095149_Discord.png
+2020-02-20 00:23:17	zer0_c00l	this is arjun
+2020-02-20 00:23:29	xDark	lol
+2020-02-20 00:23:29	<--	Fish_Tank (Fish_Tank@discord) has left #trusted ()
+2020-02-20 00:23:31	delta	Arjun is an interesting specimin
+2020-02-20 00:23:34	xDark	:wtfpercy: <https://cdn.discordapp.com/emojis/587733799161299010.png>
+2020-02-20 00:23:36	xDark	He is Apoc
+2020-02-20 00:23:41	zer0_c00l	specimen
+2020-02-20 00:23:43	delta	I would not be supprised
+2020-02-20 00:23:46	xDark	You guys didn't know?
+2020-02-20 00:23:48	xDark	He is.
+2020-02-20 00:23:54	xDark	Also Paladin is DP.
+2020-02-20 00:23:59	zer0_c00l	i got along with apoc
+2020-02-20 00:24:01	xDark	Cheif is Jimmy
+2020-02-20 00:24:07	zer0_c00l	so he says
+2020-02-20 00:24:13	delta	Nah, even apoc is smarter than what arjun is talling about
+2020-02-20 00:24:15	xDark	You people are really bad at finding alts.
+2020-02-20 00:24:15	zer0_c00l	he also claimed to be frint
+2020-02-20 00:24:22	xDark	Who?
+2020-02-20 00:24:24	xDark	Cheif?
+2020-02-20 00:24:26	zer0_c00l	chief
+2020-02-20 00:24:28	zer0_c00l	si
+2020-02-20 00:24:33	xDark	Nah he is jimmy, I sense it.
+2020-02-20 00:24:37	delta	Jimmy deleted his account, that was a shame:catSAD: <https://cdn.discordapp.com/emojis/567817253945606174.png>
+2020-02-20 00:24:39	xDark	He said to me something only jimmy would say.
+2020-02-20 00:24:49	delta	I mean, dark didnt find my alt so ye know
+2020-02-20 00:24:53	delta	Try harder
+2020-02-20 00:24:59	xDark	Homie you got no active alt.
+2020-02-20 00:25:00	delta	:catNUT: <https://cdn.discordapp.com/emojis/641399132967272472.png>
+2020-02-20 00:25:03	delta	False
+2020-02-20 00:25:08	xDark	I came in with my alt yesterday
+2020-02-20 00:25:12	xDark	Started throwing hints left and right.
+2020-02-20 00:25:13	zer0_c00l	yeah
+2020-02-20 00:25:14	zer0_c00l	we saw
+2020-02-20 00:25:15	delta	Also, delta is an alt
+2020-02-20 00:25:16	zer0_c00l	:wow: <https://cdn.discordapp.com/emojis/604179410941247508.png>
+2020-02-20 00:25:19	delta	I have no main
+2020-02-20 00:25:22	xDark	It took them 3 hours to figure out who I was.
+2020-02-20 00:25:25	zer0_c00l	i have no alt
+2020-02-20 00:25:36	zer0_c00l	i dont see the point
+2020-02-20 00:25:42	xDark	For?
+2020-02-20 00:25:45	delta	You
+2020-02-20 00:25:50	zer0_c00l	having an alt
+2020-02-20 00:25:54	xDark	Because I troll a lot. I was reported few dozen of times. I might get banned soon.
+2020-02-20 00:26:05	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-20 00:26:06	xDark	:jamesLUL: <https://cdn.discordapp.com/emojis/567817256961310731.png>
+2020-02-20 00:26:08	delta	Dude we trolled a root member and got banned on the spot
+2020-02-20 00:26:11	delta	Im upset
+2020-02-20 00:26:16	xDark	Where?
+2020-02-20 00:26:17	zer0_c00l	when where
+2020-02-20 00:26:20	delta	Like, yeeted from discord
+2020-02-20 00:26:24	zer0_c00l	no
+2020-02-20 00:26:27	delta	:catSAD: <https://cdn.discordapp.com/emojis/567817253945606174.png>
+2020-02-20 00:26:35	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-20 00:26:36	zer0_c00l	oh, ban ban
+2020-02-20 00:26:54	zer0_c00l	why would discord care
+2020-02-20 00:26:59	delta	:eShrug: <https://cdn.discordapp.com/emojis/585561618864144466.png>
+2020-02-20 00:27:26	yyyyy	when is apoc getting unbanned
+2020-02-20 00:27:33	xDark	Apoc is Arjun
+2020-02-20 00:27:46	yyyyy	everytime he wants to get on LHC he has to log into his alt
+2020-02-20 00:28:01	yyyyy	Apoc is not Arjun
+2020-02-20 00:28:35	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-20 00:29:18	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-20 00:29:20	<--	Fish_Tank (Fish_Tank@discord) has left #trusted ()
+2020-02-20 00:29:22	-->	ilija (ilija@discord) has joined #trusted
+2020-02-20 00:31:18	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-20 00:32:05	xDark	I can feel it
+2020-02-20 00:32:08	xDark	with my soul.
+2020-02-20 00:33:56	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-20 00:36:53	yyyyy	Nah man
+2020-02-20 00:37:23	yyyyy	if so
+2020-02-20 00:37:48	yyyyy	Apoc is a literary mastermind of our times, unlike that scrappy facsimile of you that you spun up
+2020-02-20 00:37:57	yyyyy	their writing styles are so different
+2020-02-20 00:39:36	xDark	Bruh
+2020-02-20 00:40:07	xDark	It was all an act to laugh a bit, I even threw hints left and right. I explained my reasons behind the account too.
+2020-02-20 00:40:12	xDark	Stop judging me.
+2020-02-20 00:41:10	-->	Pyro57 (Pyro57@discord) has joined #trusted
+2020-02-20 00:42:12	xDark	Who hurt you ?
+2020-02-20 00:42:42	Pyro57	@xDark  I motivate you?
+2020-02-20 00:42:53	xDark	Yeah, you are always working
+2020-02-20 00:42:56	xDark	Studying
+2020-02-20 00:43:17	xDark	And finding time to gib ur fiancee some luv
+2020-02-20 00:43:23	Pyro57	lol I try
+2020-02-20 00:43:35	Pyro57	my new years resolution is to do at least 1 hacking related thing a day
+2020-02-20 00:43:40	Pyro57	that's helped a ton
+2020-02-20 00:43:52	xDark	Mine was to read 10 pages per day.
+2020-02-20 00:44:00	Pyro57	like doesn't have to be big, could just be helping someone out on a forum, but at least one thing lol
+2020-02-20 00:44:03	Pyro57	nice!
+2020-02-20 00:44:21	xDark	You are helping tons of people around here.
+2020-02-20 00:44:21	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-20 00:44:26	xDark	I honestly can't deal with people that much.
+2020-02-20 00:44:33	Pyro57	speaking of which I'm at the end of the last expanse book out so far, and MAN WTF IS GOING ON THIS IS TOO INTENSE FOR ME GOD DAMN IT
+2020-02-20 00:44:35	Pyro57	ahem
+2020-02-20 00:44:38	Pyro57	thanks my guy 😄
+2020-02-20 00:45:29	xDark	I like "off to be the wizard".
+2020-02-20 00:45:35	xDark	It's computer and hacking oriented.
+2020-02-20 00:45:39	xDark	You might love it.
+2020-02-20 00:45:48	xDark	EDIT: I liked "off to be the wizard".
+2020-02-20 00:45:56	xDark	I finished the first book and can't find enough time to order the rest.
+2020-02-20 00:46:34	Pyro57	nice I'll have to check it out
+2020-02-20 00:47:12	<--	westy (westy@discord) has left #trusted ()
+2020-02-20 00:49:19	<--	Single (Single@discord) has left #trusted ()
+2020-02-20 00:49:21	-->	Single (Single@discord) has joined #trusted
+2020-02-20 00:49:42	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-20 00:49:52	-->	westy (westy@discord) has joined #trusted
+2020-02-20 00:51:01	Pyro57	in other news realized I was a big dumb dumb during my review for the PTP
+2020-02-20 00:51:05	Pyro57	couldn't get my pivoting working
+2020-02-20 00:51:17	Pyro57	realized once again.... proxychains needs full tcp connections
+2020-02-20 00:51:23	xDark	Lol
+2020-02-20 00:51:29	xDark	:yeet: <https://cdn.discordapp.com/emojis/568422904463753226.png>
+2020-02-20 00:51:30	Pyro57	just need to get that tatooed so I don't forget it
+2020-02-20 00:51:58	xDark	I keep forgetting that too.
+2020-02-20 00:52:01	xDark	Remember, focus on your pivoting skills. you gonna need those.
+2020-02-20 00:52:25	Pyro57	yeah that's what I'm focusing on
+2020-02-20 00:52:49	Pyro57	was gonna do the clientside exploitation lab again for more review
+2020-02-20 00:53:16	Pyro57	think that's the one that had the portforwards through meterpreter sessions iirc
+2020-02-20 00:54:41	zer0_c00l	tattoos you say?
+2020-02-20 00:54:44	zer0_c00l	:pepeThink: <https://cdn.discordapp.com/emojis/615668347954135149.png>
+2020-02-20 00:54:48	zer0_c00l	need to schedule
+2020-02-20 00:55:07	Pyro57	lol already have the metasploit shield and blackarch logo on me XP
+2020-02-20 00:55:11	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-20 00:55:16	Pyro57	what's one more hacking related tattoo
+2020-02-20 00:55:24	zer0_c00l	my pfp
+2020-02-20 00:55:28	zer0_c00l	and handle
+2020-02-20 00:55:42	zer0_c00l	:hackerman: <https://cdn.discordapp.com/emojis/399384186965852161.png>
+2020-02-20 00:55:46	zer0_c00l	:hacker: <https://cdn.discordapp.com/emojis/395975163163967489.png>
+2020-02-20 00:55:47	Pyro57	kay there Crash Overide... or should I call you Zer0cool
+2020-02-20 00:55:54	zer0_c00l	zer0
+2020-02-20 00:55:55	zer0_c00l	lol
+2020-02-20 00:56:26	zer0_c00l	`whooooaaaaaaaaa, duddddeeeeee, CRash and burn!`
+2020-02-20 00:56:59	Pyro57	lol just watched that movie for the first time a bit ago
+2020-02-20 00:57:03	Pyro57	it was glorious
+2020-02-20 00:57:05	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-20 00:57:06	zer0_c00l	lmao,
+2020-02-20 00:57:08	zer0_c00l	indeed
+2020-02-20 00:57:15	zer0_c00l	arent her "eyes" glorious also?
+2020-02-20 00:57:19	zer0_c00l	:kermlove: <https://cdn.discordapp.com/emojis/521771800909185025.png>
+2020-02-20 00:57:54	Pyro57	lol eyes yeah
+2020-02-20 00:59:11	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-20 00:59:28	<--	Belissimoo (Belissimoo@discord) has quit (Leaving...)
+2020-02-20 01:00:45	yyyyy	@xDark I know arjun like I know the state of Arizona - only vaguely, but our destines are intwined
+2020-02-20 01:00:52	yyyyy	Arjun is no man's creation
+2020-02-20 01:00:58	yyyyy	no, he is a creation of God
+2020-02-20 01:01:16	zer0_c00l	arjun is gay
+2020-02-20 01:01:23	Shikata	^
+2020-02-20 01:01:23	yyyyy	sorry, was knee-deep in my toilet
+2020-02-20 01:01:25	yyyyy	😦
+2020-02-20 01:01:26	zer0_c00l	total fuck wad
+2020-02-20 01:01:38	zer0_c00l	how deep is your toilet
+2020-02-20 01:01:42	<--	CyberDecker (CyberDecker@discord) has left #trusted ()
+2020-02-20 01:01:44	zer0_c00l	are your poobs that dank?
+2020-02-20 01:01:50	yyyyy	cleaning my house
+2020-02-20 01:01:52	yyyyy	too many fumes
+2020-02-20 01:01:53	yyyyy	😦
+2020-02-20 01:02:06	zer0_c00l	poob fumes or chemicals?
+2020-02-20 01:02:21	yyyyy	chemicals
+2020-02-20 01:02:24	yyyyy	women don't poop silly
+2020-02-20 01:03:39	-->	Hez (Hez@discord) has joined #trusted
+2020-02-20 01:04:04	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 01:05:08	-->	Big_Man (Big_Man@discord) has joined #trusted
+2020-02-20 01:10:28	-->	vruh (vruh@discord) has joined #trusted
+2020-02-20 01:12:30	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-20 01:12:42	-->	vruh (vruh@discord) has joined #trusted
+2020-02-20 01:14:45	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 01:15:28	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-20 01:15:34	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 01:17:34	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 01:20:05	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 01:22:05	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 01:23:42	<--	Cat (Cat@discord) has quit (Leaving...)
+2020-02-20 01:23:57	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 01:24:20	zer0_c00l	yes @Shikata ?
+2020-02-20 01:24:35	Shikata	huh?
+2020-02-20 01:24:41	zer0_c00l	you were tpin
+2020-02-20 01:24:44	zer0_c00l	EDIT: you were typin
+2020-02-20 01:25:11	-->	Cat (Cat@discord) has joined #trusted
+2020-02-20 01:27:05	Shikata	ahh
+2020-02-20 01:27:09	Shikata	das confusing
+2020-02-20 01:27:31	-->	vruh (vruh@discord) has joined #trusted
+2020-02-20 01:32:45	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-20 01:34:03	-->	vruh (vruh@discord) has joined #trusted
+2020-02-20 01:40:45	v01dwalk-	Poob fumes is a phrase I never wanna hear again
+2020-02-20 01:41:36	Mandos	:peepoBAN: <https://cdn.discordapp.com/emojis/643998312789442561.png>
+2020-02-20 01:46:15	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-20 01:46:33	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-20 01:56:19	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-20 01:57:17	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 01:57:34	<--	yyyyy (yyyyy@discord) has left #trusted ()
+2020-02-20 01:59:49	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-20 02:00:06	-->	Hez (Hez@discord) has joined #trusted
+2020-02-20 02:01:36	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-20 02:01:49	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-20 02:03:01	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-20 02:03:24	-->	vruh (vruh@discord) has joined #trusted
+2020-02-20 02:03:49	<--	yyyyy (yyyyy@discord) has left #trusted ()
+2020-02-20 02:04:56	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 02:05:25	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-20 02:05:37	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-20 02:06:26	<--	westy (westy@discord) has left #trusted ()
+2020-02-20 02:07:24	-->	Hez (Hez@discord) has joined #trusted
+2020-02-20 02:09:14	-->	westy (westy@discord) has joined #trusted
+2020-02-20 02:09:37	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-20 02:10:22	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 02:10:50	-->	Hez (Hez@discord) has joined #trusted
+2020-02-20 02:11:41	-->	vruh (vruh@discord) has joined #trusted
+2020-02-20 02:13:41	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-20 02:14:19	<--	Single (Single@discord) has left #trusted ()
+2020-02-20 02:14:24	-->	Single (Single@discord) has joined #trusted
+2020-02-20 02:16:42	-->	vruh (vruh@discord) has joined #trusted
+2020-02-20 02:22:18	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-20 02:22:26	-->	Hez (Hez@discord) has joined #trusted
+2020-02-20 02:26:33	Hez	today in LHC @yyyyy accidentally makes chlorine gas in her bathroom and mistakes Arjun for a demi-god who's destiny is intertwined with hers.
+2020-02-20 02:26:33	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 02:26:42	Hez	good to see I didn't miss anything
+2020-02-20 02:31:14	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 02:31:26	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-20 02:35:04	Shikata	Guys im go pee on bleach and breathe in the fumes
+2020-02-20 02:35:09	chick3nman	😐
+2020-02-20 02:35:13	Shikata	Yen advised me to do that
+2020-02-20 02:35:22	Shikata	As she was cleaning
+2020-02-20 02:35:27	<--	Fish_Tank (Fish_Tank@discord) has left #trusted ()
+2020-02-20 02:35:44	Shikata	:CaraputeExtasy: <https://cdn.discordapp.com/emojis/630260339380060170.gif>
+2020-02-20 02:36:11	Shikata	I spilled bleach once in my garage and my dog kid you not...came a pissed on it
+2020-02-20 02:36:21	Shikata	EDIT: I spilled bleach once in my garage and my dog kid you not...came and pissed on it
+2020-02-20 02:37:38	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 02:38:02	zer0_c00l	doggoes are weird, can confirm
+2020-02-20 02:42:18	Shikata	Hmmm
+2020-02-20 02:42:19	Shikata	Y
+2020-02-20 02:42:40	Shikata	Also  @chick3nman u be lurking
+2020-02-20 02:42:58	chick3nman	yeet
+2020-02-20 02:43:12	chick3nman	that workin lurkin
+2020-02-20 02:43:58	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 02:46:57	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 02:47:32	v01dwalk-	girls dont pee what does she about it
+2020-02-20 02:47:36	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-20 02:48:31	yyyyy	@v01dwalk- I've seen some porn that would make you rethink that
+2020-02-20 02:48:44	v01dwalk-	@yyyyy of course you have you perv
+2020-02-20 02:48:57	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 02:49:23	v01dwalk-	EDIT: girls dont pee what does she know about it
+2020-02-20 02:49:35	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 02:51:35	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 02:51:46	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 02:53:46	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 02:55:11	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 02:55:26	<--	ilija (ilija@discord) has left #trusted ()
+2020-02-20 02:57:11	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 02:58:13	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-20 03:00:22	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-20 03:00:28	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 03:01:15	<--	Pyro57 (Pyro57@discord) has left #trusted ()
+2020-02-20 03:02:28	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 03:02:34	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 03:06:38	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 03:08:13	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 03:09:07	Shikata	I mean
+2020-02-20 03:09:09	Shikata	https://cdn.discordapp.com/attachments/564925054765367296/679827254292774923/Screenshot_20200219-161040_Discord.jpg
+2020-02-20 03:10:13	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 03:11:11	Mandos	goddamn, how old are these scrots
+2020-02-20 03:11:38	Shikata	Which ones
+2020-02-20 03:12:06	Mandos	oh wait, i thought that was from this server. it's from apoc's tho
+2020-02-20 03:12:13	v01dwalk-	OKAY SO WHEN I CALL IT SCROT IT ISNT OK
+2020-02-20 03:12:22	v01dwalk-	Big sad.
+2020-02-20 03:12:25	Mandos	who said it isnt ok lmao
+2020-02-20 03:12:30	v01dwalk-	You did
+2020-02-20 03:12:40	Mandos	wut
+2020-02-20 03:12:46	Mandos	when where
+2020-02-20 03:12:58	v01dwalk-	When I had /scrot/ on my screenshot host path
+2020-02-20 03:13:05	v01dwalk-	You made fun of me
+2020-02-20 03:13:06	v01dwalk-	U Vick
+2020-02-20 03:13:13	v01dwalk-	EDIT: U cuck
+2020-02-20 03:13:27	Shikata	Guys guys your both ugly...can I go home now
+2020-02-20 03:13:40	Shikata	:doggoWink: <https://cdn.discordapp.com/emojis/585959962342064173.png>
+2020-02-20 03:13:46	Mandos	do not remember this
+2020-02-20 03:13:52	Mandos	need proof
+2020-02-20 03:14:37	v01dwalk-	Wait it might have been sped instead
+2020-02-20 03:14:45	Mandos	@yyyyy Bruh i finished The Amber Spyglass last night.. The ending is heartbreaking :catSAD: <https://cdn.discordapp.com/emojis/567817253945606174.png>
+2020-02-20 03:15:15	yyyyy	@Mandos the end of that series legit depressed me for like a week
+2020-02-20 03:15:36	yyyyy	@v01dwalk- don't remind me of the scrotum
+2020-02-20 03:15:46	Mandos	i literally couldnt get to sleep coz i kept thinking about it. and then woke up at 3am thinking about it again
+2020-02-20 03:15:47	yyyyy	:catNO: <https://cdn.discordapp.com/emojis/567817253576376331.png>
+2020-02-20 03:15:51	Mandos	it's fucking sad
+2020-02-20 03:15:58	yyyyy	it is heartbreaking
+2020-02-20 03:16:09	yyyyy	go find you some light novel that will make you smile
+2020-02-20 03:16:15	yyyyy	or watch some brainless television
+2020-02-20 03:16:21	v01dwalk-	@yyyyy your fault for snoopin bb
+2020-02-20 03:16:30	yyyyy	@v01dwalk- twas my folly
+2020-02-20 03:16:36	Mandos	I might read High Fidelity
+2020-02-20 03:16:38	v01dwalk-	Ooooh me likely gameshows
+2020-02-20 03:16:42	Mandos	it's been on my read list for a while
+2020-02-20 03:17:09	yyyyy	Oh, I haven't heard of that one
+2020-02-20 03:17:31	yyyyy	have fun on your literary adventures, m8 🙂
+2020-02-20 03:17:33	v01dwalk-	EDIT: Ooooh me likey gameshows
+2020-02-20 03:17:57	Mandos	It's Nick Hornby's most famous book, same guy who wrote About a Boy, if you've heard of that
+2020-02-20 03:18:18	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 03:18:35	Mandos	@v01dwalk- dont bulli me
+2020-02-20 03:18:56	zer0_c00l	high fidelity?
+2020-02-20 03:19:04	zer0_c00l	is that the one they made into movie?
+2020-02-20 03:19:16	v01dwalk-	I’ll give it a read
+2020-02-20 03:19:26	zer0_c00l	https://www.imdb.com/title/tt0146882/
+2020-02-20 03:19:26	urlinfo	title: High Fidelity (2000) - IMDb
+2020-02-20 03:19:26	urlinfo	description: Directed by Stephen Frears.  With John Cusack, Iben Hjejle, Todd Louiso, Jack Black. Rob, a record store owner and compulsive list maker, recounts his top five breakups, including the one in progress.
+2020-02-20 03:19:35	Mandos	@zer0_c00l no, not the romance movie
+2020-02-20 03:19:38	zer0_c00l	oh
+2020-02-20 03:19:48	yyyyy	apparently also a Disney TV series
+2020-02-20 03:20:05	v01dwalk-	Speaking of mindless romance I want to watch TheWedding Guest again.
+2020-02-20 03:20:13	v01dwalk-	EDIT: Speaking of mindless romance I want to watch The Wedding Guest again.
+2020-02-20 03:20:18	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 03:20:18	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 03:20:32	yyyyy	I still need to see that
+2020-02-20 03:20:36	yyyyy	Dev Patel is a babe
+2020-02-20 03:20:56	yyyyy	excited to see him in The Green Knight
+2020-02-20 03:21:04	v01dwalk-	Not that one ;p
+2020-02-20 03:21:31	v01dwalk-	Apparently it’s called barefoot now
+2020-02-20 03:22:17	v01dwalk-	It says a lot that o think daisy is a cute character in the movie
+2020-02-20 03:22:18	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 03:22:21	<--	Cat (Cat@discord) has left #trusted ()
+2020-02-20 03:22:35	v01dwalk-	EDIT: It says a lot that about me, that I think daisy is a cute character in the movie
+2020-02-20 03:23:31	-->	Cat (Cat@discord) has joined #trusted
+2020-02-20 03:24:43	Mandos	Errrrrr.....
+2020-02-20 03:24:43	Mandos	https://cdn.discordapp.com/attachments/564925054765367296/679831170548236315/meymeys.png
+2020-02-20 03:24:49	Mandos	fucking westy
+2020-02-20 03:27:20	zer0_c00l	fucking westy
+2020-02-20 03:38:20	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 03:38:40	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 03:39:26	-->	Pyro57 (Pyro57@discord) has joined #trusted
+2020-02-20 03:39:43	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 03:40:41	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 03:41:26	<--	Pyro57 (Pyro57@discord) has left #trusted ()
+2020-02-20 03:43:05	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 03:45:05	<--	Single (Single@discord) has left #trusted ()
+2020-02-20 03:47:59	-->	ilija (ilija@discord) has joined #trusted
+2020-02-20 03:48:59	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 03:49:15	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 03:50:49	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 03:53:39	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 03:53:53	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 03:53:53	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 03:54:00	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 03:54:02	<--	ser3n1ty (ser3n1ty@discord) has left #trusted ()
+2020-02-20 03:54:14	-->	ser3n1ty (ser3n1ty@discord) has joined #trusted
+2020-02-20 03:57:25	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 03:59:25	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 04:01:48	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 04:03:02	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 04:03:36	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 04:03:47	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 04:05:02	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 04:07:42	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 04:09:16	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-20 04:11:31	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 04:11:57	<--	ilija (ilija@discord) has left #trusted ()
+2020-02-20 04:12:00	-->	ilija (ilija@discord) has joined #trusted
+2020-02-20 04:14:35	<--	ilija (ilija@discord) has left #trusted ()
+2020-02-20 04:15:13	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 04:16:26	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 04:16:44	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 04:19:57	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 04:20:13	<--	Cat (Cat@discord) has quit (Leaving...)
+2020-02-20 04:20:39	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 04:22:25	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 04:23:27	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 04:24:29	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 04:27:28	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 04:27:40	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 04:28:33	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 04:29:40	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 04:30:33	-->	Cat (Cat@discord) has joined #trusted
+2020-02-20 04:31:14	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 04:31:51	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 04:35:18	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 04:35:38	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 04:35:43	<--	yyyyy (yyyyy@discord) has left #trusted ()
+2020-02-20 04:35:44	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-20 04:35:50	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-20 04:37:18	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 04:38:19	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 04:40:00	<--	Cat (Cat@discord) has quit (Leaving...)
+2020-02-20 04:40:16	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 04:41:05	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 04:41:39	-->	vruh (vruh@discord) has joined #trusted
+2020-02-20 04:42:16	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 04:43:29	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 04:46:52	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 04:47:25	Shikata	Zesty*
+2020-02-20 04:47:26	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-20 04:50:20	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-20 04:51:07	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 04:53:01	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-20 04:53:07	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 04:59:53	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 05:01:53	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 05:05:12	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 05:07:13	-->	ZERO (ZERO@discord) has joined #trusted
+2020-02-20 05:07:49	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 05:11:56	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 05:12:07	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-20 05:13:01	Dusty	fucking westy
+2020-02-20 05:13:59	Dusty	Are those in PMs again? Must be.
+2020-02-20 05:14:52	yyyyy	*besty
+2020-02-20 05:15:04	Mandos	@Dusty in my server
+2020-02-20 05:15:09	Dusty	I wish he'd say this stuff outside of PMs.
+2020-02-20 05:15:36	Dusty	Ok, ok. Well it's the same effect for me.
+2020-02-20 05:16:07	Mandos	Why?
+2020-02-20 05:16:32	Dusty	Because I can't see it first hand.
+2020-02-20 05:16:44	Mandos	🤔
+2020-02-20 05:16:55	Mandos	why does that matter lmao
+2020-02-20 05:18:35	Dusty	Just a personal issue with it I suppose because I consider it gossip. Yes I know that's part and parcel of Discord, but I don't like it and never have. I can't very well say something if it was in another server, in a DM, or otherwise in an area I don't see openly.
+2020-02-20 05:20:11	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 05:22:11	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 05:28:28	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 05:29:09	<--	Vert3xo (Vert3xo@discord) has left #trusted ()
+2020-02-20 05:30:21	<--	westy (westy@discord) has left #trusted ()
+2020-02-20 05:30:28	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-20 05:31:33	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 05:31:47	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 05:32:32	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-20 05:35:36	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 05:38:51	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 05:40:34	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 05:40:51	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 05:42:34	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 05:44:05	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 05:46:05	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 05:47:26	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 05:48:02	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 05:48:34	Mandos	:GWcmeisterPeepoShrug: <https://cdn.discordapp.com/emojis/403295315685539852.png>
+2020-02-20 05:48:49	Mandos	not much point in bringing it up anyway
+2020-02-20 05:49:01	Mandos	when he posts this kind of stuff privately, i normally talk to him about it
+2020-02-20 05:49:26	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 05:49:27	Mandos	EDIT: when he posts this kind of stuff privately to me, i normally talk to him about it
+2020-02-20 05:51:54	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 06:01:43	-->	felix (felix@discord) has joined #trusted
+2020-02-20 06:03:55	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-20 06:05:19	<--	felix (felix@discord) has left #trusted ()
+2020-02-20 06:06:10	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-20 06:13:38	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 06:15:38	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 06:15:49	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 06:17:49	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 06:18:24	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-20 06:18:59	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 06:20:59	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 06:22:21	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 06:24:21	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 06:28:56	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 06:35:26	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 06:45:23	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-20 06:49:14	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-20 06:54:47	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-20 06:57:53	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-20 06:59:41	<--	Big_Man (Big_Man@discord) has left #trusted ()
+2020-02-20 07:04:11	<--	Svelteٴ (Svelteٴ@discord) has left #trusted ()
+2020-02-20 07:04:24	-->	Svelteٴ (Svelteٴ@discord) has joined #trusted
+2020-02-20 07:10:04	-->	Pyro57 (Pyro57@discord) has joined #trusted
+2020-02-20 07:22:23	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-20 07:22:36	<--	Fish_Tank (Fish_Tank@discord) has left #trusted ()
+2020-02-20 07:24:23	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-20 07:38:50	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-20 07:43:54	-->	vruh (vruh@discord) has joined #trusted
+2020-02-20 07:46:45	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-20 07:59:59	-->	vruh (vruh@discord) has joined #trusted
+2020-02-20 08:01:24	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-20 08:02:00	<--	ser3n1ty (ser3n1ty@discord) has left #trusted ()
+2020-02-20 08:02:17	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-20 08:03:10	-->	ser3n1ty (ser3n1ty@discord) has joined #trusted
+2020-02-20 08:04:39	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 08:09:24	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 08:13:46	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-20 08:16:47	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 08:18:11	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-20 08:18:44	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-20 08:19:41	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-20 08:19:51	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-20 08:22:54	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-20 08:23:14	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-20 08:37:48	-->	vruh (vruh@discord) has joined #trusted
+2020-02-20 08:39:14	-->	Hez (Hez@discord) has joined #trusted
+2020-02-20 08:39:58	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-20 08:45:06	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-20 08:48:17	-->	Lethal_Panda (Lethal_Panda@discord) has joined #trusted
+2020-02-20 08:50:17	<--	Lethal_Panda (Lethal_Panda@discord) has left #trusted ()
+2020-02-20 08:54:04	-->	Hez (Hez@discord) has joined #trusted
+2020-02-20 08:54:22	chick3nman	woooo drunk chick3n time
+2020-02-20 08:55:32	Svelteٴ	https://cdn.discordapp.com/attachments/193278651020738561/679909878818668602/mhmm.mp4
+2020-02-20 08:58:27	<--	Fish_Tank (Fish_Tank@discord) has left #trusted ()
+2020-02-20 08:58:42	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-20 08:59:07	-->	vruh (vruh@discord) has joined #trusted
+2020-02-20 09:04:52	<--	vruh (vruh@discord) has left #trusted ()
+2020-02-20 09:06:33	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-20 09:09:14	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-20 09:11:21	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-20 09:11:26	<--	Fish_Tank (Fish_Tank@discord) has left #trusted ()
+2020-02-20 09:13:21	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-20 09:14:56	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-20 09:17:37	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-20 09:18:10	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-20 09:30:50	<--	Hez (Hez@discord) has left #trusted ()
+2020-02-20 09:32:25	Mandos	oh fuck
+2020-02-20 09:38:58	-->	CyberDecker (CyberDecker@discord) has joined #trusted
+2020-02-20 09:40:22	-->	Cat (Cat@discord) has joined #trusted
+2020-02-20 09:43:28	<--	Cat (Cat@discord) has quit (Leaving...)
+2020-02-20 09:51:29	-->	_7oaster (7oaster@discord) has joined #trusted
+2020-02-20 09:57:09	<--	yyyyy (yyyyy@discord) has left #trusted ()
+2020-02-20 10:02:03	<--	_7oaster (7oaster@discord) has left #trusted ()
+2020-02-20 10:03:06	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 10:05:06	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 10:05:19	-->	felix (felix@discord) has joined #trusted
+2020-02-20 10:06:26	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 10:07:19	<--	felix (felix@discord) has left #trusted ()
+2020-02-20 10:07:41	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-20 10:12:26	<--	yyyyy (yyyyy@discord) has quit (Leaving...)
+2020-02-20 10:15:54	Pyro57	wish I was drunk... so much better than tired af doin work
+2020-02-20 10:17:14	-->	felix (felix@discord) has joined #trusted
+2020-02-20 10:19:14	<--	felix (felix@discord) has left #trusted ()
+2020-02-20 10:19:14	<--	Fish_Tank (Fish_Tank@discord) has left #trusted ()
+2020-02-20 10:20:24	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-20 10:23:21	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-20 10:24:27	<--	yyyyy (yyyyy@discord) has left #trusted ()
+2020-02-20 10:26:16	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 10:27:01	<--	Svelteٴ (Svelteٴ@discord) has left #trusted ()
+2020-02-20 10:29:06	-->	Svelteٴ (Svelteٴ@discord) has joined #trusted
+2020-02-20 10:30:10	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-20 10:30:57	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 10:32:10	<--	Svelteٴ (Svelteٴ@discord) has left #trusted ()
+2020-02-20 10:33:40	-->	Svelteٴ (Svelteٴ@discord) has joined #trusted
+2020-02-20 10:33:49	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-20 10:35:58	<--	yyyyy (yyyyy@discord) has quit (Leaving...)
+2020-02-20 10:39:41	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 10:39:58	<--	Svelteٴ (Svelteٴ@discord) has left #trusted ()
+2020-02-20 10:41:46	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 10:42:20	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 10:44:20	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-20 10:44:40	ℹ 	irc: disconnected from server
+2020-02-20 15:15:16	-->	suren (suren@localhost) has joined #trusted
+2020-02-20 15:15:16	ℹ 	Channel #trusted: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-20 15:15:18	ℹ 	root has changed topic for #trusted to "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-20 15:15:18	ℹ 	root has changed topic for #trusted from "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!" to "Welcome to the real hackerman space! :sunglasses: For TRUSTED and PARTNERS"
+2020-02-20 15:15:18	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-20 15:15:18	-->	westy (westy@discord) has joined #trusted
+2020-02-20 15:15:18	-->	ShazBot (ShazBot@discord) has joined #trusted
+2020-02-20 15:15:18	-->	Waffles (Waffles@discord) has joined #trusted
+2020-02-20 15:15:18	-->	Jesse (Jesse@discord) has joined #trusted
+2020-02-20 15:15:18	-->	FredBoat♪♪ (FredBoat♪♪@discord) has joined #trusted
+2020-02-20 15:15:18	-->	zeroosmilee (zeroosmilee@discord) has joined #trusted
+2020-02-20 15:15:18	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-20 15:15:18	-->	Swayella (Swayella@discord) has joined #trusted
+2020-02-20 15:15:18	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-20 15:15:18	-->	Salient (Salient@discord) has joined #trusted
+2020-02-20 15:15:18	-->	ser3n1ty (ser3n1ty@discord) has joined #trusted
+2020-02-20 15:15:18	-->	Dyno (Dyno@discord) has joined #trusted
+2020-02-20 15:15:18	-->	Pyro57 (Pyro57@discord) has joined #trusted
+2020-02-20 15:15:18	-->	TheGhostNova (TheGhostNova@discord) has joined #trusted
+2020-02-20 15:15:18	-->	inot_ahackerprinti[1] (i=("not_a","hacker");print(i[1])@discord) has joined #trusted
+2020-02-20 15:15:18	-->	chick3nman (chick3nman@discord) has joined #trusted
+2020-02-20 15:15:18	-->	Kaoli (Kaoli@discord) has joined #trusted
+2020-02-20 15:15:18	-->	ARALEZ (ARALEZ@discord) has joined #trusted
+2020-02-20 15:15:18	-->	CyberDecker (CyberDecker@discord) has joined #trusted
+2020-02-20 15:15:18	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-20 15:15:18	-->	EvilRobotOverlord (EvilRobotOverlord@discord) has joined #trusted
+2020-02-20 15:15:18	-->	longears (longears@discord) has joined #trusted
+2020-02-20 15:15:24	-->	h_saxon (h_saxon@discord) has joined #trusted
+2020-02-20 15:15:24	-->	CuddleDeath (CuddleDeath@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Dank_Memer (Dank_Memer@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Tatsu (Tatsu@discord) has joined #trusted
+2020-02-20 15:15:24	-->	___SniperX-D___ (!___SniperX-D___!@discord) has joined #trusted
+2020-02-20 15:15:24	-->	𝙕𝙊𝙒𝙉_🥡 ("𝙕𝙊𝙒𝙉_🥡@discord) has joined #trusted
+2020-02-20 15:15:24	-->	USESTOnigiriMajorblaze ((US,EST)Onigiri/Majorblaze@discord) has joined #trusted
+2020-02-20 15:15:24	-->	-Chindits-|_Burjy (-Chindits-|_Burjy@discord) has joined #trusted
+2020-02-20 15:15:24	-->	pain (.pain@discord) has joined #trusted
+2020-02-20 15:15:24	-->	_0294nutanic (0294nutanic@discord) has joined #trusted
+2020-02-20 15:15:24	-->	_1psaonly (1psaonly@discord) has joined #trusted
+2020-02-20 15:15:24	-->	_1uffyD9 (1uffyD9@discord) has joined #trusted
+2020-02-20 15:15:24	-->	_47thChromosome (47thChromosome@discord) has joined #trusted
+2020-02-20 15:15:24	-->	_7761616461616661616b (7761616461616661616b@discord) has joined #trusted
+2020-02-20 15:15:24	-->	_St4cky_ (<_St4cky_>@discord) has joined #trusted
+2020-02-20 15:15:24	-->	_Atlas_ (_Atlas_@discord) has joined #trusted
+2020-02-20 15:15:24	-->	A2 (A2@discord) has joined #trusted
+2020-02-20 15:15:24	-->	AAnonAAron (AAnonAAron@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Abdullah3916 (Abdullah3916@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Aitorxuxu (Aitorxuxu@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Aldrims (Aldrims@discord) has joined #trusted
+2020-02-20 15:15:24	-->	alekos (alekos@discord) has joined #trusted
+2020-02-20 15:15:24	-->	aleksandarlazarevic (aleksandarlazarevic@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Alex_ (Alex_@discord) has joined #trusted
+2020-02-20 15:15:24	-->	amankh (amankh@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Ando (Ando@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Andrei (Andrei@discord) has joined #trusted
+2020-02-20 15:15:24	-->	AngryKillerSloth (AngryKillerSloth@discord) has joined #trusted
+2020-02-20 15:15:24	-->	aoighost (aoighost@discord) has joined #trusted
+2020-02-20 15:15:24	-->	arsenyca (arsenyca@discord) has joined #trusted
+2020-02-20 15:15:24	-->	ascai (ascai@discord) has joined #trusted
+2020-02-20 15:15:24	-->	ASSMDSVD (ASSMDSVD@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Augment (Augment@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Autism (Autism@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Aztrum (Aztrum@discord) has joined #trusted
+2020-02-20 15:15:24	-->	B1gD4ddy (B1gD4ddy@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Baba_Yaga (Baba_Yaga@discord) has joined #trusted
+2020-02-20 15:15:24	-->	babbadeckl (babbadeckl@discord) has joined #trusted
+2020-02-20 15:15:24	-->	battlefist (battlefist@discord) has joined #trusted
+2020-02-20 15:15:24	-->	BeatBot (BeatBot@discord) has joined #trusted
+2020-02-20 15:15:24	-->	ben (ben@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Ben_Reilly (Ben_Reilly@discord) has joined #trusted
+2020-02-20 15:15:24	-->	bennees (bennees@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Benotto (Benotto@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Big_Boss_Foxhound_CEO (Big_Boss_(Foxhound_CEO)@discord) has joined #trusted
+2020-02-20 15:15:24	-->	bioniclady (bioniclady@discord) has joined #trusted
+2020-02-20 15:15:24	-->	bl4ckh4ck5 (bl4ckh4ck5@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Black_Panda (Black_Panda@discord) has joined #trusted
+2020-02-20 15:15:24	-->	boombudder (boombudder@discord) has joined #trusted
+2020-02-20 15:15:24	-->	BOUKRIM_ABDELADIM (BOUKRIM_ABDELADIM@discord) has joined #trusted
+2020-02-20 15:15:24	-->	BowseR (BowseR@discord) has joined #trusted
+2020-02-20 15:15:24	-->	bradfordbc (bradfordbc@discord) has joined #trusted
+2020-02-20 15:15:24	-->	BRGX (BRGX@discord) has joined #trusted
+2020-02-20 15:15:24	-->	BrianGoldYT (BrianGoldYT@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Brisbane_Mania (Brisbane_Mania@discord) has joined #trusted
+2020-02-20 15:15:24	-->	BrokenPixels™ (BrokenPixels™@discord) has joined #trusted
+2020-02-20 15:15:24	-->	Brolveth (Brolveth@discord) has joined #trusted
+2020-02-20 15:15:28	chick3nman	[12:18:17] woooooooOOOOOOOOOOOO
+2020-02-20 15:15:28	ophelia	[13:49:18] did I hear drunk chickeeen
+2020-02-20 15:28:02	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-20 15:30:42	<--	OvertonWindow (OvertonWindow@discord) has left #trusted ()
+2020-02-20 15:36:12	ℹ 	irc: disconnected from server
+2020-02-24 09:11:59	-->	suren (suren@localhost) has joined #trusted
+2020-02-24 09:11:59	ℹ 	Channel #trusted: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-24 09:12:02	@suren	acc list
+2020-02-24 09:12:12	ℹ 	root has changed topic for #trusted to "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-24 09:12:12	ℹ 	root has changed topic for #trusted from "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!" to "Welcome to the real hackerman space! :sunglasses: For TRUSTED and PARTNERS"
+2020-02-24 09:12:12	-->	Big_Man (Big_Man@discord) has joined #trusted
+2020-02-24 09:12:12	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-24 09:12:12	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-24 09:12:12	-->	ShazBot (ShazBot@discord) has joined #trusted
+2020-02-24 09:12:12	-->	Waffles (Waffles@discord) has joined #trusted
+2020-02-24 09:12:12	-->	Jesse (Jesse@discord) has joined #trusted
+2020-02-24 09:12:12	-->	FredBoat♪♪ (FredBoat♪♪@discord) has joined #trusted
+2020-02-24 09:12:12	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-24 09:12:12	-->	Swayella (Swayella@discord) has joined #trusted
+2020-02-24 09:12:12	-->	Salient (Salient@discord) has joined #trusted
+2020-02-24 09:12:12	-->	ser3n1ty (ser3n1ty@discord) has joined #trusted
+2020-02-24 09:12:12	-->	Dyno (Dyno@discord) has joined #trusted
+2020-02-24 09:12:12	-->	Russ_Hanneman (Russ_Hanneman@discord) has joined #trusted
+2020-02-24 09:12:12	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-24 09:12:12	-->	chick3nman (chick3nman@discord) has joined #trusted
+2020-02-24 09:12:12	-->	Kaoli (Kaoli@discord) has joined #trusted
+2020-02-24 09:12:12	-->	-_- (-_-@discord) has joined #trusted
+2020-02-24 09:12:12	-->	ZERO (ZERO@discord) has joined #trusted
+2020-02-24 09:12:12	-->	longears (longears@discord) has joined #trusted
+2020-02-24 09:12:18	-->	infiniterecursive (infiniterecursive@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Triangles (Triangles@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Banana (Banana@discord) has joined #trusted
+2020-02-24 09:12:18	-->	h_saxon (h_saxon@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Soul (Soul@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Dank_Memer (Dank_Memer@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Tatsu (Tatsu@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Naphal (Naphal@discord) has joined #trusted
+2020-02-24 09:12:18	-->	MurakamiUzi (MurakamiUzi@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Lean ((Lean)@discord) has joined #trusted
+2020-02-24 09:12:18	-->	startup_guy ((startup_guy)@discord) has joined #trusted
+2020-02-24 09:12:18	-->	USESTOnigiriMajorblaze ((US,EST)Onigiri/Majorblaze@discord) has joined #trusted
+2020-02-24 09:12:18	-->	_13enny7W (13enny7W@discord) has joined #trusted
+2020-02-24 09:12:18	-->	_3b1e21a84115a152d177dd (3b1e21a84115a152d177dd7d93e40ca6@discord) has joined #trusted
+2020-02-24 09:12:18	-->	_7761616461616661616b (7761616461616661616b@discord) has joined #trusted
+2020-02-24 09:12:18	-->	_Atlas_ (_Atlas_@discord) has joined #trusted
+2020-02-24 09:12:18	-->	_Bit (_Bit@discord) has joined #trusted
+2020-02-24 09:12:18	-->	A2 (A2@discord) has joined #trusted
+2020-02-24 09:12:18	-->	AAnonAAron (AAnonAAron@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Abdoahmed111 (Abdoahmed111@discord) has joined #trusted
+2020-02-24 09:12:18	-->	AhdB (AhdB@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Akinari (Akinari@discord) has joined #trusted
+2020-02-24 09:12:18	-->	aksdme (aksdme@discord) has joined #trusted
+2020-02-24 09:12:18	-->	akshatmittal (akshatmittal@discord) has joined #trusted
+2020-02-24 09:12:18	-->	AldoRaine (AldoRaine@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Aldrims (Aldrims@discord) has joined #trusted
+2020-02-24 09:12:18	-->	alien (alien@discord) has joined #trusted
+2020-02-24 09:12:18	-->	AlootheSamosa (AlootheSamosa@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Alpine (Alpine@discord) has joined #trusted
+2020-02-24 09:12:18	-->	amankh (amankh@discord) has joined #trusted
+2020-02-24 09:12:18	-->	AngryKillerSloth (AngryKillerSloth@discord) has joined #trusted
+2020-02-24 09:12:18	-->	anthouse (anthouse@discord) has joined #trusted
+2020-02-24 09:12:18	-->	aoighost (aoighost@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Arkham (Arkham@discord) has joined #trusted
+2020-02-24 09:12:18	-->	ARPmac (ARPmac@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Aspac123 (Aspac123@discord) has joined #trusted
+2020-02-24 09:12:18	-->	AssassinOTP (AssassinOTP@discord) has joined #trusted
+2020-02-24 09:12:18	-->	ASSMDSVD (ASSMDSVD@discord) has joined #trusted
+2020-02-24 09:12:18	-->	ath0 (ath0@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Augment (Augment@discord) has joined #trusted
+2020-02-24 09:12:18	-->	avinaS (avinaS@discord) has joined #trusted
+2020-02-24 09:12:18	-->	ayjay (ayjay@discord) has joined #trusted
+2020-02-24 09:12:18	-->	B1gD4ddy (B1gD4ddy@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Baba_Yaga (Baba_Yaga@discord) has joined #trusted
+2020-02-24 09:12:18	-->	babbadeckl (babbadeckl@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Bean (Bean@discord) has joined #trusted
+2020-02-24 09:12:18	-->	beep_boop_what_is_discor (beep_boop_what_is_discord@discord) has joined #trusted
+2020-02-24 09:12:18	-->	bella (bella@discord) has joined #trusted
+2020-02-24 09:12:18	-->	ben (ben@discord) has joined #trusted
+2020-02-24 09:12:18	-->	bennees (bennees@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Benotto (Benotto@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Big_Boss_Foxhound_CEO (Big_Boss_(Foxhound_CEO)@discord) has joined #trusted
+2020-02-24 09:12:18	-->	bioniclady (bioniclady@discord) has joined #trusted
+2020-02-24 09:12:18	-->	bl4ckh4ck5 (bl4ckh4ck5@discord) has joined #trusted
+2020-02-24 09:12:18	-->	BlackBox (BlackBox@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Bleh_King (Bleh_King@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Bleu (Bleu@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Blinker1166 (Blinker1166@discord) has joined #trusted
+2020-02-24 09:12:18	-->	Bluntest (Bluntest@discord) has joined #trusted
+2020-02-24 09:12:18	-->	BlykhLorD (BlykhLorD@discord) has joined #trusted
+2020-02-24 09:12:19	Shikata	[06:54:53] :dead_chat: <https://cdn.discordapp.com/emojis/581471626114105344.png>
+2020-02-24 09:12:19	longears	[07:55:46] Any fun Arjun did since our conversation yesterday? Or he's still entertaining us in #general?
+2020-02-24 09:12:19	Shikata	[07:56:25] No...not uet
+2020-02-24 09:12:19	Shikata	[07:56:28] Yet*
+2020-02-24 09:12:19	Shikata	[07:56:39] Ive been watching
+2020-02-24 09:12:19	longears	[08:12:23] Ah, ok :(
+2020-02-24 09:12:19	voltamage	[08:20:49] https://cdn.discordapp.com/attachments/564925054765367296/681354825216032787/Screenshot_20200223-201953_Discord.jpg
+2020-02-24 09:12:19	voltamage	[08:20:49] https://cdn.discordapp.com/attachments/564925054765367296/681354825849765900/Screenshot_20200223-202024_Discord.jpg
+2020-02-24 09:12:19	voltamage	[08:20:54] :peepo: <https://cdn.discordapp.com/emojis/586290077349707786.png>
+2020-02-24 09:13:43	ℹ 	irc: disconnected from server
+2020-02-24 09:13:49	-->	suren (suren@localhost) has joined #trusted
+2020-02-24 09:13:49	ℹ 	Channel #trusted: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-24 09:14:01	ℹ 	root has changed topic for #trusted to "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-24 09:14:01	ℹ 	root has changed topic for #trusted from "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!" to "Welcome to the real hackerman space! :sunglasses: For TRUSTED and PARTNERS"
+2020-02-24 09:14:01	-->	Big_Man (Big_Man@discord) has joined #trusted
+2020-02-24 09:14:01	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-24 09:14:01	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-24 09:14:01	-->	ShazBot (ShazBot@discord) has joined #trusted
+2020-02-24 09:14:01	-->	Waffles (Waffles@discord) has joined #trusted
+2020-02-24 09:14:01	-->	Jesse (Jesse@discord) has joined #trusted
+2020-02-24 09:14:01	-->	FredBoat♪♪ (FredBoat♪♪@discord) has joined #trusted
+2020-02-24 09:14:01	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-24 09:14:01	-->	Swayella (Swayella@discord) has joined #trusted
+2020-02-24 09:14:01	-->	Salient (Salient@discord) has joined #trusted
+2020-02-24 09:14:01	-->	ser3n1ty (ser3n1ty@discord) has joined #trusted
+2020-02-24 09:14:01	-->	Dyno (Dyno@discord) has joined #trusted
+2020-02-24 09:14:01	-->	Russ_Hanneman (Russ_Hanneman@discord) has joined #trusted
+2020-02-24 09:14:01	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-24 09:14:01	-->	chick3nman (chick3nman@discord) has joined #trusted
+2020-02-24 09:14:01	-->	Kaoli (Kaoli@discord) has joined #trusted
+2020-02-24 09:14:01	-->	-_- (-_-@discord) has joined #trusted
+2020-02-24 09:14:01	-->	ZERO (ZERO@discord) has joined #trusted
+2020-02-24 09:14:01	-->	longears (longears@discord) has joined #trusted
+2020-02-24 09:14:08	-->	infiniterecursive (infiniterecursive@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Triangles (Triangles@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Banana (Banana@discord) has joined #trusted
+2020-02-24 09:14:08	-->	h_saxon (h_saxon@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Soul (Soul@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Dank_Memer (Dank_Memer@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Tatsu (Tatsu@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Naphal (Naphal@discord) has joined #trusted
+2020-02-24 09:14:08	-->	MurakamiUzi (MurakamiUzi@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Lean ((Lean)@discord) has joined #trusted
+2020-02-24 09:14:08	-->	startup_guy ((startup_guy)@discord) has joined #trusted
+2020-02-24 09:14:08	-->	USESTOnigiriMajorblaze ((US,EST)Onigiri/Majorblaze@discord) has joined #trusted
+2020-02-24 09:14:08	-->	_0x5a (0x5a@discord) has joined #trusted
+2020-02-24 09:14:08	-->	_13enny7W (13enny7W@discord) has joined #trusted
+2020-02-24 09:14:08	-->	_1psaonly (1psaonly@discord) has joined #trusted
+2020-02-24 09:14:08	-->	_3b1e21a84115a152d177dd (3b1e21a84115a152d177dd7d93e40ca6@discord) has joined #trusted
+2020-02-24 09:14:08	-->	_7761616461616661616b (7761616461616661616b@discord) has joined #trusted
+2020-02-24 09:14:08	-->	_Atlas_ (_Atlas_@discord) has joined #trusted
+2020-02-24 09:14:08	-->	_Bit (_Bit@discord) has joined #trusted
+2020-02-24 09:14:08	-->	A2 (A2@discord) has joined #trusted
+2020-02-24 09:14:08	-->	AAnonAAron (AAnonAAron@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Abdoahmed111 (Abdoahmed111@discord) has joined #trusted
+2020-02-24 09:14:08	-->	AhdB (AhdB@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Akinari (Akinari@discord) has joined #trusted
+2020-02-24 09:14:08	-->	akshatmittal (akshatmittal@discord) has joined #trusted
+2020-02-24 09:14:08	-->	AldoRaine (AldoRaine@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Aldrims (Aldrims@discord) has joined #trusted
+2020-02-24 09:14:08	-->	algiuxas (algiuxas@discord) has joined #trusted
+2020-02-24 09:14:08	-->	alien (alien@discord) has joined #trusted
+2020-02-24 09:14:08	-->	AlootheSamosa (AlootheSamosa@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Alpine (Alpine@discord) has joined #trusted
+2020-02-24 09:14:08	-->	amankh (amankh@discord) has joined #trusted
+2020-02-24 09:14:08	-->	AngryKillerSloth (AngryKillerSloth@discord) has joined #trusted
+2020-02-24 09:14:08	-->	anthouse (anthouse@discord) has joined #trusted
+2020-02-24 09:14:08	-->	aoighost (aoighost@discord) has joined #trusted
+2020-02-24 09:14:08	-->	ARPmac (ARPmac@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Aspac123 (Aspac123@discord) has joined #trusted
+2020-02-24 09:14:08	-->	AssassinOTP (AssassinOTP@discord) has joined #trusted
+2020-02-24 09:14:08	-->	ASSMDSVD (ASSMDSVD@discord) has joined #trusted
+2020-02-24 09:14:08	-->	ath0 (ath0@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Augment (Augment@discord) has joined #trusted
+2020-02-24 09:14:08	-->	avinaS (avinaS@discord) has joined #trusted
+2020-02-24 09:14:08	-->	ayjay (ayjay@discord) has joined #trusted
+2020-02-24 09:14:08	-->	B1gD4ddy (B1gD4ddy@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Baba_Yaga (Baba_Yaga@discord) has joined #trusted
+2020-02-24 09:14:08	-->	babbadeckl (babbadeckl@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Bean (Bean@discord) has joined #trusted
+2020-02-24 09:14:08	-->	beep_boop_what_is_discor (beep_boop_what_is_discord@discord) has joined #trusted
+2020-02-24 09:14:08	-->	bella (bella@discord) has joined #trusted
+2020-02-24 09:14:08	-->	ben (ben@discord) has joined #trusted
+2020-02-24 09:14:08	-->	bennees (bennees@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Benotto (Benotto@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Big_Boss_Foxhound_CEO (Big_Boss_(Foxhound_CEO)@discord) has joined #trusted
+2020-02-24 09:14:08	-->	bioniclady (bioniclady@discord) has joined #trusted
+2020-02-24 09:14:08	-->	bl4ckh4ck5 (bl4ckh4ck5@discord) has joined #trusted
+2020-02-24 09:14:08	-->	BlackBox (BlackBox@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Bleh_King (Bleh_King@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Bleu (Bleu@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Blinker1166 (Blinker1166@discord) has joined #trusted
+2020-02-24 09:14:08	-->	Bluntest (Bluntest@discord) has joined #trusted
+2020-02-24 09:14:08	-->	BlykhLorD (BlykhLorD@discord) has joined #trusted
+2020-02-24 09:14:14	longears	``bitlbee`` :smirk:
+2020-02-24 09:14:34	@suren	Sorry :catSAD: <https://cdn.discordapp.com/emojis/567817253945606174.png>
+2020-02-24 09:14:43	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-24 09:14:57	longears	No worries, was just nice to see it :D
+2020-02-24 09:15:46	@suren	you doing good?
+2020-02-24 09:17:16	longears	Yep. Just preparing for tomorrow. How are you doing?
+2020-02-24 09:17:40	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-24 09:28:51	-->	Elite_Hacker (Elite_Hacker@discord) has joined #trusted
+2020-02-24 09:34:02	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-24 09:36:02	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-24 09:37:30	<--	yyyyy (yyyyy@discord) has quit (Leaving...)
+2020-02-24 09:42:32	<--	Elite_Hacker (Elite_Hacker@discord) has left #trusted ()
+2020-02-24 09:45:18	<--	ZERO (ZERO@discord) has left #trusted ()
+2020-02-24 09:48:32	-->	yyyyy (yyyyy@discord) has joined #trusted
+2020-02-24 09:49:10	-->	Killrog (Killrog@discord) has joined #trusted
+2020-02-24 09:51:11	<--	yyyyy (yyyyy@discord) has quit (Leaving...)
+2020-02-24 09:51:14	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-24 09:51:51	<--	Killrog (Killrog@discord) has left #trusted ()
+2020-02-24 09:53:03	-->	Killrog (Killrog@discord) has joined #trusted
+2020-02-24 09:53:14	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-24 09:55:04	<--	Killrog (Killrog@discord) has left #trusted ()
+2020-02-24 09:58:50	-->	Elite_Hacker (Elite_Hacker@discord) has joined #trusted
+2020-02-24 10:01:53	@suren	doing just fine
+2020-02-24 10:04:57	<--	Elite_Hacker (Elite_Hacker@discord) has left #trusted ()
+2020-02-24 10:05:44	longears	Neat :)
+2020-02-24 10:08:03	Shikata	so what did apoc get beaned for?
+2020-02-24 10:09:16	longears	I don't remember. I think just being a smartass jackass follower of frinto cult and his attitude.
+2020-02-24 10:09:27	Shikata	@MightyUnderTaker Check this chat
+2020-02-24 10:09:29	Shikata	For arjun
+2020-02-24 10:09:31	Shikata	story
+2020-02-24 10:11:30	Shikata	@MightyUnderTaker Read from here
+2020-02-24 10:11:31	Shikata	https://discordapp.com/channels/326839256758616068/564925054765367296/680688165404934151
+2020-02-24 10:12:42	longears	@MightyUnderTaker He's a the reason why my eyes and face hurts so much from rolling and facepalming.
+2020-02-24 10:13:20	@suren	I hate him with so much passion already
+2020-02-24 10:13:40	@suren	Reminds me of both print and Jimmy at the same time
+2020-02-24 10:14:29	Shikata	and frint0
+2020-02-24 10:14:35	Shikata	its why we want him banned
+2020-02-24 10:14:41	Shikata	if you read from the chat link I sent
+2020-02-24 10:14:46	Shikata	you will understand
+2020-02-24 10:16:28	@suren	on cli now, will read later
+2020-02-24 10:23:51	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-24 10:27:13	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-24 10:27:44	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-24 10:28:48	-->	Elite_Hacker (Elite_Hacker@discord) has joined #trusted
+2020-02-24 10:29:50	longears	@MightyUnderTaker Won't be surprised if LordArjuna is going to be next.
+2020-02-24 10:30:00	@suren	I meant exactly him tbh
+2020-02-24 10:30:38	longears	```LordArjuna | i cant imagine doing something so harsh to someone longears, that could have been me too.```
+2020-02-24 10:31:04	@suren	LMAO yeah
+2020-02-24 10:33:38	ophelia	sigh
+2020-02-24 10:34:14	<--	Elite_Hacker (Elite_Hacker@discord) has left #trusted ()
+2020-02-24 10:35:57	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-24 10:37:05	longears	```22:37 <LordArjuna> <@459479848163868672>   if you decide to ban me in the future, dont do it yourself, it would break me, ask someone else to do it``` I really want to ban this guy. He annoys the hell out of me.
+2020-02-24 10:37:54	longears	But, lets remain civil for fucks sake =\ Hard part of managing anything is sticking to the rules =\
+2020-02-24 10:37:57	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-24 10:38:02	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-24 10:38:34	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-24 10:39:14	ophelia	oh my god he’s so dramatic
+2020-02-24 10:39:15	ophelia	how
+2020-02-24 10:39:50	Mandos	I thought it was common knowledge that bigman == apoc and the roots were fine with it?
+2020-02-24 10:40:21	Mandos	EDIT: I thought it was common knowledge that bigman == apoc, and the roots were fine with it?
+2020-02-24 10:40:37	ℹ 	irc: disconnected from server
+2020-02-24 10:40:47	-->	suren (suren@localhost) has joined #trusted
+2020-02-24 10:40:47	ℹ 	Channel #trusted: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-24 10:41:00	ℹ 	root has changed topic for #trusted to "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-24 10:41:00	ℹ 	root has changed topic for #trusted from "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!" to "Welcome to the real hackerman space! :sunglasses: For TRUSTED and PARTNERS"
+2020-02-24 10:41:00	-->	ShazBot (ShazBot@discord) has joined #trusted
+2020-02-24 10:41:00	-->	Waffles (Waffles@discord) has joined #trusted
+2020-02-24 10:41:00	-->	Jesse (Jesse@discord) has joined #trusted
+2020-02-24 10:41:00	-->	FredBoat♪♪ (FredBoat♪♪@discord) has joined #trusted
+2020-02-24 10:41:00	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-24 10:41:00	-->	Swayella (Swayella@discord) has joined #trusted
+2020-02-24 10:41:00	-->	ophelia (ophelia@discord) has joined #trusted
+2020-02-24 10:41:00	-->	Salient (Salient@discord) has joined #trusted
+2020-02-24 10:41:00	-->	ser3n1ty (ser3n1ty@discord) has joined #trusted
+2020-02-24 10:41:00	-->	Dyno (Dyno@discord) has joined #trusted
+2020-02-24 10:41:00	-->	Russ_Hanneman (Russ_Hanneman@discord) has joined #trusted
+2020-02-24 10:41:00	-->	Lowebrew (Lowebrew@discord) has joined #trusted
+2020-02-24 10:41:00	-->	chick3nman (chick3nman@discord) has joined #trusted
+2020-02-24 10:41:00	-->	Kaoli (Kaoli@discord) has joined #trusted
+2020-02-24 10:41:00	-->	-_- (-_-@discord) has joined #trusted
+2020-02-24 10:41:00	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-24 10:41:00	-->	longears (longears@discord) has joined #trusted
+2020-02-24 10:41:06	-->	infiniterecursive (infiniterecursive@discord) has joined #trusted
+2020-02-24 10:41:06	-->	h_saxon (h_saxon@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Dank_Memer (Dank_Memer@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Tatsu (Tatsu@discord) has joined #trusted
+2020-02-24 10:41:06	-->	MurakamiUzi (MurakamiUzi@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Lean ((Lean)@discord) has joined #trusted
+2020-02-24 10:41:06	-->	startup_guy ((startup_guy)@discord) has joined #trusted
+2020-02-24 10:41:06	-->	USESTOnigiriMajorblaze ((US,EST)Onigiri/Majorblaze@discord) has joined #trusted
+2020-02-24 10:41:06	-->	_0294nutanic (0294nutanic@discord) has joined #trusted
+2020-02-24 10:41:06	-->	_13enny7W (13enny7W@discord) has joined #trusted
+2020-02-24 10:41:06	-->	_1uffyD9 (1uffyD9@discord) has joined #trusted
+2020-02-24 10:41:06	-->	_2ez (2ez@discord) has joined #trusted
+2020-02-24 10:41:06	-->	_3b1e21a84115a152d177dd (3b1e21a84115a152d177dd7d93e40ca6@discord) has joined #trusted
+2020-02-24 10:41:06	-->	_Atlas_ (_Atlas_@discord) has joined #trusted
+2020-02-24 10:41:06	-->	_Bit (_Bit@discord) has joined #trusted
+2020-02-24 10:41:06	-->	A2 (A2@discord) has joined #trusted
+2020-02-24 10:41:06	-->	AAnonAAron (AAnonAAron@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Abdoahmed111 (Abdoahmed111@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Abdullah3916 (Abdullah3916@discord) has joined #trusted
+2020-02-24 10:41:06	-->	ajordanrub (ajordanrub@discord) has joined #trusted
+2020-02-24 10:41:06	-->	akshatmittal (akshatmittal@discord) has joined #trusted
+2020-02-24 10:41:06	-->	AldoRaine (AldoRaine@discord) has joined #trusted
+2020-02-24 10:41:06	-->	alien (alien@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Alpine (Alpine@discord) has joined #trusted
+2020-02-24 10:41:06	-->	amankh (amankh@discord) has joined #trusted
+2020-02-24 10:41:06	-->	An1 (An1@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Ando (Ando@discord) has joined #trusted
+2020-02-24 10:41:06	-->	AngryKillerSloth (AngryKillerSloth@discord) has joined #trusted
+2020-02-24 10:41:06	-->	anon420 (anon420@discord) has joined #trusted
+2020-02-24 10:41:06	-->	anthouse (anthouse@discord) has joined #trusted
+2020-02-24 10:41:06	-->	aoighost (aoighost@discord) has joined #trusted
+2020-02-24 10:41:06	-->	ARPmac (ARPmac@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Asmarus (Asmarus@discord) has joined #trusted
+2020-02-24 10:41:06	-->	ASSMDSVD (ASSMDSVD@discord) has joined #trusted
+2020-02-24 10:41:06	-->	ath0 (ath0@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Augment (Augment@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Avacyn (Avacyn@discord) has joined #trusted
+2020-02-24 10:41:06	-->	avinaS (avinaS@discord) has joined #trusted
+2020-02-24 10:41:06	-->	B1gD4ddy (B1gD4ddy@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Baba_Yaga (Baba_Yaga@discord) has joined #trusted
+2020-02-24 10:41:06	-->	babbadeckl (babbadeckl@discord) has joined #trusted
+2020-02-24 10:41:06	-->	ballsohard (ballsohard@discord) has joined #trusted
+2020-02-24 10:41:06	-->	beep_boop_what_is_discor (beep_boop_what_is_discord@discord) has joined #trusted
+2020-02-24 10:41:06	-->	bella (bella@discord) has joined #trusted
+2020-02-24 10:41:06	-->	ben (ben@discord) has joined #trusted
+2020-02-24 10:41:06	-->	bennees (bennees@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Benotto (Benotto@discord) has joined #trusted
+2020-02-24 10:41:06	-->	bickelk-r7 (bickelk-r7@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Bin (Bin@discord) has joined #trusted
+2020-02-24 10:41:06	-->	bioniclady (bioniclady@discord) has joined #trusted
+2020-02-24 10:41:06	-->	bl4ckh4ck5 (bl4ckh4ck5@discord) has joined #trusted
+2020-02-24 10:41:06	-->	BlackBox (BlackBox@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Bleh_King (Bleh_King@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Bleu (Bleu@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Blinker1166 (Blinker1166@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Bluntest (Bluntest@discord) has joined #trusted
+2020-02-24 10:41:06	-->	BlykhLorD (BlykhLorD@discord) has joined #trusted
+2020-02-24 10:41:06	-->	Boulle (Boulle@discord) has joined #trusted
+2020-02-24 10:41:06	-->	BowseR (BowseR@discord) has joined #trusted
+2020-02-24 10:41:06	-->	bradfordbc (bradfordbc@discord) has joined #trusted
+2020-02-24 10:41:06	-->	BrianGoldYT (BrianGoldYT@discord) has joined #trusted
+2020-02-24 10:41:55	longears	I knew it, but he kept persisting openly to be unbanned and about the fact that he had an alt. And then he couldn't really add anything substantial, other then being driving by emotions, posting memes and asking to be unbanned.
+2020-02-24 10:42:34	<--	ophelia (ophelia@discord) has left #trusted ()
+2020-02-24 10:45:04	Mandos	Driving by emotions?
+2020-02-24 10:45:49	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-24 10:47:29	longears	Sorry, meant to say "driven" :D
+2020-02-24 10:48:41	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-24 10:48:52	<--	Lowebrew (Lowebrew@discord) has left #trusted ()
+2020-02-24 10:51:06	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-24 10:52:03	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-24 10:52:05	ℹ 	irc: disconnected from server
+2020-02-24 10:52:13	-->	suren (suren@localhost) has joined #trusted
+2020-02-24 10:52:13	ℹ 	Channel #trusted: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-24 10:52:26	ℹ 	root has changed topic for #trusted to "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-24 10:52:26	ℹ 	root has changed topic for #trusted from "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!" to "Welcome to the real hackerman space! :sunglasses: For TRUSTED and PARTNERS"
+2020-02-24 10:52:26	-->	Lachlan (Lachlan@discord) has joined #trusted
+2020-02-24 10:52:26	-->	ShazBot (ShazBot@discord) has joined #trusted
+2020-02-24 10:52:26	-->	Waffles (Waffles@discord) has joined #trusted
+2020-02-24 10:52:26	-->	Jesse (Jesse@discord) has joined #trusted
+2020-02-24 10:52:26	-->	FredBoat♪♪ (FredBoat♪♪@discord) has joined #trusted
+2020-02-24 10:52:26	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-24 10:52:26	-->	Swayella (Swayella@discord) has joined #trusted
+2020-02-24 10:52:26	-->	Salient (Salient@discord) has joined #trusted
+2020-02-24 10:52:26	-->	ser3n1ty (ser3n1ty@discord) has joined #trusted
+2020-02-24 10:52:26	-->	Dyno (Dyno@discord) has joined #trusted
+2020-02-24 10:52:26	-->	Russ_Hanneman (Russ_Hanneman@discord) has joined #trusted
+2020-02-24 10:52:26	-->	chick3nman (chick3nman@discord) has joined #trusted
+2020-02-24 10:52:26	-->	Kaoli (Kaoli@discord) has joined #trusted
+2020-02-24 10:52:26	-->	-_- (-_-@discord) has joined #trusted
+2020-02-24 10:52:26	-->	longears (longears@discord) has joined #trusted
+2020-02-24 10:52:32	-->	infiniterecursive (infiniterecursive@discord) has joined #trusted
+2020-02-24 10:52:32	-->	h_saxon (h_saxon@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Dank_Memer (Dank_Memer@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Tatsu (Tatsu@discord) has joined #trusted
+2020-02-24 10:52:32	-->	MurakamiUzi (MurakamiUzi@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Lean ((Lean)@discord) has joined #trusted
+2020-02-24 10:52:32	-->	startup_guy ((startup_guy)@discord) has joined #trusted
+2020-02-24 10:52:32	-->	USESTOnigiriMajorblaze ((US,EST)Onigiri/Majorblaze@discord) has joined #trusted
+2020-02-24 10:52:32	-->	_0294nutanic (0294nutanic@discord) has joined #trusted
+2020-02-24 10:52:32	-->	_13enny7W (13enny7W@discord) has joined #trusted
+2020-02-24 10:52:32	-->	_1psaonly (1psaonly@discord) has joined #trusted
+2020-02-24 10:52:32	-->	_1uffyD9 (1uffyD9@discord) has joined #trusted
+2020-02-24 10:52:32	-->	_2ez (2ez@discord) has joined #trusted
+2020-02-24 10:52:32	-->	_3b1e21a84115a152d177dd (3b1e21a84115a152d177dd7d93e40ca6@discord) has joined #trusted
+2020-02-24 10:52:32	-->	_Atlas_ (_Atlas_@discord) has joined #trusted
+2020-02-24 10:52:32	-->	_Bit (_Bit@discord) has joined #trusted
+2020-02-24 10:52:32	-->	A2 (A2@discord) has joined #trusted
+2020-02-24 10:52:32	-->	AAnonAAron (AAnonAAron@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Abdoahmed111 (Abdoahmed111@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Abdullah3916 (Abdullah3916@discord) has joined #trusted
+2020-02-24 10:52:32	-->	akshatmittal (akshatmittal@discord) has joined #trusted
+2020-02-24 10:52:32	-->	AldoRaine (AldoRaine@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Aldrims (Aldrims@discord) has joined #trusted
+2020-02-24 10:52:32	-->	alien (alien@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Alpine (Alpine@discord) has joined #trusted
+2020-02-24 10:52:32	-->	amankh (amankh@discord) has joined #trusted
+2020-02-24 10:52:32	-->	An1 (An1@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Ando (Ando@discord) has joined #trusted
+2020-02-24 10:52:32	-->	AngryKillerSloth (AngryKillerSloth@discord) has joined #trusted
+2020-02-24 10:52:32	-->	anthouse (anthouse@discord) has joined #trusted
+2020-02-24 10:52:32	-->	aoighost (aoighost@discord) has joined #trusted
+2020-02-24 10:52:32	-->	ARPmac (ARPmac@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Asmarus (Asmarus@discord) has joined #trusted
+2020-02-24 10:52:32	-->	ASSMDSVD (ASSMDSVD@discord) has joined #trusted
+2020-02-24 10:52:32	-->	ath0 (ath0@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Augment (Augment@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Avacyn (Avacyn@discord) has joined #trusted
+2020-02-24 10:52:32	-->	avinaS (avinaS@discord) has joined #trusted
+2020-02-24 10:52:32	-->	B1gD4ddy (B1gD4ddy@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Baba_Yaga (Baba_Yaga@discord) has joined #trusted
+2020-02-24 10:52:32	-->	babbadeckl (babbadeckl@discord) has joined #trusted
+2020-02-24 10:52:32	-->	ballsohard (ballsohard@discord) has joined #trusted
+2020-02-24 10:52:32	-->	beep_boop_what_is_discor (beep_boop_what_is_discord@discord) has joined #trusted
+2020-02-24 10:52:32	-->	bella (bella@discord) has joined #trusted
+2020-02-24 10:52:32	-->	ben (ben@discord) has joined #trusted
+2020-02-24 10:52:32	-->	bennees (bennees@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Benotto (Benotto@discord) has joined #trusted
+2020-02-24 10:52:32	-->	bickelk-r7 (bickelk-r7@discord) has joined #trusted
+2020-02-24 10:52:32	-->	bioniclady (bioniclady@discord) has joined #trusted
+2020-02-24 10:52:32	-->	bl4ckh4ck5 (bl4ckh4ck5@discord) has joined #trusted
+2020-02-24 10:52:32	-->	BlackBox (BlackBox@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Bleu (Bleu@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Blinker1166 (Blinker1166@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Bluntest (Bluntest@discord) has joined #trusted
+2020-02-24 10:52:32	-->	BlykhLorD (BlykhLorD@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Boulle (Boulle@discord) has joined #trusted
+2020-02-24 10:52:32	-->	BowseR (BowseR@discord) has joined #trusted
+2020-02-24 10:52:32	-->	bradfordbc (bradfordbc@discord) has joined #trusted
+2020-02-24 10:52:32	-->	BrianGoldYT (BrianGoldYT@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Brisbane_Mania (Brisbane_Mania@discord) has joined #trusted
+2020-02-24 10:52:32	-->	BrokenPixels™ (BrokenPixels™@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Brolveth (Brolveth@discord) has joined #trusted
+2020-02-24 10:52:32	-->	Brooks (Brooks@discord) has joined #trusted
+2020-02-24 10:52:32	-->	brute5o5 (brute5o5@discord) has joined #trusted
+2020-02-24 10:52:32	-->	BuckeyeFan79 (BuckeyeFan79@discord) has joined #trusted
+2020-02-24 10:53:06	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-24 10:53:06	<--	Lachlan (Lachlan@discord) has left #trusted ()
+2020-02-24 10:54:23	ℹ 	irc: disconnected from server
+2020-02-24 10:54:38	-->	suren (suren@localhost) has joined #trusted
+2020-02-24 10:54:38	ℹ 	Channel #trusted: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-24 10:54:55	ℹ 	root has changed topic for #trusted to "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-24 10:54:55	ℹ 	root has changed topic for #trusted from "BitlBee groupchat: "trusted". Please keep in mind that root-commands won't work here. Have fun!" to "Welcome to the real hackerman space! :sunglasses: For TRUSTED and PARTNERS"
+2020-02-24 10:54:55	-->	ShazBot (ShazBot@discord) has joined #trusted
+2020-02-24 10:54:55	-->	Waffles (Waffles@discord) has joined #trusted
+2020-02-24 10:54:55	-->	Jesse (Jesse@discord) has joined #trusted
+2020-02-24 10:54:55	-->	FredBoat♪♪ (FredBoat♪♪@discord) has joined #trusted
+2020-02-24 10:54:55	-->	Fish_Tank (Fish_Tank@discord) has joined #trusted
+2020-02-24 10:54:55	-->	Swayella (Swayella@discord) has joined #trusted
+2020-02-24 10:54:55	-->	Salient (Salient@discord) has joined #trusted
+2020-02-24 10:54:55	-->	ser3n1ty (ser3n1ty@discord) has joined #trusted
+2020-02-24 10:54:55	-->	Dyno (Dyno@discord) has joined #trusted
+2020-02-24 10:54:55	-->	Russ_Hanneman (Russ_Hanneman@discord) has joined #trusted
+2020-02-24 10:54:55	-->	chick3nman (chick3nman@discord) has joined #trusted
+2020-02-24 10:54:55	-->	Kaoli (Kaoli@discord) has joined #trusted
+2020-02-24 10:54:55	-->	-_- (-_-@discord) has joined #trusted
+2020-02-24 10:54:55	-->	voltamage (voltamage@discord) has joined #trusted
+2020-02-24 10:54:55	-->	longears (longears@discord) has joined #trusted
+2020-02-24 10:55:01	-->	infiniterecursive (infiniterecursive@discord) has joined #trusted
+2020-02-24 10:55:01	-->	h_saxon (h_saxon@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Dank_Memer (Dank_Memer@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Tatsu (Tatsu@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Lean ((Lean)@discord) has joined #trusted
+2020-02-24 10:55:01	-->	startup_guy ((startup_guy)@discord) has joined #trusted
+2020-02-24 10:55:01	-->	USESTOnigiriMajorblaze ((US,EST)Onigiri/Majorblaze@discord) has joined #trusted
+2020-02-24 10:55:01	-->	_0294nutanic (0294nutanic@discord) has joined #trusted
+2020-02-24 10:55:01	-->	_13enny7W (13enny7W@discord) has joined #trusted
+2020-02-24 10:55:01	-->	_1uffyD9 (1uffyD9@discord) has joined #trusted
+2020-02-24 10:55:01	-->	_2ez (2ez@discord) has joined #trusted
+2020-02-24 10:55:01	-->	_3b1e21a84115a152d177dd (3b1e21a84115a152d177dd7d93e40ca6@discord) has joined #trusted
+2020-02-24 10:55:01	-->	_73pp31in (73pp31in@discord) has joined #trusted
+2020-02-24 10:55:01	-->	_Atlas_ (_Atlas_@discord) has joined #trusted
+2020-02-24 10:55:01	-->	_Bit (_Bit@discord) has joined #trusted
+2020-02-24 10:55:01	-->	A2 (A2@discord) has joined #trusted
+2020-02-24 10:55:01	-->	AAnonAAron (AAnonAAron@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Abdoahmed111 (Abdoahmed111@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Abdullah3916 (Abdullah3916@discord) has joined #trusted
+2020-02-24 10:55:01	-->	ajordanrub (ajordanrub@discord) has joined #trusted
+2020-02-24 10:55:01	-->	akshatmittal (akshatmittal@discord) has joined #trusted
+2020-02-24 10:55:01	-->	AldoRaine (AldoRaine@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Aldrims (Aldrims@discord) has joined #trusted
+2020-02-24 10:55:01	-->	alien (alien@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Alpine (Alpine@discord) has joined #trusted
+2020-02-24 10:55:01	-->	amankh (amankh@discord) has joined #trusted
+2020-02-24 10:55:01	-->	An1 (An1@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Ando (Ando@discord) has joined #trusted
+2020-02-24 10:55:01	-->	AngryKillerSloth (AngryKillerSloth@discord) has joined #trusted
+2020-02-24 10:55:01	-->	anthouse (anthouse@discord) has joined #trusted
+2020-02-24 10:55:01	-->	aoighost (aoighost@discord) has joined #trusted
+2020-02-24 10:55:01	-->	ARPmac (ARPmac@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Asmarus (Asmarus@discord) has joined #trusted
+2020-02-24 10:55:01	-->	ASSMDSVD (ASSMDSVD@discord) has joined #trusted
+2020-02-24 10:55:01	-->	ath0 (ath0@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Augment (Augment@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Avacyn (Avacyn@discord) has joined #trusted
+2020-02-24 10:55:01	-->	avinaS (avinaS@discord) has joined #trusted
+2020-02-24 10:55:01	-->	B1gD4ddy (B1gD4ddy@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Baba_Yaga (Baba_Yaga@discord) has joined #trusted
+2020-02-24 10:55:01	-->	babbadeckl (babbadeckl@discord) has joined #trusted
+2020-02-24 10:55:01	-->	ballsohard (ballsohard@discord) has joined #trusted
+2020-02-24 10:55:01	-->	beep_boop_what_is_discor (beep_boop_what_is_discord@discord) has joined #trusted
+2020-02-24 10:55:01	-->	bella (bella@discord) has joined #trusted
+2020-02-24 10:55:01	-->	ben (ben@discord) has joined #trusted
+2020-02-24 10:55:01	-->	bennees (bennees@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Benotto (Benotto@discord) has joined #trusted
+2020-02-24 10:55:01	-->	bickelk-r7 (bickelk-r7@discord) has joined #trusted
+2020-02-24 10:55:01	-->	bioniclady (bioniclady@discord) has joined #trusted
+2020-02-24 10:55:01	-->	bl4ckh4ck5 (bl4ckh4ck5@discord) has joined #trusted
+2020-02-24 10:55:01	-->	BlackBox (BlackBox@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Bleu (Bleu@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Blinker1166 (Blinker1166@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Bluntest (Bluntest@discord) has joined #trusted
+2020-02-24 10:55:01	-->	BlykhLorD (BlykhLorD@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Boulle (Boulle@discord) has joined #trusted
+2020-02-24 10:55:01	-->	BowseR (BowseR@discord) has joined #trusted
+2020-02-24 10:55:01	-->	bradfordbc (bradfordbc@discord) has joined #trusted
+2020-02-24 10:55:01	-->	BrianGoldYT (BrianGoldYT@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Brisbane_Mania (Brisbane_Mania@discord) has joined #trusted
+2020-02-24 10:55:01	-->	BrokenPixels™ (BrokenPixels™@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Brolveth (Brolveth@discord) has joined #trusted
+2020-02-24 10:55:01	-->	Brooks (Brooks@discord) has joined #trusted
+2020-02-24 10:55:01	-->	brute5o5 (brute5o5@discord) has joined #trusted
+2020-02-24 10:55:01	-->	BuckeyeFan79 (BuckeyeFan79@discord) has joined #trusted
+2020-02-24 10:55:01	-->	BURNMEAUX (BURNMEAUX@discord) has joined #trusted
+2020-02-24 10:55:51	<--	voltamage (voltamage@discord) has left #trusted ()
+2020-02-24 10:56:58	-->	OvertonWindow (OvertonWindow@discord) has joined #trusted
+2020-02-24 10:59:03	-->	Elite_Hacker (Elite_Hacker@discord) has joined #trusted
+2020-02-24 11:00:02	-->	voltamage (voltamage@discord) has joined #trusted

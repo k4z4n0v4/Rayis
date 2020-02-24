@@ -1,0 +1,1610 @@
+2020-02-17 18:25:54	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-17 18:25:54	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-17 18:25:54	ℹ 	Topic set by root (root@localhost) on Mon, 17 Feb 2020 18:25:53
+2020-02-17 18:25:54	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-17 18:25:54	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-17 18:25:54	TheHackerNews	[2020-02-03 19:46:01] Yet Another Sudo Vulnerability!
+2020-02-17 18:25:54	TheHackerNews	[2020-02-03 19:46:01]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-03 19:46:01] When 'pwfeedback' is enabled, a new Sudo bug could let low privileged Linux & macOS users (or malicious programs) execute arbitrary commands with 'root' privileges.
+2020-02-17 18:25:54	TheHackerNews	[2020-02-03 19:46:01]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-03 19:46:01] Details for CVE-2019-18634 ➤ https://thehackernews.com/2020/02/sudo-linux-vulnerability.html
+2020-02-17 18:25:54	TheHackerNews	[2020-02-04 14:49:45] Twitter warns hackers exploited an API bug on its platform to inappropriately match and learn linked phone numbers of millions of users.
+2020-02-17 18:25:54	TheHackerNews	[2020-02-04 14:49:45]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-04 14:49:45] https://thehackernews.com/2020/02/find-twitter-phone-number.html
+2020-02-17 18:25:54	TheHackerNews	[2020-02-04 14:49:45]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-04 14:49:45] Based on IP addresses engaged in the attack, Twitter believes some of them may have ties to state-sponsored actors.
+2020-02-17 18:25:54	TheHackerNews	[2020-02-04 20:07:59] A 'technical error' in Google Takeout service accidentally shared private videos (uploaded to Google Photos) of some users with other accounts.
+2020-02-17 18:25:54	TheHackerNews	[2020-02-04 20:07:59]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-04 20:07:59] https://thehackernews.com/2020/02/google-photos-videos.html
+2020-02-17 18:25:54	TheHackerNews	[2020-02-04 20:07:59]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-04 20:07:59] Google admitted the latest privacy mishap yesterday in a security alert sent quietly to affected users.
+2020-02-17 18:25:54	TheHackerNews	[2020-02-05 00:30:02] 🔥 CVE-2019-18426
+2020-02-17 18:25:54	TheHackerNews	[2020-02-05 00:30:02]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-05 00:30:02] WhatsApp for Web and Desktop contained multiple vulnerabilities, which, when combined together, could have even allowed remote attackers to read files from a victim's local file-system just by sending messages.
+2020-02-17 18:25:54	TheHackerNews	[2020-02-05 00:30:02]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-05 00:30:02] Read details: https://thehackernews.com/2020/02/hack-whatsapp-web.html
+2020-02-17 18:25:54	TheHackerNews	[2020-02-05 15:25:10] A new security flaw (CVE-2020-6007) in Philips Smart Light Bulbs 💡 could let remote attackers gain access to your entire WiFi network (over-the-air without cracking password) & launch further attacks against other devices connected to the same.
+2020-02-17 18:25:54	TheHackerNews	[2020-02-05 15:25:10]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-05 15:25:10] Details: https://thehackernews.com/2020/02/philips-smart-light-bulb-hacking.html
+2020-02-17 18:25:54	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-17 18:25:54	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-17 18:25:54	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-17 18:25:54	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-17 18:25:54	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-17 18:25:54	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-17 18:25:54	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-17 18:25:54	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-17 18:25:54	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-17 18:25:54	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-17 18:25:54	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-17 18:25:54	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-17 18:25:54	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-17 18:25:54	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-17 18:25:54	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-17 18:25:54	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-17 18:25:54	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-17 18:25:54	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-17 18:25:54	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-17 18:25:54	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-17 18:25:54	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-17 18:25:54	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-17 19:04:56	ℹ 	irc: disconnected from server
+2020-02-18 09:34:41	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-18 09:34:41	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-18 09:34:41	ℹ 	Topic set by root (root@localhost) on Tue, 18 Feb 2020 09:34:41
+2020-02-18 09:34:41	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-18 09:34:41	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-18 09:34:41	TheHackerNews	[2020-02-04 14:49:45] Twitter warns hackers exploited an API bug on its platform to inappropriately match and learn linked phone numbers of millions of users.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-04 14:49:45]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-04 14:49:45] https://thehackernews.com/2020/02/find-twitter-phone-number.html
+2020-02-18 09:34:41	TheHackerNews	[2020-02-04 14:49:45]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-04 14:49:45] Based on IP addresses engaged in the attack, Twitter believes some of them may have ties to state-sponsored actors.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-04 20:07:59] A 'technical error' in Google Takeout service accidentally shared private videos (uploaded to Google Photos) of some users with other accounts.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-04 20:07:59]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-04 20:07:59] https://thehackernews.com/2020/02/google-photos-videos.html
+2020-02-18 09:34:41	TheHackerNews	[2020-02-04 20:07:59]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-04 20:07:59] Google admitted the latest privacy mishap yesterday in a security alert sent quietly to affected users.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-05 00:30:02] 🔥 CVE-2019-18426
+2020-02-18 09:34:41	TheHackerNews	[2020-02-05 00:30:02]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-05 00:30:02] WhatsApp for Web and Desktop contained multiple vulnerabilities, which, when combined together, could have even allowed remote attackers to read files from a victim's local file-system just by sending messages.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-05 00:30:02]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-05 00:30:02] Read details: https://thehackernews.com/2020/02/hack-whatsapp-web.html
+2020-02-18 09:34:41	TheHackerNews	[2020-02-05 15:25:10] A new security flaw (CVE-2020-6007) in Philips Smart Light Bulbs 💡 could let remote attackers gain access to your entire WiFi network (over-the-air without cracking password) & launch further attacks against other devices connected to the same.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-05 15:25:10]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-05 15:25:10] Details: https://thehackernews.com/2020/02/philips-smart-light-bulb-hacking.html
+2020-02-18 09:34:41	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-18 09:34:41	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-18 09:34:41	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-18 09:34:41	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-18 09:34:41	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-18 09:34:41	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-18 09:34:41	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-18 09:34:41	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-18 09:34:41	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-18 09:34:41	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-18 09:34:41	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-18 09:34:41	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-18 09:34:41	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-18 09:34:41	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-18 09:34:41	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-18 09:34:41	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-18 09:34:41	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-18 09:34:41	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-18 09:34:41	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-18 09:34:41	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-18 09:34:41	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-18 09:34:41	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-18 09:34:41	TheHackerNews	[01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-18 09:34:41	TheHackerNews	[01:27:43]
+2020-02-18 09:34:41	TheHackerNews	[01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-18 09:34:41	TheHackerNews	[01:27:43]
+2020-02-18 09:34:41	TheHackerNews	[01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-18 09:34:41	TheHackerNews	[01:27:43]
+2020-02-18 09:34:41	TheHackerNews	[01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-18 10:35:18	ℹ 	irc: disconnected from server
+2020-02-18 10:36:57	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-18 10:36:57	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-18 10:36:57	ℹ 	Topic set by root (root@localhost) on Tue, 18 Feb 2020 10:36:56
+2020-02-18 10:36:57	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-18 10:36:57	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-18 10:36:57	TheHackerNews	[2020-02-04 14:49:45] Twitter warns hackers exploited an API bug on its platform to inappropriately match and learn linked phone numbers of millions of users.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-04 14:49:45]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-04 14:49:45] https://thehackernews.com/2020/02/find-twitter-phone-number.html
+2020-02-18 10:36:57	TheHackerNews	[2020-02-04 14:49:45]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-04 14:49:45] Based on IP addresses engaged in the attack, Twitter believes some of them may have ties to state-sponsored actors.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-04 20:07:59] A 'technical error' in Google Takeout service accidentally shared private videos (uploaded to Google Photos) of some users with other accounts.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-04 20:07:59]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-04 20:07:59] https://thehackernews.com/2020/02/google-photos-videos.html
+2020-02-18 10:36:57	TheHackerNews	[2020-02-04 20:07:59]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-04 20:07:59] Google admitted the latest privacy mishap yesterday in a security alert sent quietly to affected users.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-05 00:30:02] 🔥 CVE-2019-18426
+2020-02-18 10:36:57	TheHackerNews	[2020-02-05 00:30:02]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-05 00:30:02] WhatsApp for Web and Desktop contained multiple vulnerabilities, which, when combined together, could have even allowed remote attackers to read files from a victim's local file-system just by sending messages.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-05 00:30:02]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-05 00:30:02] Read details: https://thehackernews.com/2020/02/hack-whatsapp-web.html
+2020-02-18 10:36:57	TheHackerNews	[2020-02-05 15:25:10] A new security flaw (CVE-2020-6007) in Philips Smart Light Bulbs 💡 could let remote attackers gain access to your entire WiFi network (over-the-air without cracking password) & launch further attacks against other devices connected to the same.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-05 15:25:10]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-05 15:25:10] Details: https://thehackernews.com/2020/02/philips-smart-light-bulb-hacking.html
+2020-02-18 10:36:57	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-18 10:36:57	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-18 10:36:57	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-18 10:36:57	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-18 10:36:57	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-18 10:36:57	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-18 10:36:57	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-18 10:36:57	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-18 10:36:57	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-18 10:36:57	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-18 10:36:57	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-18 10:36:57	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-18 10:36:57	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-18 10:36:57	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-18 10:36:57	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-18 10:36:57	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-18 10:36:57	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-18 10:36:57	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-18 10:36:57	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-18 10:36:57	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-18 10:36:57	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-18 10:36:57	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-18 10:36:57	TheHackerNews	[01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-18 10:36:57	TheHackerNews	[01:27:43]
+2020-02-18 10:36:57	TheHackerNews	[01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-18 10:36:57	TheHackerNews	[01:27:43]
+2020-02-18 10:36:57	TheHackerNews	[01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-18 10:36:57	TheHackerNews	[01:27:43]
+2020-02-18 10:36:57	TheHackerNews	[01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-18 11:38:14	ℹ 	irc: disconnected from server
+2020-02-18 11:40:16	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-18 11:40:16	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-18 11:40:16	ℹ 	Topic set by root (root@localhost) on Tue, 18 Feb 2020 11:40:16
+2020-02-18 11:40:16	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-18 11:40:16	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-18 11:40:16	TheHackerNews	[2020-02-04 14:49:45] Twitter warns hackers exploited an API bug on its platform to inappropriately match and learn linked phone numbers of millions of users.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-04 14:49:45]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-04 14:49:45] https://thehackernews.com/2020/02/find-twitter-phone-number.html
+2020-02-18 11:40:16	TheHackerNews	[2020-02-04 14:49:45]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-04 14:49:45] Based on IP addresses engaged in the attack, Twitter believes some of them may have ties to state-sponsored actors.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-04 20:07:59] A 'technical error' in Google Takeout service accidentally shared private videos (uploaded to Google Photos) of some users with other accounts.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-04 20:07:59]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-04 20:07:59] https://thehackernews.com/2020/02/google-photos-videos.html
+2020-02-18 11:40:16	TheHackerNews	[2020-02-04 20:07:59]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-04 20:07:59] Google admitted the latest privacy mishap yesterday in a security alert sent quietly to affected users.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-05 00:30:02] 🔥 CVE-2019-18426
+2020-02-18 11:40:16	TheHackerNews	[2020-02-05 00:30:02]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-05 00:30:02] WhatsApp for Web and Desktop contained multiple vulnerabilities, which, when combined together, could have even allowed remote attackers to read files from a victim's local file-system just by sending messages.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-05 00:30:02]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-05 00:30:02] Read details: https://thehackernews.com/2020/02/hack-whatsapp-web.html
+2020-02-18 11:40:16	TheHackerNews	[2020-02-05 15:25:10] A new security flaw (CVE-2020-6007) in Philips Smart Light Bulbs 💡 could let remote attackers gain access to your entire WiFi network (over-the-air without cracking password) & launch further attacks against other devices connected to the same.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-05 15:25:10]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-05 15:25:10] Details: https://thehackernews.com/2020/02/philips-smart-light-bulb-hacking.html
+2020-02-18 11:40:16	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-18 11:40:16	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-18 11:40:16	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-18 11:40:16	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-18 11:40:16	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-18 11:40:16	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-18 11:40:16	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-18 11:40:16	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-18 11:40:16	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-18 11:40:16	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-18 11:40:16	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-18 11:40:16	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-18 11:40:16	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-18 11:40:16	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-18 11:40:16	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-18 11:40:16	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-18 11:40:16	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-18 11:40:16	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-18 11:40:16	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-18 11:40:16	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-18 11:40:16	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-18 11:40:16	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-18 11:40:16	TheHackerNews	[01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-18 11:40:16	TheHackerNews	[01:27:43]
+2020-02-18 11:40:16	TheHackerNews	[01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-18 11:40:16	TheHackerNews	[01:27:43]
+2020-02-18 11:40:16	TheHackerNews	[01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-18 11:40:16	TheHackerNews	[01:27:43]
+2020-02-18 11:40:16	TheHackerNews	[01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-18 11:53:06	ℹ 	irc: disconnected from server
+2020-02-18 12:03:43	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-18 12:03:43	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-18 12:03:43	ℹ 	Topic set by root (root@localhost) on Tue, 18 Feb 2020 12:03:43
+2020-02-18 12:03:43	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-18 12:03:43	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-18 12:03:43	TheHackerNews	[2020-02-04 14:49:45] Twitter warns hackers exploited an API bug on its platform to inappropriately match and learn linked phone numbers of millions of users.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-04 14:49:45]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-04 14:49:45] https://thehackernews.com/2020/02/find-twitter-phone-number.html
+2020-02-18 12:03:43	TheHackerNews	[2020-02-04 14:49:45]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-04 14:49:45] Based on IP addresses engaged in the attack, Twitter believes some of them may have ties to state-sponsored actors.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-04 20:07:59] A 'technical error' in Google Takeout service accidentally shared private videos (uploaded to Google Photos) of some users with other accounts.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-04 20:07:59]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-04 20:07:59] https://thehackernews.com/2020/02/google-photos-videos.html
+2020-02-18 12:03:43	TheHackerNews	[2020-02-04 20:07:59]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-04 20:07:59] Google admitted the latest privacy mishap yesterday in a security alert sent quietly to affected users.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-05 00:30:02] 🔥 CVE-2019-18426
+2020-02-18 12:03:43	TheHackerNews	[2020-02-05 00:30:02]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-05 00:30:02] WhatsApp for Web and Desktop contained multiple vulnerabilities, which, when combined together, could have even allowed remote attackers to read files from a victim's local file-system just by sending messages.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-05 00:30:02]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-05 00:30:02] Read details: https://thehackernews.com/2020/02/hack-whatsapp-web.html
+2020-02-18 12:03:43	TheHackerNews	[2020-02-05 15:25:10] A new security flaw (CVE-2020-6007) in Philips Smart Light Bulbs 💡 could let remote attackers gain access to your entire WiFi network (over-the-air without cracking password) & launch further attacks against other devices connected to the same.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-05 15:25:10]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-05 15:25:10] Details: https://thehackernews.com/2020/02/philips-smart-light-bulb-hacking.html
+2020-02-18 12:03:43	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-18 12:03:43	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-18 12:03:43	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-18 12:03:43	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-18 12:03:43	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-18 12:03:43	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-18 12:03:43	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-18 12:03:43	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-18 12:03:43	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-18 12:03:43	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-18 12:03:43	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-18 12:03:43	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-18 12:03:43	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-18 12:03:43	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-18 12:03:43	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-18 12:03:43	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-18 12:03:43	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-18 12:03:43	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-18 12:03:43	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-18 12:03:43	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-18 12:03:43	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-18 12:03:43	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-18 12:03:43	TheHackerNews	[01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-18 12:03:43	TheHackerNews	[01:27:43]
+2020-02-18 12:03:43	TheHackerNews	[01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-18 12:03:43	TheHackerNews	[01:27:43]
+2020-02-18 12:03:43	TheHackerNews	[01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-18 12:03:43	TheHackerNews	[01:27:43]
+2020-02-18 12:03:43	TheHackerNews	[01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-18 19:10:02	ℹ 	irc: disconnected from server
+2020-02-19 09:18:47	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-19 09:18:47	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 09:18:47	ℹ 	Topic set by root (root@localhost) on Wed, 19 Feb 2020 09:18:46
+2020-02-19 09:18:47	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 09:18:47	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-19 09:18:47	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-19 09:18:47	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 09:18:47	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-19 09:18:47	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-19 09:18:47	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-19 09:18:47	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-19 09:18:47	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 09:18:47	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-19 09:19:52	TheHackerNews	[2020-02-05 15:25:10] A new security flaw (CVE-2020-6007) in Philips Smart Light Bulbs 💡 could let remote attackers gain access to your entire WiFi network (over-the-air without cracking password) & launch further attacks against other devices connected to the same.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-05 15:25:10]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-05 15:25:10] Details: https://thehackernews.com/2020/02/philips-smart-light-bulb-hacking.html
+2020-02-19 09:19:52	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-19 09:19:52	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-19 09:19:52	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-19 09:19:52	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-19 09:19:52	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-19 09:19:52	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-19 09:19:52	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-19 09:19:52	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-19 09:19:52	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-19 09:19:52	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-19 09:19:52	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-19 09:19:52	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-19 09:19:52	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-19 09:19:52	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-19 09:19:52	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-19 09:19:52	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-19 09:19:52	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-19 09:19:52	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-19 09:19:52	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-19 09:19:52	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 09:19:52	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-19 10:44:32	<--	SurenManukyan (Suren_Manukyan@telegram) has quit (bitlbee.localhost telegram.localhost)
+2020-02-19 10:44:32	<--	root has kicked suren (Chatroom closed by server)
+2020-02-19 10:47:52	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-19 10:47:52	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 10:47:52	ℹ 	Topic set by root (root@localhost) on Wed, 19 Feb 2020 10:47:52
+2020-02-19 10:47:52	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 10:47:52	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-19 10:47:52	TheHackerNews	[2020-02-05 15:25:10] A new security flaw (CVE-2020-6007) in Philips Smart Light Bulbs 💡 could let remote attackers gain access to your entire WiFi network (over-the-air without cracking password) & launch further attacks against other devices connected to the same.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-05 15:25:10]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-05 15:25:10] Details: https://thehackernews.com/2020/02/philips-smart-light-bulb-hacking.html
+2020-02-19 10:47:52	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-19 10:47:52	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-19 10:47:52	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-19 10:47:52	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-19 10:47:52	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-19 10:47:52	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-19 10:47:52	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-19 10:47:52	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-19 10:47:52	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-19 10:47:52	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-19 10:47:52	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-19 10:47:52	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-19 10:47:52	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-19 10:47:52	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-19 10:47:52	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-19 10:47:52	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-19 10:47:52	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-19 10:47:52	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-19 10:47:52	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-19 10:47:52	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 10:47:52	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-19 11:15:10	<--	SurenManukyan (Suren_Manukyan@telegram) has quit (bitlbee.localhost telegram.localhost)
+2020-02-19 11:15:10	<--	root has kicked suren (Chatroom closed by server)
+2020-02-19 11:20:00	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-19 11:20:00	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 11:20:00	ℹ 	Topic set by root (root@localhost) on Wed, 19 Feb 2020 11:20:00
+2020-02-19 11:20:00	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 11:20:00	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-19 11:20:00	TheHackerNews	[2020-02-05 15:25:10] A new security flaw (CVE-2020-6007) in Philips Smart Light Bulbs 💡 could let remote attackers gain access to your entire WiFi network (over-the-air without cracking password) & launch further attacks against other devices connected to the same.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-05 15:25:10]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-05 15:25:10] Details: https://thehackernews.com/2020/02/philips-smart-light-bulb-hacking.html
+2020-02-19 11:20:00	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-19 11:20:00	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-19 11:20:00	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-19 11:20:00	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-19 11:20:00	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-19 11:20:00	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-19 11:20:00	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-19 11:20:00	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-19 11:20:00	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-19 11:20:00	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-19 11:20:00	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-19 11:20:00	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-19 11:20:00	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-19 11:20:00	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-19 11:20:00	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-19 11:20:00	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-19 11:20:00	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-19 11:20:00	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-19 11:20:00	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-19 11:20:00	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 11:20:00	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-19 11:30:46	ℹ 	irc: disconnected from server
+2020-02-19 11:40:03	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-19 11:40:03	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 11:40:03	ℹ 	Topic set by root (root@localhost) on Wed, 19 Feb 2020 11:40:03
+2020-02-19 11:40:03	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 11:40:03	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-19 11:40:03	TheHackerNews	[2020-02-05 15:25:10] A new security flaw (CVE-2020-6007) in Philips Smart Light Bulbs 💡 could let remote attackers gain access to your entire WiFi network (over-the-air without cracking password) & launch further attacks against other devices connected to the same.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-05 15:25:10]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-05 15:25:10] Details: https://thehackernews.com/2020/02/philips-smart-light-bulb-hacking.html
+2020-02-19 11:40:03	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-19 11:40:03	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-19 11:40:03	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-19 11:40:03	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-19 11:40:03	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-19 11:40:03	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-19 11:40:03	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-19 11:40:03	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-19 11:40:03	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-19 11:40:03	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-19 11:40:03	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-19 11:40:03	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-19 11:40:03	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-19 11:40:03	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-19 11:40:03	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-19 11:40:03	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-19 11:40:03	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-19 11:40:03	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-19 11:40:03	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-19 11:40:03	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 11:40:03	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-19 12:28:59	<--	SurenManukyan (Suren_Manukyan@telegram) has quit (bitlbee.localhost telegram.localhost)
+2020-02-19 12:28:59	<--	root has kicked suren (Chatroom closed by server)
+2020-02-19 12:30:05	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-19 12:30:05	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 12:30:05	ℹ 	Topic set by root (root@localhost) on Wed, 19 Feb 2020 12:30:05
+2020-02-19 12:30:05	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 12:30:05	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-19 12:30:05	TheHackerNews	[2020-02-05 15:25:10] A new security flaw (CVE-2020-6007) in Philips Smart Light Bulbs 💡 could let remote attackers gain access to your entire WiFi network (over-the-air without cracking password) & launch further attacks against other devices connected to the same.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-05 15:25:10]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-05 15:25:10] Details: https://thehackernews.com/2020/02/philips-smart-light-bulb-hacking.html
+2020-02-19 12:30:05	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-19 12:30:05	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-19 12:30:05	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-19 12:30:05	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-19 12:30:05	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-19 12:30:05	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-19 12:30:05	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-19 12:30:05	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-19 12:30:05	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-19 12:30:05	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-19 12:30:05	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-19 12:30:05	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-19 12:30:05	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-19 12:30:05	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-19 12:30:05	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-19 12:30:05	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-19 12:30:05	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-19 12:30:05	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-19 12:30:05	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-19 12:30:05	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 12:30:05	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-19 12:31:35	<--	SurenManukyan (Suren_Manukyan@telegram) has quit (bitlbee.localhost telegram.localhost)
+2020-02-19 12:31:35	<--	root has kicked suren (Chatroom closed by server)
+2020-02-19 12:32:43	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-19 12:32:43	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 12:32:43	ℹ 	Topic set by root (root@localhost) on Wed, 19 Feb 2020 12:32:43
+2020-02-19 12:32:43	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 12:32:43	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-19 12:32:43	TheHackerNews	[2020-02-05 15:25:10] A new security flaw (CVE-2020-6007) in Philips Smart Light Bulbs 💡 could let remote attackers gain access to your entire WiFi network (over-the-air without cracking password) & launch further attacks against other devices connected to the same.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-05 15:25:10]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-05 15:25:10] Details: https://thehackernews.com/2020/02/philips-smart-light-bulb-hacking.html
+2020-02-19 12:32:43	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-19 12:32:43	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-19 12:32:43	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-19 12:32:43	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-19 12:32:43	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-19 12:32:43	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-19 12:32:43	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-19 12:32:43	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-19 12:32:43	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-19 12:32:43	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-19 12:32:43	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-19 12:32:43	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-19 12:32:43	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-19 12:32:43	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-19 12:32:43	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-19 12:32:43	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-19 12:32:43	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-19 12:32:43	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-19 12:32:43	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-19 12:32:43	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 12:32:43	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-19 12:45:47	<--	SurenManukyan (Suren_Manukyan@telegram) has quit (bitlbee.localhost telegram.localhost)
+2020-02-19 12:45:47	<--	root has kicked suren (Chatroom closed by server)
+2020-02-19 12:48:08	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-19 12:48:08	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 12:48:08	ℹ 	Topic set by root (root@localhost) on Wed, 19 Feb 2020 12:48:07
+2020-02-19 12:48:08	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 12:48:08	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-19 12:48:08	TheHackerNews	[2020-02-05 15:25:10] A new security flaw (CVE-2020-6007) in Philips Smart Light Bulbs 💡 could let remote attackers gain access to your entire WiFi network (over-the-air without cracking password) & launch further attacks against other devices connected to the same.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-05 15:25:10]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-05 15:25:10] Details: https://thehackernews.com/2020/02/philips-smart-light-bulb-hacking.html
+2020-02-19 12:48:08	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-19 12:48:08	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-19 12:48:08	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-19 12:48:08	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-19 12:48:08	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-19 12:48:08	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-19 12:48:08	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-19 12:48:08	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-19 12:48:08	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-19 12:48:08	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-19 12:48:08	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-19 12:48:08	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-19 12:48:08	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-19 12:48:08	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-19 12:48:08	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-19 12:48:08	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-19 12:48:08	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-19 12:48:08	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-19 12:48:08	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-19 12:48:08	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 12:48:08	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-19 15:10:12	ℹ 	irc: disconnected from server
+2020-02-19 15:44:42	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-19 15:44:42	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 15:44:42	ℹ 	Topic set by root (root@localhost) on Wed, 19 Feb 2020 15:44:42
+2020-02-19 15:44:42	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 15:44:42	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-19 15:44:42	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-19 15:44:42	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-19 15:44:42	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-19 15:44:42	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-19 15:44:42	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-19 15:44:42	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-19 15:44:42	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-19 15:44:42	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-19 15:44:42	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-19 15:44:42	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-19 15:44:42	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-19 15:44:42	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-19 15:44:42	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-19 15:44:42	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-19 15:44:42	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-19 15:44:42	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-19 15:44:42	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-19 15:44:42	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-19 15:44:42	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-19 15:44:42	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-19 15:44:42	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-19 15:44:42	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-19 15:44:42	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-19 15:44:42	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-19 15:44:42	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-19 15:44:42	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-19 15:44:42	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-19 15:44:42	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 15:44:42	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-19 16:38:45	ℹ 	irc: disconnected from server
+2020-02-19 17:37:34	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-19 17:37:34	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 17:37:34	ℹ 	Topic set by root (root@localhost) on Wed, 19 Feb 2020 17:37:34
+2020-02-19 17:37:34	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 17:37:34	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-19 17:37:34	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-19 17:37:34	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-19 17:37:34	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-19 17:37:34	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-19 17:37:34	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-19 17:37:34	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-19 17:37:34	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-19 17:37:34	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-19 17:37:34	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-19 17:37:34	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-19 17:37:34	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-19 17:37:34	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-19 17:37:34	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-19 17:37:34	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-19 17:37:34	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-19 17:37:34	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-19 17:37:34	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-19 17:37:34	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-19 17:37:34	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-19 17:37:34	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-19 17:37:34	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-19 17:37:34	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-19 17:37:34	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-19 17:37:34	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-19 17:37:34	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-19 17:37:34	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-19 17:37:34	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-19 17:37:34	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 17:37:34	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-19 17:37:34	TheHackerNews	[15:54:49] The U.S. Department of Homeland Security's CISA issues a warning to all industries operating critical infrastructures of a new ransomware threat after hackers targeted a Gas pipeline facility and knocked it out of operation for almost 2 days.
+2020-02-19 17:37:34	TheHackerNews	[15:54:49]
+2020-02-19 17:37:34	TheHackerNews	[15:54:49] https://thehackernews.com/2020/02/critical-infrastructure-ransomware-attack.html
+2020-02-19 18:39:49	ℹ 	irc: disconnected from server
+2020-02-19 18:41:50	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-19 18:41:50	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-19 18:41:50	ℹ 	Topic set by root (root@localhost) on Wed, 19 Feb 2020 18:41:50
+2020-02-19 18:41:50	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-19 18:41:50	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-19 18:41:50	TheHackerNews	[18:29:06] Amazon's Ring makes two-factor authentication security mandatory for all of its users following several recent reports of hackers gaining access to people's internet-connected #Ring doorbell and security cameras.
+2020-02-19 18:41:50	TheHackerNews	[18:29:06]
+2020-02-19 18:41:50	TheHackerNews	[18:29:06] Read more: https://thehackernews.com/2020/02/ring-cameras-cybersecurity.html
+2020-02-19 18:41:50	TheHackerNews	[2020-02-05 19:50:01] Interesting! Researchers demonstrated a new clever technique to covertly exfiltrate sensitive data from a targeted Air-Gapped computer using the brightness of an LCD screen.
+2020-02-19 18:41:50	TheHackerNews	[2020-02-05 19:50:01]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-05 19:50:01] Read details: https://thehackernews.com/2020/02/hacking-air-gapped-computers.html
+2020-02-19 18:41:50	TheHackerNews	[2020-02-06 00:57:58] 5 new high-impact vulnerabilities in Cisco discovery protocol expose tens of millions of enterprise-grade routers, switches, IP phones and cameras to hackers.
+2020-02-19 18:41:50	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-06 00:57:58] Details: https://thehackernews.com/2020/02/cisco-cdp-vulnerabilities.html
+2020-02-19 18:41:50	TheHackerNews	[2020-02-06 00:57:58]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-06 00:57:58] Collectively dubbed ‘CDPwn,’ 4 out of 5 issues lead to Remote Code Execution attacks.
+2020-02-19 18:41:50	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-19 18:41:50	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-19 18:41:50	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-19 18:41:50	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-19 18:41:50	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-19 18:41:50	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-19 18:41:50	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-19 18:41:50	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-19 18:41:50	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-19 18:41:50	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-19 18:41:50	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-19 18:41:50	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-19 18:41:50	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-19 18:41:50	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-19 18:41:50	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-19 18:41:50	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-19 18:41:50	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-19 18:41:50	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-19 18:41:50	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-19 18:41:50	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-19 18:41:50	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-19 18:41:50	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-19 18:41:50	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-19 18:41:50	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-19 18:41:50	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-19 18:41:50	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-19 18:41:50	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-19 18:41:50	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-19 18:41:50	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 18:41:50	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-19 18:41:51	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-19 18:41:51	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-19 18:41:51	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-19 18:41:51	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-19 18:41:51	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-19 18:41:51	TheHackerNews	[15:54:49] The U.S. Department of Homeland Security's CISA issues a warning to all industries operating critical infrastructures of a new ransomware threat after hackers targeted a Gas pipeline facility and knocked it out of operation for almost 2 days.
+2020-02-19 18:41:51	TheHackerNews	[15:54:49]
+2020-02-19 18:41:51	TheHackerNews	[15:54:49] https://thehackernews.com/2020/02/critical-infrastructure-ransomware-attack.html
+2020-02-19 18:41:51	TheHackerNews	[18:29:06] Amazon's Ring makes two-factor authentication security mandatory for all of its users following several recent reports of hackers gaining access to people's internet-connected #Ring doorbell and security cameras.
+2020-02-19 18:41:51	TheHackerNews	[18:29:06]
+2020-02-19 18:41:51	TheHackerNews	[18:29:06] Read more: https://thehackernews.com/2020/02/ring-cameras-cybersecurity.html
+2020-02-20 09:25:52	<--	SurenManukyan (Suren_Manukyan@telegram) has quit (bitlbee.localhost telegram.localhost)
+2020-02-20 09:25:52	<--	root has kicked suren (Chatroom closed by server)
+2020-02-20 10:44:40	ℹ 	irc: disconnected from server
+2020-02-24 09:24:28	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-24 09:24:28	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-24 09:24:28	ℹ 	Topic set by root (root@localhost) on Mon, 24 Feb 2020 09:24:28
+2020-02-24 09:24:28	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-24 09:24:28	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-24 09:24:28	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-24 09:24:28	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-24 09:24:28	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-24 09:24:28	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-24 09:24:28	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-24 09:24:28	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-24 09:24:28	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-24 09:24:28	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-24 09:24:28	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-24 09:24:28	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-24 09:24:28	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-24 09:24:28	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-24 09:24:28	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-24 09:24:28	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-19 15:54:49] The U.S. Department of Homeland Security's CISA issues a warning to all industries operating critical infrastructures of a new ransomware threat after hackers targeted a Gas pipeline facility and knocked it out of operation for almost 2 days.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-19 15:54:49]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-19 15:54:49] https://thehackernews.com/2020/02/critical-infrastructure-ransomware-attack.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-19 18:29:06] Amazon's Ring makes two-factor authentication security mandatory for all of its users following several recent reports of hackers gaining access to people's internet-connected #Ring doorbell and security cameras.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-19 18:29:06]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-19 18:29:06] Read more: https://thehackernews.com/2020/02/ring-cameras-cybersecurity.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-20 14:13:29] Adobe today released security updates for Adobe After Effects (CVE-2020-3765) and Media Encoder (CVE-2020-3764) applications to patch 2 new critical code execution vulnerabilities.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-20 14:13:29]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-20 14:13:29] Details: https://thehackernews.com/2020/02/adobe-software-updates.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-20 16:47:22] ⚠️ Scam Alert ⚠️
+2020-02-24 09:24:28	TheHackerNews	[2020-02-20 16:47:22]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-20 16:47:22] You've Been Selected for 'Like of the Year 2020' Contest Cash Prizes !!!
+2020-02-24 09:24:28	TheHackerNews	[2020-02-20 16:47:22]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-20 16:47:22] That's an ongoing fraud scheme—yes, LIKE of the year—lures users with promises of financial rewards to steal their payment card information.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-20 16:47:22]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-20 16:47:22] Details: https://thehackernews.com/2020/02/like-of-the-year-scam.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-21 13:13:57] Android's never-ending battle with malware...
+2020-02-24 09:24:28	TheHackerNews	[2020-02-21 13:13:57]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-21 13:13:57] Google has banned nearly 600 Android apps from the official Play Store for bombarding millions of users with disruptive ads and violating its advertising guidelines.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-21 13:13:57]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-21 13:13:57] Read more: https://thehackernews.com/2020/02/android-adware-apps-banned.html
+2020-02-24 09:24:28	TheHackerNews	[2020-02-21 20:43:45] Microsoft releases a public preview of its Defender ATP Antivirus for Linux operating system —— And it's coming soon for Android and iOS later this year.
+2020-02-24 09:24:28	TheHackerNews	[2020-02-21 20:43:45]
+2020-02-24 09:24:28	TheHackerNews	[2020-02-21 20:43:45] Read details ➤ https://thehackernews.com/2020/02/windows-defender-atp-linux-android.html
+2020-02-24 10:40:37	ℹ 	irc: disconnected from server
+2020-02-24 10:43:05	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-24 10:43:05	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-24 10:43:05	ℹ 	Topic set by root (root@localhost) on Mon, 24 Feb 2020 10:43:04
+2020-02-24 10:43:05	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-24 10:43:05	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-24 10:43:05	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-24 10:43:05	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-24 10:43:05	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-24 10:43:05	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-24 10:43:05	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-24 10:43:05	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-24 10:43:05	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-24 10:43:05	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-24 10:43:05	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-24 10:43:05	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-24 10:43:05	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-24 10:43:05	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-24 10:43:05	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-24 10:43:05	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-19 15:54:49] The U.S. Department of Homeland Security's CISA issues a warning to all industries operating critical infrastructures of a new ransomware threat after hackers targeted a Gas pipeline facility and knocked it out of operation for almost 2 days.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-19 15:54:49]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-19 15:54:49] https://thehackernews.com/2020/02/critical-infrastructure-ransomware-attack.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-19 18:29:06] Amazon's Ring makes two-factor authentication security mandatory for all of its users following several recent reports of hackers gaining access to people's internet-connected #Ring doorbell and security cameras.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-19 18:29:06]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-19 18:29:06] Read more: https://thehackernews.com/2020/02/ring-cameras-cybersecurity.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-20 14:13:29] Adobe today released security updates for Adobe After Effects (CVE-2020-3765) and Media Encoder (CVE-2020-3764) applications to patch 2 new critical code execution vulnerabilities.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-20 14:13:29]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-20 14:13:29] Details: https://thehackernews.com/2020/02/adobe-software-updates.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-20 16:47:22] ⚠️ Scam Alert ⚠️
+2020-02-24 10:43:05	TheHackerNews	[2020-02-20 16:47:22]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-20 16:47:22] You've Been Selected for 'Like of the Year 2020' Contest Cash Prizes !!!
+2020-02-24 10:43:05	TheHackerNews	[2020-02-20 16:47:22]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-20 16:47:22] That's an ongoing fraud scheme—yes, LIKE of the year—lures users with promises of financial rewards to steal their payment card information.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-20 16:47:22]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-20 16:47:22] Details: https://thehackernews.com/2020/02/like-of-the-year-scam.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-21 13:13:57] Android's never-ending battle with malware...
+2020-02-24 10:43:05	TheHackerNews	[2020-02-21 13:13:57]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-21 13:13:57] Google has banned nearly 600 Android apps from the official Play Store for bombarding millions of users with disruptive ads and violating its advertising guidelines.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-21 13:13:57]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-21 13:13:57] Read more: https://thehackernews.com/2020/02/android-adware-apps-banned.html
+2020-02-24 10:43:05	TheHackerNews	[2020-02-21 20:43:45] Microsoft releases a public preview of its Defender ATP Antivirus for Linux operating system —— And it's coming soon for Android and iOS later this year.
+2020-02-24 10:43:05	TheHackerNews	[2020-02-21 20:43:45]
+2020-02-24 10:43:05	TheHackerNews	[2020-02-21 20:43:45] Read details ➤ https://thehackernews.com/2020/02/windows-defender-atp-linux-android.html
+2020-02-24 10:52:05	ℹ 	irc: disconnected from server
+2020-02-24 10:54:14	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-24 10:54:14	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-24 10:54:14	ℹ 	Topic set by root (root@localhost) on Mon, 24 Feb 2020 10:54:14
+2020-02-24 10:54:14	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-24 10:54:14	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-24 10:54:14	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-24 10:54:14	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-24 10:54:14	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-24 10:54:14	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-24 10:54:14	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-24 10:54:14	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-24 10:54:14	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-24 10:54:14	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-24 10:54:14	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-24 10:54:14	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-24 10:54:14	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-24 10:54:14	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-24 10:54:14	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-24 10:54:14	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-19 15:54:49] The U.S. Department of Homeland Security's CISA issues a warning to all industries operating critical infrastructures of a new ransomware threat after hackers targeted a Gas pipeline facility and knocked it out of operation for almost 2 days.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-19 15:54:49]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-19 15:54:49] https://thehackernews.com/2020/02/critical-infrastructure-ransomware-attack.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-19 18:29:06] Amazon's Ring makes two-factor authentication security mandatory for all of its users following several recent reports of hackers gaining access to people's internet-connected #Ring doorbell and security cameras.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-19 18:29:06]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-19 18:29:06] Read more: https://thehackernews.com/2020/02/ring-cameras-cybersecurity.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-20 14:13:29] Adobe today released security updates for Adobe After Effects (CVE-2020-3765) and Media Encoder (CVE-2020-3764) applications to patch 2 new critical code execution vulnerabilities.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-20 14:13:29]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-20 14:13:29] Details: https://thehackernews.com/2020/02/adobe-software-updates.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-20 16:47:22] ⚠️ Scam Alert ⚠️
+2020-02-24 10:54:14	TheHackerNews	[2020-02-20 16:47:22]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-20 16:47:22] You've Been Selected for 'Like of the Year 2020' Contest Cash Prizes !!!
+2020-02-24 10:54:14	TheHackerNews	[2020-02-20 16:47:22]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-20 16:47:22] That's an ongoing fraud scheme—yes, LIKE of the year—lures users with promises of financial rewards to steal their payment card information.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-20 16:47:22]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-20 16:47:22] Details: https://thehackernews.com/2020/02/like-of-the-year-scam.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-21 13:13:57] Android's never-ending battle with malware...
+2020-02-24 10:54:14	TheHackerNews	[2020-02-21 13:13:57]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-21 13:13:57] Google has banned nearly 600 Android apps from the official Play Store for bombarding millions of users with disruptive ads and violating its advertising guidelines.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-21 13:13:57]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-21 13:13:57] Read more: https://thehackernews.com/2020/02/android-adware-apps-banned.html
+2020-02-24 10:54:14	TheHackerNews	[2020-02-21 20:43:45] Microsoft releases a public preview of its Defender ATP Antivirus for Linux operating system —— And it's coming soon for Android and iOS later this year.
+2020-02-24 10:54:14	TheHackerNews	[2020-02-21 20:43:45]
+2020-02-24 10:54:14	TheHackerNews	[2020-02-21 20:43:45] Read details ➤ https://thehackernews.com/2020/02/windows-defender-atp-linux-android.html
+2020-02-24 10:54:23	ℹ 	irc: disconnected from server
+2020-02-24 10:56:54	-->	suren (suren@localhost) has joined #TheHackerNews
+2020-02-24 10:56:54	ℹ 	Topic for #TheHackerNews is "BitlBee groupchat: "The Hacker News". Please keep in mind that root-commands won't work here. Have fun!"
+2020-02-24 10:56:54	ℹ 	Topic set by root (root@localhost) on Mon, 24 Feb 2020 10:56:54
+2020-02-24 10:56:54	ℹ 	Channel #TheHackerNews: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2020-02-24 10:56:54	-->	SurenManukyan (Suren_Manukyan@telegram) has joined #TheHackerNews
+2020-02-24 10:56:54	TheHackerNews	[2020-02-10 20:12:44] BREAKING: U.S. Department of Justice today announced charges against 4 Chinese military hackers who were allegedly involved in hacking into the Equifax credit reporting agency and stealing personal & financial data of nearly 150 million Americans.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-10 20:12:44]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-10 20:12:44] Read: https://thehackernews.com/2020/02/equifax-chinese-military-hackers.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 17:00:42] A security loophole on the website of a voting management app used by the ruling party in Israel leaked personal data of all 6.5 million Israeli voters―just 3 weeks before the country is going to have a legislative election.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 17:00:42]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 17:00:42] Read more: https://thehackernews.com/2020/02/Israeli-voter-data-leaked.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 21:50:51] Here comes the 2nd 'Patch Tuesday' of the year.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 21:50:51] Adobe releases security patches for dozens of new critical flaws affecting:
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 21:50:51] ➡ Adobe Framemaker
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 21:50:51] ➡ Acrobat and Reader
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 21:50:51] ➡ Flash Player
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 21:50:51] ➡ Digital Edition
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 21:50:51] ➡ Experience Manager
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 21:50:51]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 21:50:51] Read more: https://thehackernews.com/2020/02/adobe-software-update.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-11 21:50:51] #cybersecurity
+2020-02-24 10:56:54	TheHackerNews	[2020-02-12 00:12:55] ⭐ Microsoft Patch Tuesday — February 2020 Edition
+2020-02-24 10:56:54	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-12 00:12:55] ➡ 99 new flaws,
+2020-02-24 10:56:54	TheHackerNews	[2020-02-12 00:12:55] ➡ 5 were disclosed publicly,
+2020-02-24 10:56:54	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 is under active attack,
+2020-02-24 10:56:54	TheHackerNews	[2020-02-12 00:12:55] ➡ 2 affect remote desktop client,
+2020-02-24 10:56:54	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 lets bypass secure boot,
+2020-02-24 10:56:54	TheHackerNews	[2020-02-12 00:12:55] ➡ 1 RCE via LNK shortcuts,
+2020-02-24 10:56:54	TheHackerNews	[2020-02-12 00:12:55] ➡ and more...
+2020-02-24 10:56:54	TheHackerNews	[2020-02-12 00:12:55]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-12 00:12:55] Read: https://thehackernews.com/2020/02/microsoft-windows-updates.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-14 12:52:49] Watch Out!
+2020-02-24 10:56:54	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-14 12:52:49] 500+ Chrome browser extensions caught stealing private data of over 1.7 million users
+2020-02-24 10:56:54	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-14 12:52:49] Read details ➤ https://thehackernews.com/2020/02/chrome-extension-malware.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-14 12:52:49]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-14 12:52:49] #Google has now removed them from its official Web Store, but if you still have any of them installed, remove immediately.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-17 19:25:53] A dozen new security flaws — collectively named 'SweynTooth' — affect millions of Bluetooth LE-powered devices.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-17 19:25:53] Read: https://thehackernews.com/2020/02/hacking-bluetooth-vulnerabilities.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-17 19:25:53]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-17 19:25:53] Affected products also include devices used in logistics & healthcare industry, malfunctioning of which can lead to hazardous events.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-17 21:35:03] OpenSSH 8.2 released :
+2020-02-24 10:56:54	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-17 21:35:03] ➡️ now supports FIDO U2F security keys for strong 2-factor authentication,
+2020-02-24 10:56:54	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-17 21:35:03] ➡️ deprecated SSH-RSA public key signature algorithm.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-17 21:35:03]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-17 21:35:03] Read details: https://thehackernews.com/2020/02/openssh-fido-security-keys.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 01:27:43] A critical vulnerability in ThemeGrill WordPress plugin—with over 200,000 active installations—could let unauthenticated attackers wipe the entire database of targeted sites and gain administrative access.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 01:27:43] This WordPress plugin flaw remained undetected for the last 3 years, through ThemeGrill Demo Importer version 1.3.4 to 1.6.1.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 01:27:43] A new fixed version has now been released, update the plugin and patch your sites ASAP!
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 01:27:43]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 01:27:43] Details: https://thehackernews.com/2020/02/themegrill-wordpress-plugin.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 19:19:32] Iranian hackers are exploiting unpatched 1-day enterprise VPN vulnerabilities to compromise network of organizations worldwide and implant backdoors for cyber espionage.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 19:19:32] ➡️ Pulse Secure Connect: CVE-2019-11510
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 19:19:32] ➡️ Palo Alto Networks: CVE-2019-1579
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 19:19:32] ➡️ Fortinet FortiOS: CVE-2018-13379
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 19:19:32] ➡️ Citrix: CVE-2019-19781
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 19:19:32]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-18 19:19:32] Read: https://thehackernews.com/2020/02/iranian-hackers-vpn-vulnerabilities.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-19 15:54:49] The U.S. Department of Homeland Security's CISA issues a warning to all industries operating critical infrastructures of a new ransomware threat after hackers targeted a Gas pipeline facility and knocked it out of operation for almost 2 days.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-19 15:54:49]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-19 15:54:49] https://thehackernews.com/2020/02/critical-infrastructure-ransomware-attack.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-19 18:29:06] Amazon's Ring makes two-factor authentication security mandatory for all of its users following several recent reports of hackers gaining access to people's internet-connected #Ring doorbell and security cameras.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-19 18:29:06]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-19 18:29:06] Read more: https://thehackernews.com/2020/02/ring-cameras-cybersecurity.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-20 14:13:29] Adobe today released security updates for Adobe After Effects (CVE-2020-3765) and Media Encoder (CVE-2020-3764) applications to patch 2 new critical code execution vulnerabilities.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-20 14:13:29]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-20 14:13:29] Details: https://thehackernews.com/2020/02/adobe-software-updates.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-20 16:47:22] ⚠️ Scam Alert ⚠️
+2020-02-24 10:56:54	TheHackerNews	[2020-02-20 16:47:22]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-20 16:47:22] You've Been Selected for 'Like of the Year 2020' Contest Cash Prizes !!!
+2020-02-24 10:56:54	TheHackerNews	[2020-02-20 16:47:22]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-20 16:47:22] That's an ongoing fraud scheme—yes, LIKE of the year—lures users with promises of financial rewards to steal their payment card information.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-20 16:47:22]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-20 16:47:22] Details: https://thehackernews.com/2020/02/like-of-the-year-scam.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-21 13:13:57] Android's never-ending battle with malware...
+2020-02-24 10:56:54	TheHackerNews	[2020-02-21 13:13:57]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-21 13:13:57] Google has banned nearly 600 Android apps from the official Play Store for bombarding millions of users with disruptive ads and violating its advertising guidelines.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-21 13:13:57]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-21 13:13:57] Read more: https://thehackernews.com/2020/02/android-adware-apps-banned.html
+2020-02-24 10:56:54	TheHackerNews	[2020-02-21 20:43:45] Microsoft releases a public preview of its Defender ATP Antivirus for Linux operating system —— And it's coming soon for Android and iOS later this year.
+2020-02-24 10:56:54	TheHackerNews	[2020-02-21 20:43:45]
+2020-02-24 10:56:54	TheHackerNews	[2020-02-21 20:43:45] Read details ➤ https://thehackernews.com/2020/02/windows-defender-atp-linux-android.html

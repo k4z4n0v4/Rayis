@@ -1,0 +1,523 @@
+2020-02-17 18:23:51	ℹ 	irc: connecting to server localhost/6667...
+2020-02-17 18:23:51	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-17 18:23:52	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-17 18:23:52	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-17 18:23:52	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-17 18:23:52	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-17 18:23:52	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-17 18:23:52	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-17 18:23:52	ℹ 	- localhost Message Of The Day - 
+2020-02-17 18:23:52	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-17 18:23:52	ℹ 	- 
+2020-02-17 18:23:52	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-17 18:23:52	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-17 18:23:52	ℹ 	- 
+2020-02-17 18:23:52	ℹ 	- You are getting this message because the server administrator has not
+2020-02-17 18:23:52	ℹ 	- yet had the time (or need) to change it.
+2020-02-17 18:23:52	ℹ 	- 
+2020-02-17 18:23:52	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-17 18:23:52	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-17 18:23:52	ℹ 	- information.
+2020-02-17 18:23:52	ℹ 	- 
+2020-02-17 18:23:52	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-17 18:23:52	ℹ 	- -- BitlBee development team.
+2020-02-17 18:23:52	ℹ 	-  
+2020-02-17 18:23:52	ℹ 	- ... Buzzing, haha, get it?
+2020-02-17 18:23:52	ℹ 	End of MOTD
+2020-02-17 18:23:52	ℹ 	User mode [+s] by suren
+2020-02-17 18:24:02	ℹ 	irc: connecting to server localhost/6667...
+2020-02-17 18:24:02	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-17 18:24:02	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-17 18:24:02	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-17 18:24:02	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-17 18:24:02	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-17 18:24:02	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-17 18:24:02	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-17 18:24:02	ℹ 	- localhost Message Of The Day - 
+2020-02-17 18:24:02	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-17 18:24:02	ℹ 	- 
+2020-02-17 18:24:02	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-17 18:24:02	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-17 18:24:02	ℹ 	- 
+2020-02-17 18:24:02	ℹ 	- You are getting this message because the server administrator has not
+2020-02-17 18:24:02	ℹ 	- yet had the time (or need) to change it.
+2020-02-17 18:24:02	ℹ 	- 
+2020-02-17 18:24:02	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-17 18:24:02	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-17 18:24:02	ℹ 	- information.
+2020-02-17 18:24:02	ℹ 	- 
+2020-02-17 18:24:02	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-17 18:24:02	ℹ 	- -- BitlBee development team.
+2020-02-17 18:24:02	ℹ 	-  
+2020-02-17 18:24:02	ℹ 	- ... Buzzing, haha, get it?
+2020-02-17 18:24:02	ℹ 	End of MOTD
+2020-02-17 18:24:02	ℹ 	User mode [+s] by suren
+2020-02-17 18:24:14	ℹ 	User mode [+R] by suren
+2020-02-17 18:25:47	ℹ 	MSG(ԳրիգKrasavchik): sup?
+2020-02-17 18:33:44	ℹ 	#FreedomFox;): Error joining channel (check control channel?)
+2020-02-17 19:04:56	ℹ 	irc: disconnected from server
+2020-02-18 09:27:56	ℹ 	irc: connecting to server localhost/6667...
+2020-02-18 09:27:56	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-18 09:27:56	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-18 09:27:56	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-18 09:27:56	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-18 09:27:56	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-18 09:27:56	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-18 09:27:56	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-18 09:27:56	ℹ 	- localhost Message Of The Day - 
+2020-02-18 09:27:56	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-18 09:27:56	ℹ 	- 
+2020-02-18 09:27:56	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-18 09:27:56	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-18 09:27:56	ℹ 	- 
+2020-02-18 09:27:56	ℹ 	- You are getting this message because the server administrator has not
+2020-02-18 09:27:56	ℹ 	- yet had the time (or need) to change it.
+2020-02-18 09:27:56	ℹ 	- 
+2020-02-18 09:27:56	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-18 09:27:56	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-18 09:27:56	ℹ 	- information.
+2020-02-18 09:27:56	ℹ 	- 
+2020-02-18 09:27:56	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-18 09:27:56	ℹ 	- -- BitlBee development team.
+2020-02-18 09:27:56	ℹ 	-  
+2020-02-18 09:27:56	ℹ 	- ... Buzzing, haha, get it?
+2020-02-18 09:27:56	ℹ 	End of MOTD
+2020-02-18 09:27:56	ℹ 	User mode [+s] by suren
+2020-02-18 09:28:02	ℹ 	User mode [+R] by suren
+2020-02-18 09:45:40	ℹ 	#FreedomFox;): Error joining channel (check control channel?)
+2020-02-18 09:54:59	ℹ 	#Hacking: Can't join channel, account offline?
+2020-02-18 09:55:05	⚠	irc: this buffer is not a channel!
+2020-02-18 10:09:40	ℹ 	MSG(longears): hey long
+2020-02-18 10:10:03	⚠	irc: this buffer is not a channel!
+2020-02-18 10:35:18	ℹ 	irc: disconnected from server
+2020-02-18 10:35:20	ℹ 	irc: connecting to server localhost/6667...
+2020-02-18 10:35:20	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-18 10:35:20	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-18 10:35:20	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-18 10:35:20	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-18 10:35:20	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-18 10:35:20	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-18 10:35:20	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-18 10:35:20	ℹ 	- localhost Message Of The Day - 
+2020-02-18 10:35:20	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-18 10:35:20	ℹ 	- 
+2020-02-18 10:35:20	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-18 10:35:20	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-18 10:35:20	ℹ 	- 
+2020-02-18 10:35:20	ℹ 	- You are getting this message because the server administrator has not
+2020-02-18 10:35:20	ℹ 	- yet had the time (or need) to change it.
+2020-02-18 10:35:20	ℹ 	- 
+2020-02-18 10:35:20	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-18 10:35:20	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-18 10:35:20	ℹ 	- information.
+2020-02-18 10:35:20	ℹ 	- 
+2020-02-18 10:35:20	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-18 10:35:20	ℹ 	- -- BitlBee development team.
+2020-02-18 10:35:20	ℹ 	-  
+2020-02-18 10:35:20	ℹ 	- ... Buzzing, haha, get it?
+2020-02-18 10:35:20	ℹ 	End of MOTD
+2020-02-18 10:35:20	ℹ 	User mode [+s] by suren
+2020-02-18 10:35:25	ℹ 	User mode [+R] by suren
+2020-02-18 10:40:19	ℹ 	#FreedomFox;): Error joining channel (check control channel?)
+2020-02-18 10:41:45	ℹ 	#general: Error joining channel (check control channel?)
+2020-02-18 11:03:27	⚠	irc: this buffer is not a channel!
+2020-02-18 11:27:40	ℹ 	MSG(Վիկտորյա): you alive??
+2020-02-18 11:27:40	ℹ 	[Վիկտորյա] is away: Mobile
+2020-02-18 11:38:14	ℹ 	irc: disconnected from server
+2020-02-18 11:38:17	ℹ 	irc: connecting to server localhost/6667...
+2020-02-18 11:38:17	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-18 11:38:17	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-18 11:38:17	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-18 11:38:17	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-18 11:38:17	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-18 11:38:17	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-18 11:38:17	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-18 11:38:17	ℹ 	- localhost Message Of The Day - 
+2020-02-18 11:38:17	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-18 11:38:17	ℹ 	- 
+2020-02-18 11:38:17	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-18 11:38:17	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-18 11:38:17	ℹ 	- 
+2020-02-18 11:38:17	ℹ 	- You are getting this message because the server administrator has not
+2020-02-18 11:38:17	ℹ 	- yet had the time (or need) to change it.
+2020-02-18 11:38:17	ℹ 	- 
+2020-02-18 11:38:17	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-18 11:38:17	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-18 11:38:17	ℹ 	- information.
+2020-02-18 11:38:17	ℹ 	- 
+2020-02-18 11:38:17	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-18 11:38:17	ℹ 	- -- BitlBee development team.
+2020-02-18 11:38:17	ℹ 	-  
+2020-02-18 11:38:17	ℹ 	- ... Buzzing, haha, get it?
+2020-02-18 11:38:17	ℹ 	End of MOTD
+2020-02-18 11:38:17	ℹ 	User mode [+s] by suren
+2020-02-18 11:38:50	ℹ 	User mode [+R] by suren
+2020-02-18 11:53:06	ℹ 	irc: disconnected from server
+2020-02-18 12:01:56	ℹ 	irc: connecting to server localhost/6667...
+2020-02-18 12:01:56	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-18 12:01:57	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-18 12:01:57	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-18 12:01:57	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-18 12:01:57	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-18 12:01:57	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-18 12:01:57	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-18 12:01:57	ℹ 	- localhost Message Of The Day - 
+2020-02-18 12:01:57	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-18 12:01:57	ℹ 	- 
+2020-02-18 12:01:57	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-18 12:01:57	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-18 12:01:57	ℹ 	- 
+2020-02-18 12:01:57	ℹ 	- You are getting this message because the server administrator has not
+2020-02-18 12:01:57	ℹ 	- yet had the time (or need) to change it.
+2020-02-18 12:01:57	ℹ 	- 
+2020-02-18 12:01:57	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-18 12:01:57	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-18 12:01:57	ℹ 	- information.
+2020-02-18 12:01:57	ℹ 	- 
+2020-02-18 12:01:57	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-18 12:01:57	ℹ 	- -- BitlBee development team.
+2020-02-18 12:01:57	ℹ 	-  
+2020-02-18 12:01:57	ℹ 	- ... Buzzing, haha, get it?
+2020-02-18 12:01:57	ℹ 	End of MOTD
+2020-02-18 12:01:57	ℹ 	User mode [+s] by suren
+2020-02-18 12:02:05	ℹ 	User mode [+R] by suren
+2020-02-18 12:13:39	ℹ 	#FreedomFox;): Error joining channel (check control channel?)
+2020-02-18 12:13:56	ℹ 	[Ռուբ] (Ռուբ@telegram): Ռուբ
+2020-02-18 12:13:56	ℹ 	[Ռուբ] +37499310701. (telegram network)
+2020-02-18 12:13:56	ℹ 	[Ռուբ] Available
+2020-02-18 12:13:56	ℹ 	[Ռուբ] End of /WHOIS list
+2020-02-18 13:18:58	ℹ 	MSG(Էլլադա): i want you
+2020-02-18 13:18:58	ℹ 	[Էլլադա] is away: Mobile
+2020-02-18 13:20:53	⚠	irc: this buffer is not a channel!
+2020-02-18 13:21:01	ℹ 	list: No such nick/channel
+2020-02-18 13:50:46	ℹ 	#general: Error joining channel (check control channel?)
+2020-02-18 19:10:02	ℹ 	irc: disconnected from server
+2020-02-19 09:18:33	ℹ 	irc: connecting to server localhost/6667...
+2020-02-19 09:18:33	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-19 09:18:33	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-19 09:18:33	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-19 09:18:33	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-19 09:18:33	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-19 09:18:33	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-19 09:18:33	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-19 09:18:33	ℹ 	- localhost Message Of The Day - 
+2020-02-19 09:18:33	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-19 09:18:33	ℹ 	- 
+2020-02-19 09:18:33	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-19 09:18:33	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-19 09:18:33	ℹ 	- 
+2020-02-19 09:18:33	ℹ 	- You are getting this message because the server administrator has not
+2020-02-19 09:18:33	ℹ 	- yet had the time (or need) to change it.
+2020-02-19 09:18:33	ℹ 	- 
+2020-02-19 09:18:33	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-19 09:18:33	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-19 09:18:33	ℹ 	- information.
+2020-02-19 09:18:33	ℹ 	- 
+2020-02-19 09:18:33	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-19 09:18:33	ℹ 	- -- BitlBee development team.
+2020-02-19 09:18:33	ℹ 	-  
+2020-02-19 09:18:33	ℹ 	- ... Buzzing, haha, get it?
+2020-02-19 09:18:33	ℹ 	End of MOTD
+2020-02-19 09:18:33	ℹ 	User mode [+s] by suren
+2020-02-19 09:18:39	ℹ 	User mode [+R] by suren
+2020-02-19 11:30:47	ℹ 	irc: disconnected from server
+2020-02-19 11:37:43	ℹ 	irc: connecting to server localhost/6667...
+2020-02-19 11:37:43	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-19 11:37:43	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-19 11:37:43	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-19 11:37:43	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-19 11:37:43	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-19 11:37:43	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-19 11:37:43	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-19 11:37:43	ℹ 	- localhost Message Of The Day - 
+2020-02-19 11:37:43	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-19 11:37:43	ℹ 	- 
+2020-02-19 11:37:43	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-19 11:37:43	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-19 11:37:43	ℹ 	- 
+2020-02-19 11:37:43	ℹ 	- You are getting this message because the server administrator has not
+2020-02-19 11:37:43	ℹ 	- yet had the time (or need) to change it.
+2020-02-19 11:37:43	ℹ 	- 
+2020-02-19 11:37:43	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-19 11:37:43	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-19 11:37:43	ℹ 	- information.
+2020-02-19 11:37:43	ℹ 	- 
+2020-02-19 11:37:43	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-19 11:37:43	ℹ 	- -- BitlBee development team.
+2020-02-19 11:37:43	ℹ 	-  
+2020-02-19 11:37:43	ℹ 	- ... Buzzing, haha, get it?
+2020-02-19 11:37:43	ℹ 	End of MOTD
+2020-02-19 11:37:43	ℹ 	User mode [+s] by suren
+2020-02-19 11:37:50	ℹ 	User mode [+R] by suren
+2020-02-19 15:10:12	ℹ 	irc: disconnected from server
+2020-02-19 15:10:14	ℹ 	irc: connecting to server localhost/6667...
+2020-02-19 15:10:14	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-19 15:10:14	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-19 15:10:14	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-19 15:10:14	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-19 15:10:14	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-19 15:10:14	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-19 15:10:14	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-19 15:10:14	ℹ 	- localhost Message Of The Day - 
+2020-02-19 15:10:14	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-19 15:10:14	ℹ 	- 
+2020-02-19 15:10:14	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-19 15:10:14	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-19 15:10:14	ℹ 	- 
+2020-02-19 15:10:14	ℹ 	- You are getting this message because the server administrator has not
+2020-02-19 15:10:14	ℹ 	- yet had the time (or need) to change it.
+2020-02-19 15:10:14	ℹ 	- 
+2020-02-19 15:10:14	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-19 15:10:14	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-19 15:10:14	ℹ 	- information.
+2020-02-19 15:10:14	ℹ 	- 
+2020-02-19 15:10:14	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-19 15:10:14	ℹ 	- -- BitlBee development team.
+2020-02-19 15:10:14	ℹ 	-  
+2020-02-19 15:10:14	ℹ 	- ... Buzzing, haha, get it?
+2020-02-19 15:10:14	ℹ 	End of MOTD
+2020-02-19 15:10:14	ℹ 	User mode [+s] by suren
+2020-02-19 15:42:11	ℹ 	User mode [+R] by suren
+2020-02-19 16:38:45	⚠	Closing link: BitlBee server shutting down
+2020-02-19 16:38:45	⚠	irc: reading data on socket: error 4 (connection closed by peer)
+2020-02-19 16:38:45	ℹ 	irc: disconnecting from server...
+2020-02-19 16:38:45	ℹ 	irc: disconnected from server
+2020-02-19 16:38:45	ℹ 	irc: reconnecting to server in 10 seconds
+2020-02-19 16:38:45	ℹ 	irc: disconnected from server
+2020-02-19 17:34:56	ℹ 	irc: connecting to server localhost/6667...
+2020-02-19 17:34:56	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-19 17:34:56	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-19 17:34:56	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-19 17:34:56	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-19 17:34:56	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-19 17:34:56	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-19 17:34:56	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-19 17:34:56	ℹ 	- localhost Message Of The Day - 
+2020-02-19 17:34:56	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-19 17:34:56	ℹ 	- 
+2020-02-19 17:34:56	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-19 17:34:56	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-19 17:34:56	ℹ 	- 
+2020-02-19 17:34:56	ℹ 	- You are getting this message because the server administrator has not
+2020-02-19 17:34:56	ℹ 	- yet had the time (or need) to change it.
+2020-02-19 17:34:56	ℹ 	- 
+2020-02-19 17:34:56	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-19 17:34:56	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-19 17:34:56	ℹ 	- information.
+2020-02-19 17:34:56	ℹ 	- 
+2020-02-19 17:34:56	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-19 17:34:56	ℹ 	- -- BitlBee development team.
+2020-02-19 17:34:56	ℹ 	-  
+2020-02-19 17:34:56	ℹ 	- ... Buzzing, haha, get it?
+2020-02-19 17:34:56	ℹ 	End of MOTD
+2020-02-19 17:34:56	ℹ 	User mode [+s] by suren
+2020-02-19 17:35:08	ℹ 	User mode [+R] by suren
+2020-02-19 18:39:49	ℹ 	irc: disconnected from server
+2020-02-19 18:41:18	ℹ 	irc: connecting to server localhost/6667...
+2020-02-19 18:41:18	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-19 18:41:18	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-19 18:41:18	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-19 18:41:18	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-19 18:41:18	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-19 18:41:18	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-19 18:41:18	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-19 18:41:18	ℹ 	- localhost Message Of The Day - 
+2020-02-19 18:41:18	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-19 18:41:18	ℹ 	- 
+2020-02-19 18:41:18	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-19 18:41:18	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-19 18:41:18	ℹ 	- 
+2020-02-19 18:41:18	ℹ 	- You are getting this message because the server administrator has not
+2020-02-19 18:41:18	ℹ 	- yet had the time (or need) to change it.
+2020-02-19 18:41:18	ℹ 	- 
+2020-02-19 18:41:18	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-19 18:41:18	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-19 18:41:18	ℹ 	- information.
+2020-02-19 18:41:18	ℹ 	- 
+2020-02-19 18:41:18	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-19 18:41:18	ℹ 	- -- BitlBee development team.
+2020-02-19 18:41:18	ℹ 	-  
+2020-02-19 18:41:18	ℹ 	- ... Buzzing, haha, get it?
+2020-02-19 18:41:18	ℹ 	End of MOTD
+2020-02-19 18:41:18	ℹ 	User mode [+s] by suren
+2020-02-19 18:41:32	ℹ 	User mode [+R] by suren
+2020-02-20 10:44:40	⚠	irc: reading data on socket: error 4 (connection closed by peer)
+2020-02-20 10:44:40	ℹ 	irc: disconnecting from server...
+2020-02-20 10:44:40	ℹ 	irc: disconnected from server
+2020-02-20 10:44:40	ℹ 	irc: reconnecting to server in 10 seconds
+2020-02-20 10:44:40	ℹ 	irc: disconnected from server
+2020-02-20 15:14:56	ℹ 	irc: connecting to server localhost/6667...
+2020-02-20 15:14:56	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-20 15:14:57	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-20 15:14:57	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-20 15:14:57	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-20 15:14:57	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-20 15:14:57	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-20 15:14:57	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-20 15:14:57	ℹ 	- localhost Message Of The Day - 
+2020-02-20 15:14:57	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-20 15:14:57	ℹ 	- 
+2020-02-20 15:14:57	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-20 15:14:57	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-20 15:14:57	ℹ 	- 
+2020-02-20 15:14:57	ℹ 	- You are getting this message because the server administrator has not
+2020-02-20 15:14:57	ℹ 	- yet had the time (or need) to change it.
+2020-02-20 15:14:57	ℹ 	- 
+2020-02-20 15:14:57	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-20 15:14:57	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-20 15:14:57	ℹ 	- information.
+2020-02-20 15:14:57	ℹ 	- 
+2020-02-20 15:14:57	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-20 15:14:57	ℹ 	- -- BitlBee development team.
+2020-02-20 15:14:57	ℹ 	-  
+2020-02-20 15:14:57	ℹ 	- ... Buzzing, haha, get it?
+2020-02-20 15:14:57	ℹ 	End of MOTD
+2020-02-20 15:14:57	ℹ 	User mode [+s] by suren
+2020-02-20 15:15:16	ℹ 	User mode [+R] by suren
+2020-02-20 15:36:12	ℹ 	irc: disconnected from server
+2020-02-24 09:11:42	ℹ 	irc: connecting to server localhost/6667...
+2020-02-24 09:11:42	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-24 09:11:43	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-24 09:11:43	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-24 09:11:43	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-24 09:11:43	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-24 09:11:43	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-24 09:11:43	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-24 09:11:43	ℹ 	- localhost Message Of The Day - 
+2020-02-24 09:11:43	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-24 09:11:43	ℹ 	- 
+2020-02-24 09:11:43	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-24 09:11:43	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-24 09:11:43	ℹ 	- 
+2020-02-24 09:11:43	ℹ 	- You are getting this message because the server administrator has not
+2020-02-24 09:11:43	ℹ 	- yet had the time (or need) to change it.
+2020-02-24 09:11:43	ℹ 	- 
+2020-02-24 09:11:43	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-24 09:11:43	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-24 09:11:43	ℹ 	- information.
+2020-02-24 09:11:43	ℹ 	- 
+2020-02-24 09:11:43	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-24 09:11:43	ℹ 	- -- BitlBee development team.
+2020-02-24 09:11:43	ℹ 	-  
+2020-02-24 09:11:43	ℹ 	- ... Buzzing, haha, get it?
+2020-02-24 09:11:43	ℹ 	End of MOTD
+2020-02-24 09:11:43	ℹ 	User mode [+s] by suren
+2020-02-24 09:11:59	ℹ 	User mode [+R] by suren
+2020-02-24 09:13:43	ℹ 	irc: disconnected from server
+2020-02-24 09:13:45	ℹ 	irc: connecting to server localhost/6667...
+2020-02-24 09:13:45	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-24 09:13:45	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-24 09:13:45	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-24 09:13:45	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-24 09:13:45	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-24 09:13:45	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-24 09:13:45	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-24 09:13:45	ℹ 	- localhost Message Of The Day - 
+2020-02-24 09:13:45	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-24 09:13:45	ℹ 	- 
+2020-02-24 09:13:45	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-24 09:13:45	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-24 09:13:45	ℹ 	- 
+2020-02-24 09:13:45	ℹ 	- You are getting this message because the server administrator has not
+2020-02-24 09:13:45	ℹ 	- yet had the time (or need) to change it.
+2020-02-24 09:13:45	ℹ 	- 
+2020-02-24 09:13:45	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-24 09:13:45	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-24 09:13:45	ℹ 	- information.
+2020-02-24 09:13:45	ℹ 	- 
+2020-02-24 09:13:45	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-24 09:13:45	ℹ 	- -- BitlBee development team.
+2020-02-24 09:13:45	ℹ 	-  
+2020-02-24 09:13:45	ℹ 	- ... Buzzing, haha, get it?
+2020-02-24 09:13:45	ℹ 	End of MOTD
+2020-02-24 09:13:45	ℹ 	User mode [+s] by suren
+2020-02-24 09:13:49	ℹ 	User mode [+R] by suren
+2020-02-24 10:40:37	ℹ 	irc: disconnected from server
+2020-02-24 10:40:39	ℹ 	irc: connecting to server localhost/6667...
+2020-02-24 10:40:39	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-24 10:40:39	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-24 10:40:39	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-24 10:40:39	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-24 10:40:39	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-24 10:40:39	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-24 10:40:39	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-24 10:40:39	ℹ 	- localhost Message Of The Day - 
+2020-02-24 10:40:39	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-24 10:40:39	ℹ 	- 
+2020-02-24 10:40:39	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-24 10:40:39	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-24 10:40:39	ℹ 	- 
+2020-02-24 10:40:39	ℹ 	- You are getting this message because the server administrator has not
+2020-02-24 10:40:39	ℹ 	- yet had the time (or need) to change it.
+2020-02-24 10:40:39	ℹ 	- 
+2020-02-24 10:40:39	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-24 10:40:39	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-24 10:40:39	ℹ 	- information.
+2020-02-24 10:40:39	ℹ 	- 
+2020-02-24 10:40:39	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-24 10:40:39	ℹ 	- -- BitlBee development team.
+2020-02-24 10:40:39	ℹ 	-  
+2020-02-24 10:40:39	ℹ 	- ... Buzzing, haha, get it?
+2020-02-24 10:40:39	ℹ 	End of MOTD
+2020-02-24 10:40:39	ℹ 	User mode [+s] by suren
+2020-02-24 10:40:47	ℹ 	User mode [+R] by suren
+2020-02-24 10:48:29	ℹ 	MSG(Էլլադա): bitch
+2020-02-24 10:48:29	ℹ 	[Էլլադա] is away: Mobile
+2020-02-24 10:52:05	ℹ 	irc: disconnected from server
+2020-02-24 10:52:07	ℹ 	irc: connecting to server localhost/6667...
+2020-02-24 10:52:07	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-24 10:52:07	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-24 10:52:07	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-24 10:52:07	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-24 10:52:07	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-24 10:52:07	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-24 10:52:07	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-24 10:52:07	ℹ 	- localhost Message Of The Day - 
+2020-02-24 10:52:07	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-24 10:52:07	ℹ 	- 
+2020-02-24 10:52:07	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-24 10:52:07	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-24 10:52:07	ℹ 	- 
+2020-02-24 10:52:07	ℹ 	- You are getting this message because the server administrator has not
+2020-02-24 10:52:07	ℹ 	- yet had the time (or need) to change it.
+2020-02-24 10:52:07	ℹ 	- 
+2020-02-24 10:52:07	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-24 10:52:07	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-24 10:52:07	ℹ 	- information.
+2020-02-24 10:52:07	ℹ 	- 
+2020-02-24 10:52:07	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-24 10:52:07	ℹ 	- -- BitlBee development team.
+2020-02-24 10:52:07	ℹ 	-  
+2020-02-24 10:52:07	ℹ 	- ... Buzzing, haha, get it?
+2020-02-24 10:52:07	ℹ 	End of MOTD
+2020-02-24 10:52:07	ℹ 	User mode [+s] by suren
+2020-02-24 10:52:13	ℹ 	User mode [+R] by suren
+2020-02-24 10:54:23	ℹ 	irc: disconnected from server
+2020-02-24 10:54:25	ℹ 	irc: connecting to server localhost/6667...
+2020-02-24 10:54:25	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2020-02-24 10:54:25	ℹ 	localhost: BitlBee-IRCd initialized, please go on
+2020-02-24 10:54:25	ℹ 	Welcome to the BitlBee-LIBPURPLE gateway, suren
+2020-02-24 10:54:25	ℹ 	Host localhost is running BitlBee-LIBPURPLE 3.5.1.
+2020-02-24 10:54:25	ℹ 	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2020-02-24 10:54:25	ℹ 	localhost 3.5.1 abiswRo ntC
+2020-02-24 10:54:25	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2020-02-24 10:54:25	ℹ 	- localhost Message Of The Day - 
+2020-02-24 10:54:25	ℹ 	- Welcome to the BitlBee server at localhost.
+2020-02-24 10:54:25	ℹ 	- 
+2020-02-24 10:54:25	ℹ 	- This server is running BitlBee version 3.5.1.
+2020-02-24 10:54:25	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2020-02-24 10:54:25	ℹ 	- 
+2020-02-24 10:54:25	ℹ 	- You are getting this message because the server administrator has not
+2020-02-24 10:54:25	ℹ 	- yet had the time (or need) to change it.
+2020-02-24 10:54:25	ℹ 	- 
+2020-02-24 10:54:25	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2020-02-24 10:54:25	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2020-02-24 10:54:25	ℹ 	- information.
+2020-02-24 10:54:25	ℹ 	- 
+2020-02-24 10:54:25	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2020-02-24 10:54:25	ℹ 	- -- BitlBee development team.
+2020-02-24 10:54:25	ℹ 	-  
+2020-02-24 10:54:25	ℹ 	- ... Buzzing, haha, get it?
+2020-02-24 10:54:25	ℹ 	End of MOTD
+2020-02-24 10:54:25	ℹ 	User mode [+s] by suren
+2020-02-24 10:54:38	ℹ 	User mode [+R] by suren
