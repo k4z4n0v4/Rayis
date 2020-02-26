@@ -1,15 +1,15 @@
   [global]
     monitor = 0
     follow = keyboard
-    geometry = "350x5-0+24"
+    geometry = "350x5-0+40"
     indicate_hidden = yes
     shrink = yes
-    transparency = 20
+    transparency = 5
     notification_height = 0
     separator_height = 2
     padding = 0
     horizontal_padding = 8
-    frame_width = 3
+    frame_width = 0
     frame_color = "#282828"
 
     # Define a color for the separator.
@@ -18,7 +18,7 @@
     #  * foreground: use the same color as the foreground;
     #  * frame: use the same color as the frame;
     #  * anything else will be interpreted as a X color.
-    separator_color = frame
+    separator_color = auto
 
     # Sort messages by urgency.
     sort = yes
@@ -75,15 +75,15 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#282828"
+    background = "#8cd0d3"
     foreground = "#928374"
     timeout = 5
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_normal]
-    background = "#458588"
-    foreground = "#ebdbb2"
+    background = "#8cd0d3"
+    foreground = "#506070"
     timeout = 5
 
 [urgency_critical]
@@ -115,9 +115,9 @@
 #    summary = "*"
 #    script = dunst_espeak.sh
 
-#[script-test]
-#    summary = "*script*"
-#    script = dunst_test.sh
+[script-test]
+    summary = "*"
+    script = /home/suren/.config/dunst/test
 
 #[ignore]
 #    # This notification will not be displayed
