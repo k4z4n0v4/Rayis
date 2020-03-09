@@ -116,7 +116,7 @@
 #    script = dunst_espeak.sh
 
 [script-test]
-    summary = "*"
+    summary = "*says:*"
     script = /home/suren/.config/dunst/test
 
 #[ignore]

@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-play -q /home/suren/.config/dunst/just-saying.ogg 
+play -v 0.6 -q /home/suren/.config/dunst/just-saying.ogg 
 

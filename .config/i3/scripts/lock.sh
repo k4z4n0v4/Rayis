@@ -1,6 +1,7 @@
 
 #!/bin/sh
 
+notify-send "DUNST_COMMAND_PAUSE"
 B='#00000000'  # blank
 C='#ffffff22'  # clear ish
 D='#506070cc'  # default
@@ -8,7 +9,7 @@ T='#dcdcccee'  # text
 W='#93e0e3bb'  # wrong
 V='#94bff3bb'  # verifying
 
-i3lock \
+i3lock -n \
 --insidevercolor=$C   \
 --ringvercolor=$V     \
 \
@@ -34,7 +35,7 @@ i3lock \
 --indicator           \
 --timestr="%H:%M:%S"  \
 --datestr="%A, %m %Y" \
---keylayout 2         \
+--keylayout 2; notify-send "DUNST_COMMAND_RESUME"  \
 
 # --wrongtext="Nope!"
 # --textsize=20
