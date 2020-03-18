@@ -168,6 +168,7 @@ bindsym $mod+Shift+s sticky toggle
 for_window [class="Pavucontrol"] floating enable
 for_window [title="htop"] floating enable
 for_window [title="nethogs"] floating enable
+for_window [class="Maltego"] floating enable
 
 
 

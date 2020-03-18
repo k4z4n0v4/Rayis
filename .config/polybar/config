@@ -66,7 +66,7 @@ font-2 = MaterialIcons:size=13;3
 font-3 = Fontawesome:pixelsize=13:antialias=true;1
 
 modules-left = spotify previous playpause next
-modules-right = usb filesystem pulseaudio xkeyboard memory cpu vpn-protonvpn-status eth updates-arch-combined date powermenu
+modules-right = usb filesystem pulseaudio xkeyboard memory cpu vpn eth updates-arch-combined date powermenu
 
 
 
@@ -234,7 +234,7 @@ card = intel_backlight
 
 [module/cpu]
 type = internal/cpu
-interval = 0.5
+interval = 5
 format = "%{A1:st -t htop -e htop --sort-key=PERCENT_CPU &:} <label> <ramp-coreload>%{A}"
 format-underline = ${colors.cyan}
 label = CPU
@@ -267,7 +267,7 @@ ramp-coreload-7-foreground = ${colors.darkblue}
 
 [module/memory]
 type = internal/memory
-interval = 2
+interval = 5
 format = %{A1:st -t htop -e htop --sort-key=PERCENT_MEM &:}<label> <ramp-used> %{A}
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
@@ -327,10 +327,14 @@ format-disconnected = <label-disconnected>
 label-disconnected = disconnected
 label-disconnected-foreground = ${colors.foreground}
 
-[module/vpn-protonvpn-status]
-type = custom/script
-exec = /home/suren/.config/polybar/polybar-scripts/vpn-anyconnect-status.sh
-interval = 5
+
+# needs according polybar-msg calls in connection.py disconnect()-print, status-disconnect-print, openvpn-connect-print 
+[module/vpn]
+type = custom/ipc
+hook-0 = protonvpn status | grep Connected > /dev/null && polybar-msg hook vpn 2 
+hook-1 = echo "%{u#55aa55} VPN: $(protonvpn s | grep Country | cut -b '15-' )%{u-}"
+hook-2 = echo "%{F#FF0000}%{u#FF0000}VPN DISCONNECTED%{u-}%{F-}"
+initial = 1 
 
 [module/date]
 type = internal/date

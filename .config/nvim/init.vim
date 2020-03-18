@@ -17,6 +17,8 @@ call plug#begin()
 	Plug 'Shougo/echodoc.vim'
 	Plug 'tpope/vim-fugitive'
 	Plug 'preservim/nerdtree'
+	Plug 'stephpy/vim-yaml'	
+	Plug 'edkolev/promptline.vim'
 call plug#end()
 
 
@@ -26,10 +28,11 @@ set scrolloff=1
 set sidescrolloff=3
 set clipboard=unnamedplus
 set noshowmode " Disable vim's own mod indicator
-set nu
+set number relativenumber
 set encoding=utf-8
 set cursorcolumn
 set cursorline
+set fdm=indent
 let g:tex_flavor = "latex"
 
 
@@ -77,7 +80,7 @@ let g:airline_theme = 'zenburn'
 let g:indent_guides_exclude_filetypes = ['vim']
 
 " Enable indent-guides
-let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_enable_on_vim_startup = 0
 
 "------------------------------------------------------------------- Deoplete
 " Enable Deoplete

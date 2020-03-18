@@ -25,5 +25,9 @@ settings:
     - Emoji
   fonts.default_size:
     global: 13pt
+  url.default_page:
+    global: about:blank
+  url.start_pages:
+    global: about:blank
   zoom.default:
     global: 125%
