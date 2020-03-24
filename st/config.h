@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Dejavu Sans Mono:size=13";
-static char *font2[] = { "Dejavu Sans Mono for Powerline:size=8:antialias=true:autohint=true"  };
+static char *font = "Dejavu Sans Mono for Powerline:size=17:antialias=true:autohint=true";
+static char *font2[] = { "MaterialIcons", "JoyPixels:size=13:antialias=true:autohint=true"  };
 static int borderpx = 2;
 
 /*

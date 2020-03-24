@@ -4,7 +4,7 @@
 
 
 call plug#begin()
-	Plug 'flazz/vim-colorschemes'
+	"Plug 'flazz/vim-colorschemes'
 	Plug 'sheerun/vim-polyglot'
 	Plug 'nathanaelkane/vim-indent-guides'
 	Plug 'w0rp/ale'
@@ -19,6 +19,10 @@ call plug#begin()
 	Plug 'preservim/nerdtree'
 	Plug 'stephpy/vim-yaml'	
 	Plug 'edkolev/promptline.vim'
+	Plug 'junegunn/goyo.vim'
+	Plug 'xolox/vim-notes'   
+	Plug 'xolox/vim-misc'	
+	Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
 
@@ -30,8 +34,6 @@ set clipboard=unnamedplus
 set noshowmode " Disable vim's own mod indicator
 set number relativenumber
 set encoding=utf-8
-set cursorcolumn
-set cursorline
 set fdm=indent
 let g:tex_flavor = "latex"
 
@@ -58,9 +60,12 @@ highlight BadWhitespace ctermbg=red guibg=red
 
 
 " Set colorscheme 
-colorscheme zenburn
-let g:zenburn_alternate_Visual = 1
-let g:zenburn_transparent = 1
+let g:nord_cursor_line_number_background = 1
+let g:nord_bold = 1
+let g:nord_italic = 1
+let g:nord_italic_comments = 1
+let g:nord_underline = 1
+colorscheme nord
 
 "------------------------------------------------------------------- Polyglot
 
@@ -71,8 +76,8 @@ let g:polyglot_disabled = ['latex']
 
 " Make airline pointy
 let g:airline_powerline_fonts = 1
-let g:zenburn_high_Contrast = 1
-let g:airline_theme = 'zenburn'
+"let g:zenburn_high_Contrast = 1
+let g:airline_theme = 'nord'
 
 "------------------------------------------------------------------- Indent-Guides
 
@@ -137,3 +142,6 @@ nnoremap <silent> <Leader>v :NERDTreeFind<CR>
 let NERDTreeQuitOnOpen = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
+
+"------------------------------------------------------------------- vim-notes
+:let g:notes_directories = ['~/Documents/Notes']

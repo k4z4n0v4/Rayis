@@ -24,7 +24,7 @@
     sort = yes
 
     idle_threshold = 120
-    font = Monospace 14
+    font = DejaVu 14
     line_height = 0
     markup = full
 
@@ -53,7 +53,7 @@
     icon_path = icon_path = /usr/share/icons/Adwaita/16x16/status/:/usr/share/icons/Adwaita/16x16/devices/
     sticky_history = yes
     history_length = 20
-    dmenu = /usr/bin/dmenu -p dunst:
+    dmenu = dmenu -p dunst:
     browser = /usr/bin/firefox -new-tab
 
     # Always run rule-defined scripts, even if the notification is suppressed

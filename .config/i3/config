@@ -2,7 +2,7 @@
 
 
 #basic gaps stuff
-gaps top 30
+gaps top 37
 gaps inner 10
 gaps bottom 0
 #gaps outer 30
@@ -169,6 +169,7 @@ for_window [class="Pavucontrol"] floating enable
 for_window [title="htop"] floating enable
 for_window [title="nethogs"] floating enable
 for_window [class="Maltego"] floating enable
+for_window [class="burp-StartBurp"] floating enable
 
 
 
