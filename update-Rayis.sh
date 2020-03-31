@@ -10,6 +10,7 @@ for folder in $(ls ~/Rayis/.config/); do
 done
 cd ~/Rayis
 git add . 
+git status
 echo "Commit message: "
 read commit
 git commit -m "$commit"

@@ -213,7 +213,7 @@ exec --no-startup-id  xss-lock -- /home/suren/.config/i3/scripts/lock.sh &
 exec --no-startup-id spotify
 exec_always --no-startup-id /home/suren/.config/polybar/spotify/launchlistener.sh
 exec_always --no-startup-id /home/suren/.config/polybar/launch.sh
-exec_always --no-startup-id feh --bg-scale /home/suren/Pictures/Wallpapers/North_Pole.jpg
+exec_always --no-startup-id nitrogen --restore 
 exec_always --no-startup-id nm-applet
 exec_always --no-startup-id compton -f
 exec_always --no-startup-id flashfocus

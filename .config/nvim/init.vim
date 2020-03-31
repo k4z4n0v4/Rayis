@@ -22,6 +22,7 @@ call plug#begin()
 	Plug 'junegunn/goyo.vim'
 	Plug 'xolox/vim-notes'   
 	Plug 'xolox/vim-misc'	
+	Plug 'preservim/nerdcommenter'
 	Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
@@ -51,8 +52,8 @@ au BufNewFile,BufRead *.py set autoindent
 au BufNewFile,BufRead *.py set fileformat=unix
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
+autocmd FileType python map <buffer> <F5> :w<CR> :exec '!python' shellescape(@%, 1)<CR>
 
-nnoremap <buffer> <F5> :exec '!python' shellescape(@%, 1)<cr>
 
 
 " Use the below highlight group when displaying bad whitespace is desired.
@@ -144,4 +145,10 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
 "------------------------------------------------------------------- vim-notes
-:let g:notes_directories = ['~/Documents/Notes']
+let g:notes_directories = ['~/Documents/Notes']
+
+
+
+"------------------------------------------------------------------- NERD-commenter
+
+let g:NERDDefaultAlign = 'left'
