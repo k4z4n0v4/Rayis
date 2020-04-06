@@ -1,29 +1,94 @@
 ! Transparency (0-255)
-st.alpha:	0.60
-*.background: #282828
-*.foreground: #ebdbb2
-*.cursorColor: #ebdbb2
-st.borderpx:	0	
-
-st.font: Dejavu Sans Mono for Powerline:size=13:antialias=true:autohint=true
-
-st.font2: MaterialIcons
-
+st.alpha:	0.95
+st.borderpx:	10
+!st.font: Dejavu Sans Mono for Powerline:size=17:antialias=true:autohint=true
+!st.font2: MaterialIcons
+!st.font3: Emoji
+st.bellvolume: 100
 
 !! gruvbox: 
- *.color0: #1d2021
- *.color1: #cc241d
- *.color2: #98971a
- *.color3: #d79921
- *.color4: #458588
- *.color5: #b16286
- *.color6: #689d6a
- *.color7: #a89984
- *.color8: #928374
- *.color9: #fb4934
- *.color10: #b8bb26
- *.color11: #fabd2f
- *.color12: #83a598
- *.color13: #d3869b
- *.color14: #8ec07c
- *.color15: #ebdbb2
+! *.color0: #1d2021
+! *.color1: #cc241d
+! *.color2: #98971a
+! *.color3: #d79921
+! *.color4: #458588
+! *.color5: #b16286
+! *.color6: #689d6a
+! *.color7: #a89984
+! *.color8: #928374
+! *.color9: #fb4934
+! *.color10: #b8bb26
+! *.color11: #fabd2f
+! *.color12: #83a598
+! *.color13: #d3869b
+! *.color14: #8ec07c
+! *.color15: #ebdbb2
+
+
+! *.background: #000000
+! *.foreground: #ffffff
+! st.cursorColor: #ffffff
+
+! zenburn
+!#*.color0:       #1e2320
+!#*.color8:       #709080
+!#*.color1:       #705050
+!#*.color9:       #dca3a3
+!#*.color2:       #60b48a
+!#*.color10:      #c3bf9f
+!#*.color3:       #dfaf8f
+!#*.color11:      #f0dfaf
+!#*.color4:       #506070
+!#*.color12:      #94bff3
+!#*.color5:       #dc8cc3
+!#*.color13:      #ec93d3
+!#*.color6:       #8cd0d3
+!#*.color14:      #93e0e3
+!#*.color7:       #dcdccc
+!#*.color15:      #ffffff
+!#
+!#*.background: #000000
+!#*.foreground: #ffffff
+!#st.cursorColor: #ffffff
+
+
+! nord
+#define nord0  #2e3440
+#define nord1  #3b4252
+#define nord2  #434c5e
+#define nord3  #4c566a
+#define nord4  #d8dee9
+#define nord5  #e5e9f0
+#define nord6  #eceff4
+#define nord7  #8fbcbb
+#define nord8  #88c0d0
+#define nord9  #81a1c1
+#define nord10 #5e81ac
+#define nord11 #bf616a
+#define nord12 #d08770
+#define nord13 #ebcb8b
+#define nord14 #a3be8c
+#define nord15 #b48ead
+
+*.foreground:   nord4
+*.background:   nord0
+*.cursorColor:  nord4
+*fading: 35
+*fadeColor: nord3
+
+*.color0: nord1
+*.color1: nord11
+*.color2: nord14
+*.color3: nord13
+*.color4: nord9
+*.color5: nord15
+*.color6: nord8
+*.color7: nord5
+*.color8: nord3
+*.color9: nord11
+*.color10: nord14
+*.color11: nord13
+*.color12: nord9
+*.color13: nord15
+*.color14: nord7
+*.color15: nord6
