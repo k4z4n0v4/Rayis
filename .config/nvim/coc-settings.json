@@ -1,0 +1,15 @@
+{
+	"languageserver": {
+		"fsharp": {
+			"command": "dotnet",
+			"args": ["/home/suren/Downloads/fsac/fsautocomplete.dll", "--background-service-enabled", "--verbose"],
+			"filetypes": ["fsharp"],
+			"ignoredRootPaths": ["/","~"],
+			"initializationOptions":{
+				"AutomaticWorkspaceInit": true
+			}
+		}
+	}
+}
+
+

@@ -4,26 +4,28 @@
 
 
 call plug#begin()
-	"Plug 'flazz/vim-colorschemes'
 	Plug 'sheerun/vim-polyglot'
 	Plug 'nathanaelkane/vim-indent-guides'
-	Plug 'w0rp/ale'
-	Plug 'shougo/deoplete.nvim'
-	Plug 'deoplete-plugins/deoplete-jedi'
+	"Plug 'shougo/deoplete.nvim'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
 	Plug 'jiangmiao/auto-pairs'
 	Plug 'lervag/vimtex'
-	Plug 'Shougo/echodoc.vim'
 	Plug 'tpope/vim-fugitive'
 	Plug 'preservim/nerdtree'
-	Plug 'stephpy/vim-yaml'	
 	Plug 'edkolev/promptline.vim'
 	Plug 'junegunn/goyo.vim'
 	Plug 'xolox/vim-notes'   
 	Plug 'xolox/vim-misc'	
 	Plug 'preservim/nerdcommenter'
+	Plug 'junegunn/fzf'
 	Plug 'arcticicestudio/nord-vim'
+	Plug 'Shougo/echodoc.vim'
+	"Plug 'autozimu/LanguageClient-neovim', {
+	"    \ 'branch': 'next',
+	"    \ 'do': 'bash install.sh',
+	"    \ }
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 
@@ -68,6 +70,16 @@ let g:nord_italic_comments = 1
 let g:nord_underline = 1
 colorscheme nord
 
+
+""------------------------------------------------------------------- LanguageClient
+"let g:LanguageClient_loggingLevel = "INFO"
+"let g:LanguageClient_loggingFile = expand('~/.config/nvim/LanguageClient.log')
+"let g:LanguageClient_settingsPath = "/home/suren/.config/nvim/lc-settings.json"
+"let g:LanguageClient_serverCommands = {
+"    \ 'python': ['/usr/bin/pyls'],
+"    \ 'fsharp': ['dotnet', '/home/suren/Downloads/fsac/fsautocomplete.dll', '--background-service-enabled', '--verbose']
+"    \ }
+"nnoremap <F2> :call LanguageClient_contextMenu()<CR>
 "------------------------------------------------------------------- Polyglot
 
 let g:polyglot_disabled = ['latex']
@@ -88,41 +100,73 @@ let g:indent_guides_exclude_filetypes = ['vim']
 " Enable indent-guides
 let g:indent_guides_enable_on_vim_startup = 0
 
-"------------------------------------------------------------------- Deoplete
-" Enable Deoplete
-let g:deoplete#enable_at_startup = 1
-
-" Close autocomplete function preview window
-autocmd CompleteDone * silent! pclose!
-
-" Use vimtex with deoplete
-call deoplete#custom#var('omni', 'input_patterns', {
-	\ 'tex': g:vimtex#re#deoplete
-	\})
-
-" Deoplete tab-complete
-inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
-inoremap <expr><S-tab> pumvisible() ? "\<C-p>" : "\<tab>"
-inoremap <expr> <CR> pumvisible() ? "\<C-Y>" : "\<CR>"
 
 
-"------------------------------------------------------------------- ALE
+"------------------------------------------------------------------- COC.vim
 
-" Lint on text change in both Insert and Normal modes
-let g:ale_lint_on_text_changed = 1
+" use <tab> for trigger completion and navigate to the next complete item
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~ '\s'
+endfunction
 
-" Delay to run lint on text change
-let g:ale_lint_delay = 1
+" Use K to show documentation in preview window.
+nnoremap <silent> K :call <SID>show_documentation()<CR>
 
-" Window with errors and height of 3
-let g:ale_open_list = 1
-let g:ale_list_window_size = 3
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  else
+    call CocAction('doHover')
+  endif
+endfunction
 
-" Close window with errors when you exit vim
-augroup CloseLoclistWindowGroup
-  autocmd!
-  autocmd QuitPre * if empty(&buftype) | lclose | endif
-augroup END
+inoremap <silent><expr> <Tab>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<Tab>" :
+      \ coc#refresh()
+" Use tab and S-Tab to navigate completion list
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+" Close the preview window when completion is done.
+autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
+
+""------------------------------------------------------------------- Deoplete
+"" Enable Deoplete
+"let g:deoplete#enable_at_startup = 1
+
+"" Close autocomplete function preview window
+"autocmd CompleteDone * silent! pclose!
+
+"" Use vimtex with deoplete
+"call deoplete#custom#var('omni', 'input_patterns', {
+"        \ 'tex': g:vimtex#re#deoplete
+"        \})
+
+"" Deoplete tab-complete
+"inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+"inoremap <expr><S-tab> pumvisible() ? "\<C-p>" : "\<tab>"
+"inoremap <expr> <CR> pumvisible() ? "\<C-Y>" : "\<CR>"
+
+
+""------------------------------------------------------------------- ALE
+
+"" Lint on text change in both Insert and Normal modes
+"let g:ale_lint_on_text_changed = 1
+
+"" Delay to run lint on text change
+"let g:ale_lint_delay = 1
+
+"" Window with errors and height of 3
+"let g:ale_open_list = 1
+"let g:ale_list_window_size = 3
+
+"" Close window with errors when you exit vim
+"augroup CloseLoclistWindowGroup
+"  autocmd!
+"  autocmd QuitPre * if empty(&buftype) | lclose | endif
+"augroup END
 
 "------------------------------------------------------------------- Echodoc
 let g:echodoc#enable_at_startup = 1
