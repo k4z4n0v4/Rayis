@@ -40,9 +40,9 @@ transparent = #908cd0d3
 
 [bar/top]
 monitor = ${env:monitor:} 
-width = 45%
+width = 90%
 height = 30
-offset-x = 28%
+offset-x = 5%
 offset-y = 5
 radius = 10
 fixed-center = true 
@@ -65,7 +65,8 @@ font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
 font-2 = MaterialIcons:size=13;3
 font-3 = Fontawesome:pixelsize=13:antialias=true;1
 
-modules-center = usb filesystem pulseaudio memory cpu  eth updates-arch-combined battery wireless-network date  
+modules-left = spotify previous playpause next
+modules-right = usb filesystem pulseaudio xkeyboard memory cpu vpn eth updates-arch-combined date powermenu
 
 
 
@@ -292,7 +293,7 @@ ramp-used-7-foreground = ${colors.darkblue}
 
 [module/wireless-network]
 type = internal/network
-interface = wlp6s0
+interface = net1
 interval = 3.0
 ping-interval = 10
 

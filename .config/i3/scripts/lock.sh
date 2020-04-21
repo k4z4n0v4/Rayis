@@ -39,7 +39,7 @@ i3lock -n \
 
 # --wrongtext="Nope!"
 # --textsize=20
- --modsize=10
+# --modsize=10
 # --timefont=comic-sans
 # --datefont=monofur
 # etc

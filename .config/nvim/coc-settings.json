@@ -1,15 +1,30 @@
 {
 	"languageserver": {
-		"fsharp": {
-			"command": "dotnet",
-			"args": ["/home/suren/Downloads/fsac/fsautocomplete.dll", "--background-service-enabled", "--verbose"],
-			"filetypes": ["fsharp"],
-			"ignoredRootPaths": ["/","~"],
-			"initializationOptions":{
-				"AutomaticWorkspaceInit": true
-			}
-		}
+	  "haskell": {
+	    "command": "hie-wrapper",
+	    "args": ["--lsp"],
+	    "rootPatterns": [
+	      "stack.yaml",
+	      "cabal.config",
+	      "package.yaml"
+	    ],
+
+	    "filetypes": [
+	      "hs",
+	      "lhs",
+	      "haskell"
+	    ],
+	    "initializationOptions": {
+	      "languageServerHaskell": {
+		"hlintOn": true
+	      }
+	    }
+	  },
+
+	    "bash": {
+	      "command": "bash-language-server",
+	      "args": ["start"],
+	      "filetypes": ["sh"]
+	    }
 	}
 }
-
-

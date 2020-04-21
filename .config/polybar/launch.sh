@@ -11,8 +11,8 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 echo "---" > /tmp/polybar
 
 
-polybar --reload top >>/tmp/polybar &
-polybar --reload bot >>/tmp/polybar &
+MONITOR="HDMI1" polybar --reload top >>/tmp/polybar &
+MONITOR="HDMI1" polybar --reload bot >>/tmp/polybar &
 #MONITOR="HDMI1" polybar --reload dummy  >>/tmp/polybar &
 #MONITOR="DVI-I-1" polybar --reload bot>>/tmp/polybar &
 

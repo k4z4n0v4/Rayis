@@ -21,14 +21,16 @@ call plug#begin()
 	Plug 'junegunn/fzf'
 	Plug 'arcticicestudio/nord-vim'
 	Plug 'Shougo/echodoc.vim'
+	Plug 'ryanoasis/vim-devicons'
 	"Plug 'autozimu/LanguageClient-neovim', {
 	"    \ 'branch': 'next',
 	"    \ 'do': 'bash install.sh',
 	"    \ }
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	Plug 'neovimhaskell/haskell-vim'
 call plug#end()
 
-
+set updatetime=300
 set modifiable
 set showmatch
 set scrolloff=1
@@ -104,6 +106,22 @@ let g:indent_guides_enable_on_vim_startup = 0
 
 "------------------------------------------------------------------- COC.vim
 
+" Symbol renaming.
+nmap <leader>rn <Plug>(coc-rename)
+
+" Use `[g` and `]g` to navigate diagnostics
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
+
+" GoTo code navigation.
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
+" Highlight the symbol and its references when holding the cursor.
+autocmd CursorHold * silent call CocActionAsync('highlight')
+
 " use <tab> for trigger completion and navigate to the next complete item
 function! s:check_back_space() abort
   let col = col('.') - 1
@@ -117,7 +135,7 @@ function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
     execute 'h '.expand('<cword>')
   else
-    call CocAction('doHover')
+    call CocActionAsync('doHover')
   endif
 endfunction
 
@@ -184,9 +202,10 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 nnoremap <Leader>f :NERDTreeToggle <Enter>
 nnoremap <silent> <Leader>v :NERDTreeFind<CR>
-let NERDTreeQuitOnOpen = 1
+let NERDTreeQuitOnOpen = 0
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
+let g:NERDTreeMapCustomOpen = "<space>"
 
 "------------------------------------------------------------------- vim-notes
 let g:notes_directories = ['~/Documents/Notes']
