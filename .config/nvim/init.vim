@@ -22,6 +22,7 @@ call plug#begin()
 	Plug 'arcticicestudio/nord-vim'
 	Plug 'Shougo/echodoc.vim'
 	Plug 'ryanoasis/vim-devicons'
+    Plug 'lilydjwg/colorizer'
 	"Plug 'autozimu/LanguageClient-neovim', {
 	"    \ 'branch': 'next',
 	"    \ 'do': 'bash install.sh',
@@ -42,7 +43,10 @@ set encoding=utf-8
 set fdm=indent
 let g:tex_flavor = "latex"
 
-
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
 " This will look in the current directory for tags and work up the tree towards root until one is found
 set tags=./tags;/
 
@@ -120,7 +124,7 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 " Highlight the symbol and its references when holding the cursor.
-autocmd CursorHold * silent call CocActionAsync('highlight')
+autocmd CursorHold * silent call CocAction('highlight')
 
 " use <tab> for trigger completion and navigate to the next complete item
 function! s:check_back_space() abort
@@ -135,7 +139,7 @@ function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
     execute 'h '.expand('<cword>')
   else
-    call CocActionAsync('doHover')
+    call CocAction('doHover')
   endif
 endfunction
 

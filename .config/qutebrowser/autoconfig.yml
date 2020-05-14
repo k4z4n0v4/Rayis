@@ -9,7 +9,8 @@ settings:
   bindings.commands:
     global:
       normal:
-        J: tab-prev
+        <Alt+h>: tab-prev
+        <Alt+l>: tab-next
         K: tab-next
         xx: open -t qute://help/img/cheatsheet-big.png
   content.headers.user_agent:
