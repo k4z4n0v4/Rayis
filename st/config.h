@@ -7,8 +7,8 @@
  */
 
 //static char *font = "Dejavu Sans Mono for Powerline:size=13:antialias=true:autohint=true";
-static char *font = "DejaVuSansMono Nerd Font Mono:size=14:antialias=true;autohint=true";
-static char *font2[] = {  "MaterialIcons", "JoyPixels:size=13:antialias=true:autohint=true" };
+static char *font = "FiraCode Nerd Font Mono:style=Retina:size=14:antialias=true;autohint=true";
+static char *font2[] = { };// "MaterialIcons", "JoyPixels:size=13:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
