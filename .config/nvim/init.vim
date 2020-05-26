@@ -6,13 +6,12 @@
 call plug#begin()
 	Plug 'sheerun/vim-polyglot'
 	Plug 'nathanaelkane/vim-indent-guides'
-	"Plug 'shougo/deoplete.nvim'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
 	Plug 'jiangmiao/auto-pairs'
-	Plug 'lervag/vimtex'
 	Plug 'tpope/vim-fugitive'
 	Plug 'preservim/nerdtree'
+    Plug 'lervag/vimtex'
 	Plug 'edkolev/promptline.vim'
 	Plug 'junegunn/goyo.vim'
 	Plug 'xolox/vim-notes'   
@@ -23,12 +22,9 @@ call plug#begin()
 	Plug 'Shougo/echodoc.vim'
 	Plug 'ryanoasis/vim-devicons'
     Plug 'lilydjwg/colorizer'
-	"Plug 'autozimu/LanguageClient-neovim', {
-	"    \ 'branch': 'next',
-	"    \ 'do': 'bash install.sh',
-	"    \ }
-	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 	Plug 'neovimhaskell/haskell-vim'
+    Plug 'honza/vim-snippets'
 call plug#end()
 
 set updatetime=300
@@ -40,8 +36,7 @@ set clipboard=unnamedplus
 set noshowmode " Disable vim's own mod indicator
 set number relativenumber
 set encoding=utf-8
-set fdm=indent
-let g:tex_flavor = "latex"
+set fdm=syntax
 
 set tabstop=4
 set softtabstop=4
@@ -77,18 +72,6 @@ let g:nord_underline = 1
 colorscheme nord
 
 
-""------------------------------------------------------------------- LanguageClient
-"let g:LanguageClient_loggingLevel = "INFO"
-"let g:LanguageClient_loggingFile = expand('~/.config/nvim/LanguageClient.log')
-"let g:LanguageClient_settingsPath = "/home/suren/.config/nvim/lc-settings.json"
-"let g:LanguageClient_serverCommands = {
-"    \ 'python': ['/usr/bin/pyls'],
-"    \ 'fsharp': ['dotnet', '/home/suren/Downloads/fsac/fsautocomplete.dll', '--background-service-enabled', '--verbose']
-"    \ }
-"nnoremap <F2> :call LanguageClient_contextMenu()<CR>
-"------------------------------------------------------------------- Polyglot
-
-let g:polyglot_disabled = ['latex']
 
 
 "------------------------------------------------------------------- Airline
@@ -110,6 +93,39 @@ let g:indent_guides_enable_on_vim_startup = 0
 
 "------------------------------------------------------------------- COC.vim
 
+
+function! FloatScroll(forward) abort
+  let float = coc#util#get_float()
+  if !float | return '' | endif
+  let buf = nvim_win_get_buf(float)
+  let buf_height = nvim_buf_line_count(buf)
+  let win_height = nvim_win_get_height(float)
+  if buf_height < win_height | return '' | endif
+  let pos = nvim_win_get_cursor(float)
+  if a:forward
+    if pos[0] == 1
+      let pos[0] += 3 * win_height / 4
+    elseif pos[0] + win_height / 2 + 1 < buf_height
+      let pos[0] += win_height / 2 + 1
+    else
+      let pos[0] = buf_height
+    endif
+  else
+    if pos[0] == buf_height
+      let pos[0] -= 3 * win_height / 4
+    elseif pos[0] - win_height / 2 + 1  > 1
+      let pos[0] -= win_height / 2 + 1
+    else
+      let pos[0] = 1
+    endif
+  endif
+  call nvim_win_set_cursor(float, pos)
+  return ''
+endfunction
+
+inoremap <silent><expr> <down> coc#util#has_float() ? FloatScroll(1) : "\<down>"
+inoremap <silent><expr>  <up>  coc#util#has_float() ? FloatScroll(0) :  "\<up>"
+
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
 
@@ -124,13 +140,8 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 " Highlight the symbol and its references when holding the cursor.
-autocmd CursorHold * silent call CocAction('highlight')
+autocmd CursorHold * silent call CocActionAsync('highlight')
 
-" use <tab> for trigger completion and navigate to the next complete item
-function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~ '\s'
-endfunction
 
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call <SID>show_documentation()<CR>
@@ -143,10 +154,31 @@ function! s:show_documentation()
   endif
 endfunction
 
-inoremap <silent><expr> <Tab>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<Tab>" :
+
+" use <tab> for trigger completion and navigate to the next complete item
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? coc#_select_confirm() :
+      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
       \ coc#refresh()
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+" Use <C-l> for trigger snippet expand.
+imap <C-l> <Plug>(coc-snippets-expand)
+
+" Use <C-j> for select text for visual placeholder of snippet.
+vmap <C-j> <Plug>(coc-snippets-select)
+
+
+let g:coc_snippet_next = '<tab>'
+let g:coc_snippet_prev = '<S-tab>'
+
+
+inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<CR>"
 " Use tab and S-Tab to navigate completion list
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
@@ -197,7 +229,7 @@ highlight link EchoDocFloat Pmenu
 
 "-------------------------------------------------------------------  Vimtex
 let g:vimtex_quickfix_method = "pplatex"
-
+let g:tex_flavor = "latex"
 
 "------------------------------------------------------------------- NerdTree
 
@@ -213,7 +245,6 @@ let g:NERDTreeMapCustomOpen = "<space>"
 
 "------------------------------------------------------------------- vim-notes
 let g:notes_directories = ['~/Documents/Notes']
-
 
 
 "------------------------------------------------------------------- NERD-commenter

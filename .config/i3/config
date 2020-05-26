@@ -58,16 +58,16 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
-set $workspace1 "1 "
-set $workspace2 "2 "
-set $workspace3 "3 "
-set $workspace4 "4 "
-set $workspace5 "5 "
-set $workspace6 "6 "
-set $workspace7 "7 "
-set $workspace8 "8 "
-set $workspace9 "9 "
-set $workspace10 "10 "
+set $workspace1 "1"
+set $workspace2 "2"
+set $workspace3 "3"
+set $workspace4 "4"
+set $workspace5 "5"
+set $workspace6 "6"
+set $workspace7 "7"
+set $workspace8 "8"
+set $workspace9 "9"
+set $workspace10 "10"
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $workspace1
@@ -102,6 +102,8 @@ bindsym $mod+0 workspace $workspace10
 # move window/container to workspace
 bindsym $mod+Shift+Tab move workspace to output right
 bindsym $mod+Tab move container to output right
+
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 
@@ -126,7 +128,7 @@ mode "resize" {
 
 	bindsym Return mode "default"
 	bindsym Escape mode "default"
-}
+    }
 
 # resize mode
 bindsym $mod+r mode "resize"
@@ -196,26 +198,26 @@ bindsym XF86AudioPause exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+b	exec --no-startup-id st -e ranger
-bindsym $mod+Shift+f exec qutebrowser
+bindsym $mod+Shift+f exec brave
 bindsym $mod+Return exec --no-startup-id st
-bindsym $mod+c exec flash_window
 bindsym $mod+Shift+q kill
 bindsym Print exec  maim -s -m 1 ~/Pictures/"$(date +%H:%M)".png
-bindsym $mod+d exec  dmenu_run
+bindsym $mod+d exec --no-startup-id dmenu_run
 bindsym $mod+t exec  telegram-desktop; workspace $workspace9
-bindsym Control+Shift+m exec pactl  set-sink-mute alsa_output.pci-0000_00_1f.3.hdmi-stereo toggle
+bindsym Control+Shift+m exec pactl  set-sink-mute alsa_output.pci-0000_00_1f.3.analog-stereo toggle
+
+
+
 # startup
 exec --no-startup-id autotiling
 exec --no-startup-id  xss-lock -- /home/suren/.config/i3/scripts/lock.sh &
-exec --no-startup-id spotify
-# exec_always --no-startup-id /home/suren/.config/polybar/spotify/launchlistener.sh
+exec --no-startup-id telegram-desktop
+exec_always --no-startup-id /home/suren/.config/polybar/spotify/launchlistener.sh
 exec_always --no-startup-id /home/suren/.config/polybar/launch.sh
-#exec_always --no-startup-id nitrogen --restore 
-#exec_always --no-startup-id nm-applet
-#exec_always --no-startup-id compton -f
-#exec_always --no-startup-id flashfocus
 
-#exec --no-startup-id sudo bitlbee -Fnv
-# Keys
+
+# started in xinit
+#exec_always --no-startup-id nitrogen --restore 
+#exec_always --no-startup-id compton -f
 
 # vim:filetype=i3config

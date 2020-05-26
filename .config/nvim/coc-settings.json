@@ -19,7 +19,7 @@
 		"hlintOn": true
 	      }
 	    }
-	  },
+	    },
 
 	  "bash": {
 	      "command": "bash-language-server",
