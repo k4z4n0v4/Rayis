@@ -13,7 +13,5 @@ echo "---" > /tmp/polybar
 
 MONITOR="HDMI1" polybar --reload top >>/tmp/polybar &
 MONITOR="HDMI1" polybar --reload bot >>/tmp/polybar &
-#MONITOR="HDMI1" polybar --reload dummy  >>/tmp/polybar &
-#MONITOR="DVI-I-1" polybar --reload bot>>/tmp/polybar &
 
 echo "Bars launched..."

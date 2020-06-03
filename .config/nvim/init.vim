@@ -83,13 +83,8 @@ let g:airline_theme = 'nord'
 
 "------------------------------------------------------------------- Indent-Guides
 
-" Disable indent-guides for vim
-let g:indent_guides_exclude_filetypes = ['vim']
-
 " Enable indent-guides
 let g:indent_guides_enable_on_vim_startup = 0
-
-
 
 "------------------------------------------------------------------- COC.vim
 
@@ -245,7 +240,6 @@ let g:NERDTreeMapCustomOpen = "<space>"
 
 "------------------------------------------------------------------- vim-notes
 let g:notes_directories = ['~/Documents/Notes']
-
 
 "------------------------------------------------------------------- NERD-commenter
 

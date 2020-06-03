@@ -1,11 +1,12 @@
 {
 	"languageserver": {
 	  "haskell": {
-	    "command": "hie-wrapper",
+		"command": "haskell-language-server-wrapper",
 	    "args": ["--lsp"],
 	    "rootPatterns": [
+          "*.cabal",
 	      "stack.yaml",
-	      "cabal.config",
+	      "cabal.project",
 	      "package.yaml"
 	    ],
 
@@ -16,7 +17,7 @@
 	    ],
 	    "initializationOptions": {
 	      "languageServerHaskell": {
-		"hlintOn": true
+		    "hlintOn": false
 	      }
 	    }
 	    },
