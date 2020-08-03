@@ -36,7 +36,14 @@ set clipboard=unnamedplus
 set noshowmode " Disable vim's own mod indicator
 set number relativenumber
 set encoding=utf-8
-set fdm=syntax
+"set fdm=syntax
+
+
+" Lifetime undo, WOOOOOOOOOOOOOOOOoo
+"
+set undodir=/home/suren/.cache/nvim/undofiles
+set undofile
+
 
 set tabstop=4
 set softtabstop=4

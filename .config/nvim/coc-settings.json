@@ -17,7 +17,7 @@
 	    ],
 	    "initializationOptions": {
 	      "languageServerHaskell": {
-		    "hlintOn": false
+		    "hlintOn": true
 	      }
 	    }
 	    },

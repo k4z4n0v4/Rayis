@@ -120,14 +120,14 @@
     script = /home/suren/.config/dunst/test
 
 
-[aznews]
-	summary = "*1 unread feeds*"
-	script = /home/suren/werk/newscacher.py
+#[aznews]
+#    summary = "*1 unread feeds*"
+#    script = /home/suren/werk/newscacher.py
 
-#[ignore]
-#    # This notification will not be displayed
-#    summary = "foobar"
-#    format = ""
+[ignore]
+    # This notification will not be displayed
+    summary = "և"
+    format = ""
 
 #[history-ignore]
 #    # This notification will not be saved in history

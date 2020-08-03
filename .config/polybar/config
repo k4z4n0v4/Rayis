@@ -39,37 +39,43 @@ foreground = ${xrdb:background}
 transparent = #908cd0d3
 
 [bar/top]
-monitor = ${env:monitor:} 
-width = 70%
+monitor = ${env:MONITOR:} 
+width = 100%
 height = 30
-offset-x = 15%
-offset-y = 5
-radius = 10
+;offset-x = 12.5%
+;offset-y = 5 
+;radius = 10
 fixed-center = true 
 enable-ipc = true
 background = ${colors.transparent}
 foreground = ${colors.foreground}
-line-size = 3
-override-redirect = true
-wm-restack = i3
-padding-left = 3
+line-size = 4
+;override-redirect = true
+;wm-restack = i3
+padding-left = 0
 padding-right = 3
 cursor-click = pointer
 cursor-scroll = ns-resize
-module-margin = 2  
-format-underline = ${colors.cyan}
+module-margin = 1  
+;format-underline = ${colors.cyan}
 
+separator = "|"
 
 ;font-0 = fixed:pixelsize=11:antialias=tru:antialias=true;1
 ;font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
 ;font-2 = MaterialIcons:size=13;3
 ;font-3 = Fontawesome:pixelsize=13:antialias=true;1
-font-0 = FiraCode Nerd Font:style=Retina:size=11
-;modules-left = spotify previous playpause next
-modules-center = filesystem pulseaudio xkeyboard memory cpu openweathermap-fullfeatured vpn eth updates-arch-combined date 
+font-0 = FiraCode Nerd Font:style=Retina:size=11;2
+
+
+modules-left = i3  xwindow
+modules-center = spotify
+modules-right = xkeyboard pulseaudio memory eth updates-arch-combined date 
 
 
 
+tray-position = right
+tray-maxsize = 23
 
 
 [bar/bot]
@@ -83,7 +89,7 @@ fixed-center = true
 module-margin = 2
 background = ${colors.transparent}
 foreground = ${colors.foreground}
-line-size = 2
+line-size = 4
 
 ;font-0 = fixed:pixelsize=11:antialias=true:antialias=true;1
 ;font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
@@ -94,12 +100,13 @@ font-0 = FiraCode Nerd Font:style=Regular:size=11:antialias=true
 
 modules-left = i3 
 modules-center = xwindow
-modules-right = spotify
 
+dpi-x = 110
+dpi-y = 110
 
-tray-position = right
-tray-maxsize = 23
-tray-padding = 2
+;tray-position = right
+;tray-maxsize = 23
+;tray-padding = 2
 
 
 
@@ -107,7 +114,9 @@ tray-padding = 2
 [module/xwindow]
 type = internal/xwindow
 label = %title%
-
+label-maxlen = 60
+format-background = ${colors.darkblue}
+format-padding = 3
 
 
 [module/xkeyboard]
@@ -282,7 +291,7 @@ ramp-coreload-7-foreground = ${colors.darkblue}
 [module/memory]
 type = internal/memory
 interval = 5
-format = %{A1:st -t htop -e htop --sort-key=PERCENT_MEM &:}<label> <ramp-used> %{A}
+format = %{A1:st -t htop -e htop --sort-key=PERCENT_MEM &:}<label> <ramp-used>%{A}
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 format-underline = ${colors.cyan}
@@ -335,7 +344,7 @@ interface = enp2s0
 interval = 0.5
 format-connected-underline = ${colors.cyan}
 format-connected-prefix-foreground = ${colors.foreground}
-label-connected = "%{A1:st -t nethogs -e nethogs &:}  %downspeed%   %upspeed% %{A}"
+label-connected = "%{A1:st -t nethogs -e nethogs &:} %downspeed%   %upspeed%%{A}"
 
 format-disconnected = <label-disconnected>
 label-disconnected = disconnected
@@ -343,12 +352,18 @@ label-disconnected-foreground = ${colors.foreground}
 
 
 # needs according polybar-msg calls in connection.py disconnect()-print, status-disconnect-print, openvpn-connect-print 
+;[module/vpn]
+;type = custom/ipc
+;hook-0 = protonvpn status | grep Connected > /dev/null && polybar-msg hook vpn 2 
+;hook-1 = echo "%{u#55aa55} %{A1: sudo protonvpn d:}嬨 : $(protonvpn s | grep Country | cut -b '15-'  )%{A}%{u-}"
+;hook-2 = echo "%{F#FF0000}%{u#FF0000}%{A1: sudo protonvpn c -f :}VPN DISCONNECTED%{A}%{u-}%{F-}"
+;initial = 1 
+
+
 [module/vpn]
-type = custom/ipc
-hook-0 = protonvpn status | grep Connected > /dev/null && polybar-msg hook vpn 2 
-hook-1 = echo "%{u#55aa55} %{A1: sudo protonvpn d:}嬨 : $(protonvpn s | grep Country | cut -b '15-'  )%{A}%{u-}"
-hook-2 = echo "%{F#FF0000}%{u#FF0000}%{A1: sudo protonvpn c -f :}VPN DISCONNECTED%{A}%{u-}%{F-}"
-initial = 1 
+type = custom/script
+exec = ~/.config/polybar/polybar-scripts/vpn-anyconnect-status.sh
+interval = 5
 
 [module/date]
 type = internal/date
@@ -381,6 +396,7 @@ ramp-volume-0 = 
 ramp-volume-1 =  
 ramp-volume-2 =  
 ramp-volume-3 =  
+click-right = pavucontrol &
 
 [module/battery]
 type = internal/battery
@@ -498,7 +514,7 @@ click-left = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org
 [module/spotify]
 type = custom/ipc
 hook-0 = echo ""
-hook-1 = "echo   $(python ~/.config/polybar/spotify/spotify_status.py)"
+hook-1 = "echo      $(python ~/.config/polybar/spotify/spotify_status.py)"
 initial = 1
 format-underline = #1db954
 ; [i3wm only] - Uncomment the below line to focus on Spotify when clicking on the song name (credits to https://github.com/Esya)

@@ -8,10 +8,21 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch bar1 and bar2
-echo "---" > /tmp/polybar
+echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log
 
 
-MONITOR="HDMI1" polybar --reload top >>/tmp/polybar &
-MONITOR="HDMI1" polybar --reload bot >>/tmp/polybar &
+#if type "xrandr"; then
+#  for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+#    MONITOR=$m polybar --reload top >>/tmp/polybar1 &
+#    MONITOR=$m polybar --reload bot >>/tmp/polybar2 &
+#  done
+#else
+#    polybar --reload top >>/tmp/polybar1 &
+#    polybar --reload bot >>/tmp/polybar2 &
+#fi
+MONITOR="HDMI1" polybar --reload top >>/tmp/polybar1 &
+#MONITOR="HDMI1" polybar --reload bot >>/tmp/polybar2 &
+MONITOR="DP1" polybar --reload bot >>/tmp/polybar2 &
+
 
 echo "Bars launched..."

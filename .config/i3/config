@@ -1,11 +1,9 @@
 # i3 config file (v4)
 
 #basic gaps stuff
-gaps top 37
 gaps inner 10
-gaps bottom 0
-#gaps outer 30
-for_window [class="^.*"] border pixel 1
+gaps outer 10
+for_window [class="^.*"] border pixel 2
 
 
 # mod
@@ -169,6 +167,7 @@ for_window [title="htop"] floating enable
 for_window [title="nethogs"] floating enable
 for_window [class="Maltego"] floating enable
 for_window [class="burp-StartBurp"] floating enable
+for_window [class="Transmission-gtk"] floating enable
 
 
 
@@ -200,6 +199,7 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+b	exec --no-startup-id st -e ranger
 bindsym $mod+Shift+f exec brave
 bindsym $mod+Return exec --no-startup-id st
+bindsym $mod+KP_Enter exec --no-startup-id st
 bindsym $mod+Shift+q kill
 bindsym Print exec  maim -s -m 1 ~/Pictures/"$(date +%H:%M)".png
 bindsym $mod+d exec --no-startup-id dmenu_run
