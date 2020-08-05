@@ -20,9 +20,9 @@ echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log
 #    polybar --reload top >>/tmp/polybar1 &
 #    polybar --reload bot >>/tmp/polybar2 &
 #fi
-MONITOR="HDMI1" polybar --reload top >>/tmp/polybar1 &
+MONITOR="HDMI1" polybar --reload top >> /tmp/polybar1.log 2>&1 &
 #MONITOR="HDMI1" polybar --reload bot >>/tmp/polybar2 &
-MONITOR="DP1" polybar --reload bot >>/tmp/polybar2 &
+MONITOR="DP1" polybar --reload bot >> /tmp/polybar2.log 2>&1 &
 
 
 echo "Bars launched..."

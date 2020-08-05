@@ -47,28 +47,26 @@ height = 30
 ;radius = 10
 fixed-center = true 
 enable-ipc = true
-background = ${colors.transparent}
-foreground = ${colors.foreground}
+background = ${colors.foreground}
+foreground = ${colors.black}
 line-size = 4
-;override-redirect = true
-;wm-restack = i3
-padding-left = 0
+wm-restack = bspwm
+padding-left = 1
 padding-right = 3
 cursor-click = pointer
 cursor-scroll = ns-resize
 module-margin = 1  
 ;format-underline = ${colors.cyan}
-
-separator = "|"
+separator =%{F#a3be8c}%{F-}
 
 ;font-0 = fixed:pixelsize=11:antialias=tru:antialias=true;1
 ;font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
 ;font-2 = MaterialIcons:size=13;3
 ;font-3 = Fontawesome:pixelsize=13:antialias=true;1
-font-0 = FiraCode Nerd Font:style=Retina:size=11;2
+font-0 = FiraCode Nerd Font:style=Retina:size=11:antialias=true;2
 
 
-modules-left = i3  xwindow
+modules-left = bspwm i3  xwindow
 modules-center = spotify
 modules-right = xkeyboard pulseaudio memory eth updates-arch-combined date 
 
@@ -77,32 +75,32 @@ modules-right = xkeyboard pulseaudio memory eth updates-arch-combined date
 tray-position = right
 tray-maxsize = 23
 
+dpi-x = 100
+dpi-y = 100
 
 [bar/bot]
 monitor = ${env:MONITOR:} 
-bottom = true
-width = 100%
-height = 30
+;bottom = true
+width = 25%
+offset-x = 37.5%
+offset-y = 3
+height = 35
 radius = 10
-enable-ipc = true
-fixed-center = true
-module-margin = 2
-background = ${colors.transparent}
-foreground = ${colors.foreground}
+background = ${colors.foreground}
+foreground = ${colors.black}
 line-size = 4
-
+wm-restack = bspwm
 ;font-0 = fixed:pixelsize=11:antialias=true:antialias=true;1
 ;font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
 ;font-2 = MaterialIcons:size=10;1
 ;font-3 = Fontawesome:pixelsize=12:antialias=true;2
 
-font-0 = FiraCode Nerd Font:style=Regular:size=11:antialias=true
+font-0 = FiraCode Nerd Font Mono:style=Retina:size=11:antialias=true;1
 
-modules-left = i3 
-modules-center = xwindow
+modules-left = bspwm i3 
 
-dpi-x = 110
-dpi-y = 110
+dpi-x = 140
+dpi-y = 140
 
 ;tray-position = right
 ;tray-maxsize = 23
@@ -114,8 +112,9 @@ dpi-y = 110
 [module/xwindow]
 type = internal/xwindow
 label = %title%
-label-maxlen = 60
-format-background = ${colors.darkblue}
+label-maxlen = 50
+format-background = ${colors.darkcyan}
+format-foreground = ${colors.gray}
 format-padding = 3
 
 
@@ -124,11 +123,12 @@ type = internal/xkeyboard
 blacklist-0 = num lock
 
 format-prefix = " "
-format-prefix-foreground = ${colors.foreground}
-format-prefix-underline = ${colors.cyan}
+format-prefix-foreground = ${colors.yellow}
+;format-prefix-underline = ${colors.cyan}
 
 label-layout = %layout%
-label-layout-underline = ${colors.cyan}
+label-layout-foreground = ${colors.yellow}
+;label-layout-underline = ${colors.cyan}
 
 label-indicator-padding = 2
 label-indicator-margin = 1
@@ -148,16 +148,88 @@ label-unmounted-foreground = ${colors.foreground}
 
 [module/openweathermap-fullfeatured]
 type = custom/script
-exec = $HOME/.config/polybar/polybar-scripts/openweathermap-fullfeatured.sh
+exec = /home/suren/.config/polybar/polybar-scripts/openweathermap-fullfeatured.sh
 interval = 600
 
 
 [module/usb]
 type = custom/script
-exec = $HOME/.config/polybar/polybar-scripts/system-usb-udev.sh
+exec = /home/suren/.config/polybar/polybar-scripts/system-usb-udev.sh
 tail = true
-click-left = $HOME/.config/polybar/polybar-scripts/system-usb-udev.sh --mount &
-click-right = $HOME/.config/polybar/polybar-scripts/system-usb-udev.sh --unmount &
+click-left = /home/suren/.config/polybar/polybar-scripts/system-usb-udev.sh --mount &
+click-right = /home/suren/.config/polybar/polybar-scripts/system-usb-udev.sh --unmount &
+
+
+[module/bspwm]
+type = internal/bspwm
+format = <label-state> <label-mode>
+label-monitor = %name%
+pin-workspaces = true
+
+; Output mode flags after focused state label
+; Default: false
+inline-mode = false
+
+
+ws-icon-0 = I; 
+ws-icon-1 = II; 
+ws-icon-2 = III; 
+ws-icon-3 = IV;
+ws-icon-4 = V;
+ws-icon-5 = VI; 
+ws-icon-6 = VII; 
+ws-icon-7 = VIII; 
+ws-icon-8 = IX;切 
+ws-icon-9 = X;阮 
+ws-icon-default =  
+
+
+label-dimmed-occupied-foreground = ${colors.white} 
+
+label-focused =  %icon%
+label-focused-foreground = ${colors.white}
+;label-focused-background = ${colors.background}
+label-focused-underline = ${colors.blue}
+label-focused-padding = 3
+
+label-occupied = %icon%
+label-occupied-foreground = ${colors.white}
+;label-occupied-underline = ${colors.blue}
+label-occupied-padding = 2
+
+label-urgent = %icon%
+label-urgent-foreground = ${colors.foreground}
+label-urgent-background = ${colors.red}
+
+label-empty = %icon%
+label-empty-foreground = ${colors.gray}
+label-empty-padding = 2
+
+label-monocle = " " 
+label-monocle-foreground = ${colors.white}
+label-tiled = " "
+label-tiled-foreground = ${colors.white} 
+label-fullscreen = 
+label-fullscreen-foreground = ${colors.white} 
+label-floating = 
+label-floating-foreground = ${colors.white} 
+label-pseudotiled = P
+label-pseudotiled-foreground = ${colors.white} 
+label-locked = 
+label-locked-foreground = #bd2c40
+label-sticky = 
+label-sticky-foreground = #fba922
+label-private = ﴣ
+label-private-foreground = #bd2c40
+label-marked = M
+
+
+; Separator in between workspaces
+;label-separator = |
+;label-separator-padding = 1
+;label-separator-foreground = ${colors.darkblue}
+
+
 
 [module/i3]
 type = internal/i3
@@ -187,7 +259,6 @@ label-unfocused-padding = 2
 ; visible = Active workspace on unfocused monitor
 label-visible = %index% %icon%
 label-visible-background = ${self.label-focused-background}
-;label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
@@ -266,7 +337,7 @@ card = intel_backlight
 [module/cpu]
 type = internal/cpu
 interval = 5
-format = "%{A1:st -t htop -e htop --sort-key=PERCENT_CPU &:} <label> <ramp-coreload>%{A}"
+format = "%{A1:st -c htop -e htop --sort-key=PERCENT_CPU &:} <label> <ramp-coreload>%{A}"
 format-underline = ${colors.cyan}
 label = CPU
 
@@ -291,28 +362,27 @@ ramp-coreload-7-foreground = ${colors.darkblue}
 [module/memory]
 type = internal/memory
 interval = 5
-format = %{A1:st -t htop -e htop --sort-key=PERCENT_MEM &:}<label> <ramp-used>%{A}
+format = %{A1:st -c htop -e htop --sort-key=PERCENT_MEM &:}<label> <ramp-used>%{A}
 format-prefix = " "
-format-prefix-foreground = ${colors.foreground}
-format-underline = ${colors.cyan}
+format-prefix-foreground = ${colors.cyan}
 label = %percentage_used%%
-
+label-foreground = ${colors.cyan}
 ramp-used-0 = ▁
-ramp-used-0-foreground = ${colors.darkblue}
+ramp-used-0-foreground = ${colors.cyan}
 ramp-used-1 = ▂
-ramp-used-1-foreground = ${colors.darkblue}
+ramp-used-1-foreground = ${colors.cyan}
 ramp-used-2 = ▃
-ramp-used-2-foreground = ${colors.darkblue}
+ramp-used-2-foreground = ${colors.cyan}
 ramp-used-3 = ▄
-ramp-used-3-foreground = ${colors.darkblue}
+ramp-used-3-foreground = ${colors.cyan}
 ramp-used-4 = ▅
-ramp-used-4-foreground = ${colors.darkblue}
+ramp-used-4-foreground = ${colors.yellow}
 ramp-used-5 = ▆
-ramp-used-5-foreground = ${colors.darkblue}
+ramp-used-5-foreground = ${colors.yellow}
 ramp-used-6 = ▇
-ramp-used-6-foreground = ${colors.darkblue}
+ramp-used-6-foreground = ${colors.red}
 ramp-used-7 = █
-ramp-used-7-foreground = ${colors.darkblue}
+ramp-used-7-foreground = ${colors.red}
 
 [module/wireless-network]
 type = internal/network
@@ -342,9 +412,8 @@ animation-packetloss-framerate = 500
 type = internal/network
 interface = enp2s0
 interval = 0.5
-format-connected-underline = ${colors.cyan}
-format-connected-prefix-foreground = ${colors.foreground}
-label-connected = "%{A1:st -t nethogs -e nethogs &:} %downspeed%   %upspeed%%{A}"
+label-connected = "%{A1:st -c nethogs -e nethogs &:} %downspeed%   %upspeed%%{A}"
+label-connected-foreground = ${colors.magenta}
 
 format-disconnected = <label-disconnected>
 label-disconnected = disconnected
@@ -376,11 +445,10 @@ time = %H:%M
 time-alt = %H:%M:%S
 
 format-prefix = 
-format-prefix-foreground = ${colors.foreground}
-format-underline = ${colors.cyan}
+format-prefix-foreground = ${colors.darkgreen}
 
 label = %date% %time%
-
+label-foreground = ${colors.darkgreen}
 [module/pulseaudio]
 type = internal/pulseaudio
 sink = alsa_output.pci-0000_00_1b.0.analog-stereo
@@ -388,10 +456,10 @@ use-ui-max = false
 
 format-volume = <ramp-volume> <label-volume>
 label-muted =  muted
-label-muted-foreground = #66
-label-muted-underline = ${colors.cyan}
-label-volume-underline = ${colors.cyan}
-ramp-volume-underline = ${colors.cyan}
+label-muted-foreground = ${colors.gray}
+label-muted-underline = ${colors.red}
+label-volume-foreground = ${colors.blue}
+ramp-volume-foreground = ${colors.blue}
 ramp-volume-0 =   
 ramp-volume-1 =  
 ramp-volume-2 =  
@@ -455,7 +523,7 @@ type = custom/script
 exec = ~/.config/polybar/polybar-scripts/updates-arch-combined.sh
 label = "ﮮ %output%"
 interval = 60
-format-underline = ${colors.cyan}
+format-foreground = ${colors.red}
 click-left = "~/.config/polybar/polybar-scripts/selector.sh"
 click-right = yes | sudo  pacman -Syu && notify-send "Finished Applying:" "Arch Updates"
 
@@ -468,55 +536,18 @@ screenchange-reload = true
 ;compositing-border = over
 ;pseudo-transparency = false
 
+
 [global/wm]
 margin-top = 5
 margin-bottom = 5
 
 
-[module/previous]
-type = custom/script
-;interval = 86400
-tail = true
-format = "%{T3}<label>"
-#format-padding = 5
-; Previous song icon
-exec = echo ""
-; Check if spotify is running before displaying the icon
-exec-if = "pgrep spotify"
-format-underline = #1db954
-click-left = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
-
-[module/next]
-type = custom/script
-;interval = 86400
-tail = true
-format = "%{T3}<label>"
-#format-padding = 5
-; Next song icon
-exec = echo ""
-; Check if spotify is running before displaying the icon
-exec-if = "pgrep spotify"
-format-underline = #1db954
-click-left = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
-
-[module/playpause]
-type = custom/ipc
-; Default
-hook-0 = echo ""
-; Playing
-hook-1 = echo ""
-; Paused
-hook-2 = echo ""
-initial = 1
-format-underline = #1db954
-click-left = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
-
 [module/spotify]
 type = custom/ipc
 hook-0 = echo ""
-hook-1 = "echo      $(python ~/.config/polybar/spotify/spotify_status.py)"
+hook-1 = "echo  $(python ~/.config/polybar/spotify/spotify_status.py)"
 initial = 1
-format-underline = #1db954
+format-foreground = ${colors.darkgreen}
 ; [i3wm only] - Uncomment the below line to focus on Spotify when clicking on the song name (credits to https://github.com/Esya)
 click-left = i3-msg '[class="Spotify"] focus'
 

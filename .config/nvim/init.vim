@@ -41,7 +41,7 @@ set encoding=utf-8
 
 " Lifetime undo, WOOOOOOOOOOOOOOOOoo
 "
-set undodir=$HOME/.cache/nvim/undofiles
+set undodir=/home/suren/.cache/nvim/undofiles
 set undofile
 
 

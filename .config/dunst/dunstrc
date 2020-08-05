@@ -1,6 +1,6 @@
   [global]
     monitor = 0
-    follow = keyboard
+    follow = none
     geometry = "350x5-0+40"
     indicate_hidden = yes
     shrink = yes
@@ -24,7 +24,7 @@
     sort = yes
 
     idle_threshold = 120
-    font = DejaVu 14
+    font = FiraCode Nerd Font 14
     line_height = 0
     markup = full
 
@@ -53,8 +53,8 @@
     icon_path = icon_path = /usr/share/icons/Adwaita/16x16/status/:/usr/share/icons/Adwaita/16x16/devices/
     sticky_history = yes
     history_length = 20
-    dmenu = dmenu -p dunst:
-    browser = /usr/bin/firefox -new-tab
+    dmenu = dmenu  -l 6 -p dunst:
+    browser = /usr/bin/brave
 
     # Always run rule-defined scripts, even if the notification is suppressed
     always_run_script = true
@@ -62,6 +62,7 @@
     title = Dunst
     class = Dunst
     startup_notification = false
+    corner_radius = 20
     force_xinerama = false
 [experimental]
     per_monitor_dpi = false
@@ -117,14 +118,17 @@
 
 [script-test]
     summary = "*says:*"
-    script = $HOME/.config/dunst/test
+    script = /home/suren/.config/dunst/test
 
 
+#[aznews]
+#    summary = "*1 unread feeds*"
+#    script = /home/suren/werk/newscacher.py
 
 [ignore]
     # This notification will not be displayed
-    #summary = "*"
-    #format = ""
+    summary = "և"
+    format = ""
 
 #[history-ignore]
 #    # This notification will not be saved in history

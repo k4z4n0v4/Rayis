@@ -1,6 +1,5 @@
 #!/bin/bash
 
 
-play -v 0.6 -q $HOME/.config/dunst/msg_incoming.mp3
-
+play -v 0.6 -q /home/suren/.config/dunst/msg_incoming.mp3
 
