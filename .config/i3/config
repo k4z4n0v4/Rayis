@@ -109,7 +109,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # exit i3
-bindsym $mod+Shift+e exec  /home/suren/.config/i3/scripts/exit.sh
+bindsym $mod+Shift+e exec  ~/.config/i3/scripts/exit.sh
 
 
 # resize window (you can also use the mouse for that)
@@ -146,7 +146,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 # bar
 #bar {
-#  	status_command i3blocks -c /home/suren/.config/i3/i3blocks.conf
+#  	status_command i3blocks -c ~/.config/i3/i3blocks.conf
 ##	colors {
 #		background $bg-color
 #	    	separator #757575
@@ -210,10 +210,10 @@ bindsym Control+Shift+m exec pactl  set-sink-mute alsa_output.pci-0000_00_1f.3.a
 
 # startup
 exec --no-startup-id autotiling
-exec --no-startup-id  xss-lock -- /home/suren/.config/i3/scripts/lock.sh &
+exec --no-startup-id  xss-lock -- ~/.config/i3/scripts/lock.sh &
 exec --no-startup-id telegram-desktop
-exec_always --no-startup-id /home/suren/.config/polybar/spotify/launchlistener.sh
-exec_always --no-startup-id /home/suren/.config/polybar/launch.sh
+exec_always --no-startup-id ~/.config/polybar/spotify/launchlistener.sh
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 
 # started in xinit

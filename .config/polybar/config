@@ -148,16 +148,16 @@ label-unmounted-foreground = ${colors.foreground}
 
 [module/openweathermap-fullfeatured]
 type = custom/script
-exec = /home/suren/.config/polybar/polybar-scripts/openweathermap-fullfeatured.sh
+exec = $HOME/.config/polybar/polybar-scripts/openweathermap-fullfeatured.sh
 interval = 600
 
 
 [module/usb]
 type = custom/script
-exec = /home/suren/.config/polybar/polybar-scripts/system-usb-udev.sh
+exec = $HOME/.config/polybar/polybar-scripts/system-usb-udev.sh
 tail = true
-click-left = /home/suren/.config/polybar/polybar-scripts/system-usb-udev.sh --mount &
-click-right = /home/suren/.config/polybar/polybar-scripts/system-usb-udev.sh --unmount &
+click-left = $HOME/.config/polybar/polybar-scripts/system-usb-udev.sh --mount &
+click-right = $HOME/.config/polybar/polybar-scripts/system-usb-udev.sh --unmount &
 
 [module/i3]
 type = internal/i3
