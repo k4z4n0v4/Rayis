@@ -6,7 +6,7 @@
 echo "[#] Installing Packages..."
 sudo pacman -Syu awk coreutils 
 
-sudo awk -i inplace -v beg='#[multilib]' -v num=2 '$0==beg{c=num} c&&c--{sub(/#/,"")} 1' /etc/pacman.conf
+#sudo awk -i inplace -v beg='#[multilib]' -v num=2 '$0==beg{c=num} c&&c--{sub(/#/,"")} 1' /etc/pacman.conf
 
 packages=$(awk '/#####/ {exit} {print $1}' installed.txt | tr '\n' ' ')
 aur=$(awk '{if(found) print $1} /#####/{found=1}' installed.txt | tr '\n' ' ')
