@@ -20,7 +20,6 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config single_monocle      true
-bspc config mark-ovredir-focused false
 
 bspc rule -a TelegramDesktop desktop='^9'
 bspc rule -a Spotify desktop='^10'
@@ -30,7 +29,9 @@ bspc rule -a Pavucontrol state=floating
 bspc rule -a htop state=floating
 bspc rule -a nethogs state=floating
 bspc rule -a Maltego state=floating
+bspc rule -a ncmpcpp state=floating
 bspc rule -a burp-StartBurp state=floating
 bspc rule -a Transmission-gtk state=floating
+bspc rule -a firefox:Toolkit:Picture-in-Picture state=floating
 
 

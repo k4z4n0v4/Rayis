@@ -45,7 +45,7 @@ height = 30
 ;offset-x = 12.5%
 ;offset-y = 5 
 ;radius = 10
-fixed-center = true 
+;fixed-center = true 
 enable-ipc = true
 background = ${colors.foreground}
 foreground = ${colors.black}
@@ -66,8 +66,8 @@ separator =%{F#a3be8c}%{F-}
 font-0 = FiraCode Nerd Font:style=Retina:size=11:antialias=true;2
 
 
-modules-left = bspwm i3  xwindow
-modules-center = spotify
+modules-left = bspwm i3 mpd
+modules-center = 
 modules-right = xkeyboard pulseaudio memory eth updates-arch-combined date 
 
 
@@ -200,6 +200,7 @@ label-occupied-padding = 2
 label-urgent = %icon%
 label-urgent-foreground = ${colors.foreground}
 label-urgent-background = ${colors.red}
+label-urgent-padding = 2
 
 label-empty = %icon%
 label-empty-foreground = ${colors.gray}
@@ -211,17 +212,17 @@ label-tiled = " "
 label-tiled-foreground = ${colors.white} 
 label-fullscreen = 
 label-fullscreen-foreground = ${colors.white} 
-label-floating = 
+label-floating = " "
 label-floating-foreground = ${colors.white} 
-label-pseudotiled = P
+label-pseudotiled = "P "
 label-pseudotiled-foreground = ${colors.white} 
-label-locked = 
+label-locked = " "
 label-locked-foreground = #bd2c40
-label-sticky = 
+label-sticky = " "
 label-sticky-foreground = #fba922
-label-private = ﴣ
+label-private = "ﴣ "
 label-private-foreground = #bd2c40
-label-marked = M
+label-marked = "M "
 
 
 ; Separator in between workspaces
@@ -282,33 +283,39 @@ ws-icon-default = 
 
 [module/mpd]
 type = internal/mpd
-format-online = <icon-prev> <icon-stop> <toggle> <icon-next>  <icon-repeat> <icon-random>  <bar-progress> <label-time>  <label-song>
+format-online = <icon-prev> <icon-stop> <toggle> <icon-next> <icon-repeat> <icon-random> | %{A1:st -c ncmpcpp -e ncmpcpp:}<label-song>%{A}
 
-icon-play = 
-icon-pause = 
-icon-stop = 
-icon-prev = 
-icon-next = 
-icon-random = 
-icon-repeat = 
+format-online-foreground = ${colors.cyan}
 
-toggle-on-foreground =
-toggle-off-foreground = #55
+format-offline= %{A1:mpd &:} <label-offline>%{A}
+format-offline-foreground = ${colors.gray}
 
-label-song-maxlen = 25
+
+label-offline =  mpd not running...
+
+icon-play = 
+icon-pause = 
+icon-stop = 
+icon-prev = 
+icon-next = 
+icon-random = 
+icon-repeat = 
+
+toggle-on-foreground = ${colors.white}
+toggle-off-foreground = ${colors.gray}
+
+label-song-maxlen = 45
+label-song-foreground = ${colors.blue}
 label-song-ellipsis = true
 
-bar-progress-width = 45
+bar-progress-width = 35 
 bar-progress-format = %{A4:mpdseek+2: A5:mpdseek-2:}%fill%%indicator%%empty%%{A A}
 bar-progress-indicator = |
-bar-progress-indicator-foreground = #ff
-bar-progress-indicator-font = 2
+bar-progress-indicator-foreground = ${colors.white}
 bar-progress-fill = ─
-bar-progress-fill-foreground = #bb
-bar-progress-fill-font = 2
+bar-progress-fill-foreground = ${colors.green}
 bar-progress-empty = ─
-bar-progress-empty-font = 2
-bar-progress-empty-foreground = #44
+bar-progress-empty-foreground = ${colors.white}
 
 
 

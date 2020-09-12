@@ -1,14 +1,18 @@
-#
 # wm independent hotkeys
 #
 
 # terminal emulator
 super + Return
 	st
+super + shift + Return
+    mullvad-exclude st -t "local"
 
 # program launcher
 super + d
 	dmenu_run
+super + shift + d 
+    mullvad-exclude dmenu_run -p "No VPN: "
+
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -42,9 +46,17 @@ super + g
 # state/flags
 #
 
+
 # set the window state
-super + {t,shift + t,s,f}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+super + shift + t 
+    if [ -z "$(bspc query -N -n .pseudo_tiled)" ]; then \        
+        bspc node -t pseudo_tiled; \                                       
+    else \                                                               
+        bspc node -t tiled; \                                         
+    fi
+
+super + {s,f}
+	bspc node -t {floating,fullscreen}
 
 # set the node flags
 super + ctrl + {m,x,y,z}
@@ -89,7 +101,7 @@ super + {_,shift + }{1-9,0}
 #
 
 # preselect the direction
-super + ctrl + {h,j,k,l}
+super + alt + {h,j,k,l}
 	bspc node -p {west,south,north,east}
 
 # preselect the ratio
@@ -109,11 +121,11 @@ super + ctrl + shift + space
 #
 
 # expand a window by moving one of its side outward
-super + alt + {h,j,k,l}
+super + ctrl + {h,j,k,l}
 	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
 
 # contract a window by moving one of its side inward
-super + alt + shift + {h,j,k,l}
+super +  ctrl + shift + {h,j,k,l}
 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 # move a floating window
@@ -122,6 +134,12 @@ super + {Left,Down,Up,Right}
 
 
 # custom from i3
+
+Print
+     maim -s -m 1 ~/Pictures/"$(date +%H:%M)".png
+
+super + shift + b
+    st -e ranger
 
 super + shift + x 
     ~/.config/i3/scripts/lock.sh
@@ -136,3 +154,5 @@ super +  c
 super + p
     pavucontrol
 
+super + t
+     bspc desktop --focus ^9 && telegram-desktop
