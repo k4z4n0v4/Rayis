@@ -5,10 +5,9 @@
 
 call plug#begin()
 	Plug 'sheerun/vim-polyglot'
-	Plug 'nathanaelkane/vim-indent-guides'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
-	Plug 'jiangmiao/auto-pairs'
+	"Plug 'jiangmiao/auto-pairs'
 	Plug 'tpope/vim-fugitive'
 	Plug 'preservim/nerdtree'
     Plug 'lervag/vimtex'
@@ -17,12 +16,13 @@ call plug#begin()
 	Plug 'xolox/vim-notes'   
 	Plug 'xolox/vim-misc'	
 	Plug 'preservim/nerdcommenter'
-	Plug 'junegunn/fzf'
+	Plug 'junegunn/fzf.vim'
+	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'arcticicestudio/nord-vim'
 	Plug 'Shougo/echodoc.vim'
 	Plug 'ryanoasis/vim-devicons'
     Plug 'lilydjwg/colorizer'
-    Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'neovimhaskell/haskell-vim'
     Plug 'honza/vim-snippets'
 call plug#end()
@@ -36,6 +36,8 @@ set clipboard=unnamedplus
 set noshowmode " Disable vim's own mod indicator
 set number relativenumber
 set encoding=utf-8
+set cursorcolumn
+set mouse=a
 "set fdm=syntax
 
 
@@ -78,8 +80,8 @@ let g:nord_italic_comments = 1
 let g:nord_underline = 1
 colorscheme nord
 
-
-
+" set :grep to ripgrep (used for replacing in multiple files) 
+set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 
 "------------------------------------------------------------------- Airline
 
@@ -176,15 +178,34 @@ imap <C-l> <Plug>(coc-snippets-expand)
 vmap <C-j> <Plug>(coc-snippets-select)
 
 
+" Trigger CodeLens 
+xmap <leader>ec  <Plug>(coc-codelens-action)
+nmap <leader>ec  <Plug>(coc-codelens-action)
+
+" Formatting selected code.
+xmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
+
 let g:coc_snippet_next = '<tab>'
 let g:coc_snippet_prev = '<S-tab>'
 
+" Applying codeAction to the selected region.
+" Example: `<leader>aap` for current paragraph
+xmap <leader>a  <Plug>(coc-codeaction-selected)
+nmap <leader>a  <Plug>(coc-codeaction-selected)
 
-inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<CR>"
+" Remap keys for applying codeAction to the current buffer.
+nmap <leader>ea  <Plug>(coc-codeaction)
+" Apply AutoFix to problem on the current line.
+nmap <leader>qf  <Plug>(coc-fix-current)
+
+" Search workspace symbols.
+nmap  <leader>s  :<C-u>CocList -I symbols<cr>
+
 " Use tab and S-Tab to navigate completion list
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-
+inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<CR>"
 " Close the preview window when completion is done.
 autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
 
@@ -238,7 +259,7 @@ let g:tex_flavor = "latex"
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-nnoremap <Leader>f :NERDTreeToggle <Enter>
+"nnoremap <Leader>f :NERDTreeToggle <Enter>
 nnoremap <silent> <Leader>v :NERDTreeFind<CR>
 let NERDTreeQuitOnOpen = 0
 let NERDTreeMinimalUI = 1
@@ -251,3 +272,9 @@ let g:notes_directories = ['~/Documents/Notes']
 "------------------------------------------------------------------- NERD-commenter
 
 let g:NERDDefaultAlign = 'left'
+
+
+
+"------------------------------------------------------------------- fzf.vim
+nnoremap <silent> <C-f> :Files<CR>
+nnoremap <silent> <Leader>f :Rg<CR>

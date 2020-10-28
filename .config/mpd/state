@@ -1,10 +1,11 @@
-sw_volume: 98
+sw_volume: 100
+audio_device_state:0:My HTTP Stream
 audio_device_state:1:My Pulse Output
 audio_device_state:1:my_fifo
-state: play
-current: 9
-time: 9.015000
-random: 1
+state: pause
+current: 12
+time: 555.067000
+random: 0
 repeat: 0
 single: 0
 consume: 0
@@ -12,14 +13,18 @@ crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Marilyn Manson/02 - WE ARE CHAOS.flac
-1:Marilyn Manson/03 - DON'T CHASE THE DEAD.flac
-2:Marilyn Manson/04 - PAINT YOU WITH MY LOVE.flac
-3:Marilyn Manson/05 - HALF-WAY & ONE STEP FORWARD.flac
-4:Marilyn Manson/06 - INFINITE DARKNESS.flac
-5:Marilyn Manson/07 - PERFUME.flac
-6:Marilyn Manson/08 - KEEP MY HEAD TOGETHER.flac
-7:Marilyn Manson/09 - SOLVE COAGULA.flac
-8:Marilyn Manson/10 - BROKEN NEEDLE.flac
-9:Marilyn Manson/01 - RED BLACK AND BLUE.flac
+0:Marilyn Manson - RED BLACK AND BLUE.flac
+1:Marilyn Manson - WE ARE CHAOS.flac
+2:Marilyn Manson - DON'T CHASE THE DEAD.flac
+3:Marilyn Manson - PAINT YOU WITH MY LOVE.flac
+4:Marilyn Manson - HALF-WAY & ONE STEP FORWARD.flac
+5:Marilyn Manson - INFINITE DARKNESS.flac
+6:Marilyn Manson - PERFUME.flac
+7:Marilyn Manson - KEEP MY HEAD TOGETHER.flac
+8:Marilyn Manson - SOLVE COAGULA.flac
+9:Marilyn Manson - BROKEN NEEDLE.flac
+10:Machine Head - Locust.flac
+11:Casey Edwards, Victor Borba - Bury the Light.flac
+12:Casey Edwards, Victor Borba - Bury the Light.flac
+13:Motörhead - Overkill.flac
 playlist_end

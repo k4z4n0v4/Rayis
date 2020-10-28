@@ -68,7 +68,7 @@ font-0 = FiraCode Nerd Font:style=Retina:size=11:antialias=true;2
 
 modules-left = bspwm i3 mpd
 modules-center = 
-modules-right = xkeyboard pulseaudio memory eth updates-arch-combined date 
+modules-right = xkeyboard pulseaudio memory eth  updates-arch-combined date 
 
 
 
@@ -283,6 +283,8 @@ ws-icon-default = 
 
 [module/mpd]
 type = internal/mpd
+host = "/home/suren/.config/mpd/socket"
+;port = 29854
 format-online = <icon-prev> <icon-stop> <toggle> <icon-next> <icon-repeat> <icon-random> | %{A1:st -c ncmpcpp -e ncmpcpp:}<label-song>%{A}
 
 format-online-foreground = ${colors.cyan}

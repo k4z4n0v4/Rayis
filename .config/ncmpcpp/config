@@ -1,6 +1,8 @@
 ncmpcpp_directory = "~/.config/ncmpcpp"
 lyrics_directory = "~/.local/share/lyrics"
 mpd_music_dir = "~/Music"
+mpd_host = "~/.config/mpd/socket"
+#mpd_port = "29854"
 message_delay_time = "1"
 visualizer_type = "spectrum"
 song_list_format = {$8%a }{$5%t$9}|{$8%f$9}$R{$3%l$9}
@@ -12,7 +14,7 @@ current_item_prefix = $(white)$r$b
 current_item_suffix = $/r$(end)$/b
 current_item_inactive_column_prefix = $(blue)$r
 current_item_inactive_column_suffix = $/r$(end)
-playlist_display_mode = classic
+playlist_display_mode = columns
 browser_display_mode = columns
 progressbar_look = ->
 media_library_primary_tag = album_artist

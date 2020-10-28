@@ -138,8 +138,8 @@ super + {Left,Down,Up,Right}
 Print
      maim -s -m 1 ~/Pictures/"$(date +%H:%M)".png
 
-super + shift + b
-    st -e ranger
+#super + shift + b
+#    st -e ranger
 
 super + shift + x 
     ~/.config/i3/scripts/lock.sh
@@ -156,3 +156,27 @@ super + p
 
 super + t
      bspc desktop --focus ^9 && telegram-desktop
+
+XF86AudioPrev
+    mpc --host=/home/suren/.config/mpd/socket prev
+
+XF86AudioPlay
+    mpc --host=/home/suren/.config/mpd/socket toggle
+
+XF86AudioNext
+    mpc --host=/home/suren/.config/mpd/socket next
+
+XF86AudioStop
+    mpc --host=/home/suren/.config/mpd/socket stop
+
+XF86AudioRaiseVolume
+    pulseaudio-ctl up
+
+XF86AudioLowerVolume
+    pulseaudio-ctl down
+
+XF86AudioMute
+    pulseaudio-ctl mute
+
+XF86Explorer
+	[[ $(xdotool getwindowfocus getwindowname) = "st" || "bash"  ]] && sleep 0.1 && xdotool key ctrl+u r a n g e r Return || st -e ranger 

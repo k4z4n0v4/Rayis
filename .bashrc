@@ -20,7 +20,8 @@ export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
 export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 export GHCUP_INSTALL_BASE_PREFIX=$XDG_DATA_HOME/ghcup
 export TALPID_FIREWALL_DEBUG="1"
-
+export FZF_DEFAULT_COMMAND='rg --files'
+export FZF_DEFAULT_OPTS='-m --height 50% --border'
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 

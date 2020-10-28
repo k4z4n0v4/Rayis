@@ -1,7 +1,7 @@
   [global]
     monitor = 0
     follow = none
-    geometry = "350x5-0+40"
+    geometry = "350x5-10+35"
     indicate_hidden = yes
     shrink = yes
     transparency = 5
@@ -62,7 +62,7 @@
     title = Dunst
     class = Dunst
     startup_notification = false
-    corner_radius = 20
+    corner_radius = 0
     force_xinerama = false
 [experimental]
     per_monitor_dpi = false
@@ -76,17 +76,17 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#8cd0d3"
-    foreground = "#928374"
+    background = "#88c0d0"
+    foreground = "#3b4252"
     timeout = 5
     # Icon for notifications with low urgency, uncomment to enable
-    #icon = /path/to/icon
+    icon = ~/.config/dunst/information.svg
 
 [urgency_normal]
-    background = "#8cd0d3"
-    foreground = "#506070"
+    background = "#88c0d0"
+    foreground = "#3b4252"
     timeout = 5
-
+    icon = ~/.config/dunst/bell.svg
 [urgency_critical]
     background = "#cc2421"
     foreground = "#ebdbb2"
