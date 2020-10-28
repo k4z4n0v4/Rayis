@@ -43,7 +43,7 @@ set mouse=a
 
 " Lifetime undo, WOOOOOOOOOOOOOOOOoo
 "
-set undodir=/home/suren/.cache/nvim/undofiles
+set undodir=$HOME/.cache/nvim/undofiles
 set undofile
 
 

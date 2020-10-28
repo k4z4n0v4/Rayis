@@ -148,16 +148,16 @@ label-unmounted-foreground = ${colors.foreground}
 
 [module/openweathermap-fullfeatured]
 type = custom/script
-exec = /home/suren/.config/polybar/polybar-scripts/openweathermap-fullfeatured.sh
+exec = $HOME/.config/polybar/polybar-scripts/openweathermap-fullfeatured.sh
 interval = 600
 
 
 [module/usb]
 type = custom/script
-exec = /home/suren/.config/polybar/polybar-scripts/system-usb-udev.sh
+exec = $HOME/.config/polybar/polybar-scripts/system-usb-udev.sh
 tail = true
-click-left = /home/suren/.config/polybar/polybar-scripts/system-usb-udev.sh --mount &
-click-right = /home/suren/.config/polybar/polybar-scripts/system-usb-udev.sh --unmount &
+click-left = $HOME/.config/polybar/polybar-scripts/system-usb-udev.sh --mount &
+click-right = $HOME/.config/polybar/polybar-scripts/system-usb-udev.sh --unmount &
 
 
 [module/bspwm]
@@ -283,7 +283,7 @@ ws-icon-default = 
 
 [module/mpd]
 type = internal/mpd
-host = "/home/suren/.config/mpd/socket"
+host = "$HOME/.config/mpd/socket"
 ;port = 29854
 format-online = <icon-prev> <icon-stop> <toggle> <icon-next> <icon-repeat> <icon-random> | %{A1:st -c ncmpcpp -e ncmpcpp:}<label-song>%{A}
 

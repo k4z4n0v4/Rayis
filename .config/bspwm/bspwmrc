@@ -2,7 +2,7 @@
 
 
 sxhkd &
-xss-lock -- /home/suren/.config/i3/scripts/lock.sh &
+xss-lock -- ~/.config/i3/scripts/lock.sh &
 telegram-desktop &
 ~/.config/polybar/launch.sh &
 

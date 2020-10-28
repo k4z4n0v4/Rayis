@@ -158,16 +158,16 @@ super + t
      bspc desktop --focus ^9 && telegram-desktop
 
 XF86AudioPrev
-    mpc --host=/home/suren/.config/mpd/socket prev
+    mpc --host=$HOME/.config/mpd/socket prev
 
 XF86AudioPlay
-    mpc --host=/home/suren/.config/mpd/socket toggle
+    mpc --host=$HOME/.config/mpd/socket toggle
 
 XF86AudioNext
-    mpc --host=/home/suren/.config/mpd/socket next
+    mpc --host=$HOME/.config/mpd/socket next
 
 XF86AudioStop
-    mpc --host=/home/suren/.config/mpd/socket stop
+    mpc --host=$HOME/.config/mpd/socket stop
 
 XF86AudioRaiseVolume
     pulseaudio-ctl up
