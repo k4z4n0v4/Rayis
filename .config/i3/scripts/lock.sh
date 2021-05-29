@@ -10,32 +10,34 @@ W='#93e0e3bb'  # wrong
 V='#94bff3bb'  # verifying
 
 i3lock -n \
---insidevercolor=$C   \
---ringvercolor=$V     \
+--insidever-color=$C   \
+--ringver-color=$V     \
 \
---insidewrongcolor=$C \
---ringwrongcolor=$W   \
+--insidewrong-color=$C \
+--ringwrong-color=$W   \
 \
---insidecolor=$B      \
---ringcolor=$D        \
---linecolor=$B        \
---separatorcolor=$D   \
+--inside-color=$B      \
+--ring-color=$D        \
+--line-color=$B        \
+--separator-color=$D   \
 \
---verifcolor=$T        \
---wrongcolor=$T        \
---timecolor=$T        \
---datecolor=$T        \
---layoutcolor=$T      \
---keyhlcolor=$W       \
---bshlcolor=$W        \
+--verif-color=$T        \
+--wrong-color=$T        \
+--time-color=$T        \
+--date-color=$T        \
+--layout-color=$T      \
+--keyhl-color=$W       \
+--bshl-color=$W        \
 \
 --screen 1            \
 --blur 6              \
 --clock               \
 --indicator           \
---timestr="%H:%M:%S"  \
---datestr="%A, %m %Y" \
---keylayout 2; notify-send "DUNST_COMMAND_RESUME"  \
+#--timestr="%H:%M:%S"  \
+#--datestr="%A, %m %Y" \
+--keylayout 2;
+
+notify-send "DUNST_COMMAND_RESUME"
 
 # --wrongtext="Nope!"
 # --textsize=20
