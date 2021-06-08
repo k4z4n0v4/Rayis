@@ -3,9 +3,9 @@ audio_device_state:0:My HTTP Stream
 audio_device_state:1:My Pulse Output
 audio_device_state:1:my_fifo
 state: pause
-current: 12
-time: 555.067000
-random: 0
+current: 4
+time: 323.784000
+random: 1
 repeat: 0
 single: 0
 consume: 0
@@ -13,18 +13,37 @@ crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Marilyn Manson - RED BLACK AND BLUE.flac
-1:Marilyn Manson - WE ARE CHAOS.flac
-2:Marilyn Manson - DON'T CHASE THE DEAD.flac
-3:Marilyn Manson - PAINT YOU WITH MY LOVE.flac
-4:Marilyn Manson - HALF-WAY & ONE STEP FORWARD.flac
-5:Marilyn Manson - INFINITE DARKNESS.flac
-6:Marilyn Manson - PERFUME.flac
-7:Marilyn Manson - KEEP MY HEAD TOGETHER.flac
-8:Marilyn Manson - SOLVE COAGULA.flac
-9:Marilyn Manson - BROKEN NEEDLE.flac
-10:Machine Head - Locust.flac
-11:Casey Edwards, Victor Borba - Bury the Light.flac
-12:Casey Edwards, Victor Borba - Bury the Light.flac
-13:Motörhead - Overkill.flac
+0:TOOL - The Grudge.flac
+1:TOOL - Eon Blue Apocalypse.flac
+2:TOOL - The Patient.flac
+3:TOOL - Mantra.flac
+4:TOOL - Schism.flac
+5:TOOL - Parabol.flac
+6:TOOL - Parabola.flac
+7:TOOL - Ticks & Leeches.flac
+8:TOOL - Lateralus.flac
+9:TOOL - Disposition.flac
+10:TOOL - Reflection.flac
+11:TOOL - Triad.flac
+12:TOOL - Faaip De Oiad.flac
+13:TOOL - Intolerance.flac
+14:TOOL - Prison Sex.flac
+15:TOOL - Sober.flac
+16:TOOL - Bottom.flac
+17:TOOL - Crawl Away.flac
+18:TOOL - Swamp Song.flac
+19:TOOL - Undertow.flac
+20:TOOL - 4°.flac
+21:TOOL - Flood.flac
+22:TOOL - Disgustipated.flac
+23:TOOL - Fear Inoculum.flac
+24:TOOL - Pneuma.flac
+25:TOOL - Litanie contre la Peur.flac
+26:TOOL - Invincible.flac
+27:TOOL - Legion Inoculant.flac
+28:TOOL - Descending.flac
+29:TOOL - Culling Voices.flac
+30:TOOL - Chocolate Chip Trip.flac
+31:TOOL - 7empest.flac
+32:TOOL - Mockingbeat.flac
 playlist_end

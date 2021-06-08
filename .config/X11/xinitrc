@@ -48,15 +48,11 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-$HOME/.config/screenlayout/dualmon.sh 
+
+
+/home/suren/.config/screenlayout/dualmon.sh 
 picom &
 mullvad-vpn &
 nitrogen --restore &
-case "$1" in
-        bspwm)
-                exec bspwm
-                ;;
-        i3)
-                exec i3
-                ;;
-esac
+clipmenud &
+exec $1

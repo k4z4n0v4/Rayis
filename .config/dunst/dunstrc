@@ -116,17 +116,19 @@
 #    summary = "*"
 #    script = dunst_espeak.sh
 
-[script-test]
-    summary = "*says:*"
-    script = $HOME/.config/dunst/test
+[play_sound]
+    summary = "*"
+    script = /home/suren/.config/dunst/GenNotif
 
 
+#[aznews]
+#    summary = "*1 unread feeds*"
+#    script = /home/suren/werk/newscacher.py
 
-[ignore]
+[play_sound_Mane]
     # This notification will not be displayed
-    summary = "և"
-    format = ""
-
+    summary = "Մանե"
+    script = paplay $HOME/.config/dunst/Iridium.ogg
 #[history-ignore]
 #    # This notification will not be saved in history
 #    summary = "foobar"

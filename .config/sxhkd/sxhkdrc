@@ -105,7 +105,7 @@ super + alt + {h,j,k,l}
 	bspc node -p {west,south,north,east}
 
 # preselect the ratio
-super + ctrl + {1-9}
+
 	bspc node -o 0.{1-9}
 
 # cancel the preselection for the focused node
@@ -136,7 +136,7 @@ super + {Left,Down,Up,Right}
 # custom from i3
 
 Print
-     maim -s -m 1 ~/Pictures/"$(date +%H:%M)".png
+     flameshot gui
 
 #super + shift + b
 #    st -e ranger
@@ -148,7 +148,7 @@ super + shift + x
 super + shift + {_,ctrl + } Tab
     bspc {node, desktop} -m next --follow
 
-super +  c 
+super + c 
     clipmenu
 
 super + p
@@ -158,16 +158,16 @@ super + t
      bspc desktop --focus ^9 && telegram-desktop
 
 XF86AudioPrev
-    mpc --host=$HOME/.config/mpd/socket prev
+    mpc --host=/home/suren/.config/mpd/socket prev
 
 XF86AudioPlay
-    mpc --host=$HOME/.config/mpd/socket toggle
+    mpc --host=/home/suren/.config/mpd/socket toggle
 
 XF86AudioNext
-    mpc --host=$HOME/.config/mpd/socket next
+    mpc --host=/home/suren/.config/mpd/socket next
 
 XF86AudioStop
-    mpc --host=$HOME/.config/mpd/socket stop
+    mpc --host=/home/suren/.config/mpd/socket stop
 
 XF86AudioRaiseVolume
     pulseaudio-ctl up

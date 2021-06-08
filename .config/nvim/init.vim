@@ -36,14 +36,14 @@ set clipboard=unnamedplus
 set noshowmode " Disable vim's own mod indicator
 set number relativenumber
 set encoding=utf-8
-set cursorcolumn
+"set cursorcolumn
 set mouse=a
 "set fdm=syntax
 
 
 " Lifetime undo, WOOOOOOOOOOOOOOOOoo
 "
-set undodir=$HOME/.cache/nvim/undofiles
+set undodir=/home/suren/.cache/nvim/undofiles
 set undofile
 
 
@@ -87,7 +87,6 @@ set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 
 " Make airline pointy
 let g:airline_powerline_fonts = 1
-"let g:zenburn_high_Contrast = 1
 let g:airline_theme = 'nord'
 
 "------------------------------------------------------------------- Indent-Guides
@@ -98,37 +97,14 @@ let g:indent_guides_enable_on_vim_startup = 0
 "------------------------------------------------------------------- COC.vim
 
 
-function! FloatScroll(forward) abort
-  let float = coc#util#get_float()
-  if !float | return '' | endif
-  let buf = nvim_win_get_buf(float)
-  let buf_height = nvim_buf_line_count(buf)
-  let win_height = nvim_win_get_height(float)
-  if buf_height < win_height | return '' | endif
-  let pos = nvim_win_get_cursor(float)
-  if a:forward
-    if pos[0] == 1
-      let pos[0] += 3 * win_height / 4
-    elseif pos[0] + win_height / 2 + 1 < buf_height
-      let pos[0] += win_height / 2 + 1
-    else
-      let pos[0] = buf_height
-    endif
-  else
-    if pos[0] == buf_height
-      let pos[0] -= 3 * win_height / 4
-    elseif pos[0] - win_height / 2 + 1  > 1
-      let pos[0] -= win_height / 2 + 1
-    else
-      let pos[0] = 1
-    endif
-  endif
-  call nvim_win_set_cursor(float, pos)
-  return ''
-endfunction
-
-inoremap <silent><expr> <down> coc#util#has_float() ? FloatScroll(1) : "\<down>"
-inoremap <silent><expr>  <up>  coc#util#has_float() ? FloatScroll(0) :  "\<up>"
+	if has('nvim-0.4.0') || has('patch-8.2.0750')
+	  nnoremap <silent><nowait><expr> <down> coc#float#has_scroll() ? coc#float#scroll(1) : "\<down>"
+	  nnoremap <silent><nowait><expr> <up> coc#float#has_scroll() ? coc#float#scroll(0) : "\<up>"
+	  inoremap <silent><nowait><expr> <down> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(1)\<cr>" : "\<down>"
+	  inoremap <silent><nowait><expr> <up> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(0)\<cr>" : "\<up>"
+	  vnoremap <silent><nowait><expr> <down> coc#float#has_scroll() ? coc#float#scroll(1) : "\<down>"
+	  vnoremap <silent><nowait><expr> <up> coc#float#has_scroll() ? coc#float#scroll(0) : "\<up>"
+	endif
 
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
@@ -209,6 +185,7 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<CR>"
 " Close the preview window when completion is done.
 autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
 
+let g:coc_sources_disable_map = { 'cs': ['cs-2','cs-3', 'cs-4'] }
 ""------------------------------------------------------------------- Deoplete
 "" Enable Deoplete
 "let g:deoplete#enable_at_startup = 1

@@ -19,6 +19,7 @@ export XSERVERRC="$XDG_CONFIG_HOME"/X11/xserverrc
 export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
 export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 export GHCUP_INSTALL_BASE_PREFIX=$XDG_DATA_HOME/ghcup
+#export LIBGL_DRI3_DISABLE=1 
 export TALPID_FIREWALL_DEBUG="1"
 export FZF_DEFAULT_COMMAND='rg --files'
 export FZF_DEFAULT_OPTS='-m --height 50% --border'
@@ -32,7 +33,9 @@ alias malnetsim="sudo inetsim --config $PWD/conf/inetsim.conf  --data-dir $PWD/d
 PS1='[\u@\h \W]\$ '
 source ~/.config/promptline.sh
 
+# needed for adb autocomplete
+function check_type() { type -t "$1"; }
 update() {
-    aura -Syu
-    aura -Akuax
+    mullvad-exclude aura -Syu
+    mullvad-exclude aura -Akuax
 }
