@@ -36,6 +36,6 @@ source ~/.config/promptline.sh
 # needed for adb autocomplete
 function check_type() { type -t "$1"; }
 update() {
-    mullvad-exclude aura -Syu
-    mullvad-exclude aura -Akuax
+    mullvad-exclude sudo -E aura -Syu
+    mullvad-exclude sudo -E aura -Akuax
 }

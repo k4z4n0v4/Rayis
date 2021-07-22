@@ -3,8 +3,8 @@ audio_device_state:0:My HTTP Stream
 audio_device_state:1:My Pulse Output
 audio_device_state:1:my_fifo
 state: pause
-current: 4
-time: 323.784000
+current: 16
+time: 37.519000
 random: 1
 repeat: 0
 single: 0
@@ -46,4 +46,6 @@ playlist_begin
 30:TOOL - Chocolate Chip Trip.flac
 31:TOOL - 7empest.flac
 32:TOOL - Mockingbeat.flac
+33:Marilyn Manson - Disposable Teens.flac
+34:Ayreon - Electric Castle Live And Other Tales.mkv
 playlist_end

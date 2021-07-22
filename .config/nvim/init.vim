@@ -4,29 +4,28 @@
 
 
 call plug#begin()
-	Plug 'sheerun/vim-polyglot'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
-	"Plug 'jiangmiao/auto-pairs'
 	Plug 'tpope/vim-fugitive'
 	Plug 'preservim/nerdtree'
     Plug 'lervag/vimtex'
 	Plug 'edkolev/promptline.vim'
-	Plug 'junegunn/goyo.vim'
-	Plug 'xolox/vim-notes'   
-	Plug 'xolox/vim-misc'	
 	Plug 'preservim/nerdcommenter'
 	Plug 'junegunn/fzf.vim'
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'arcticicestudio/nord-vim'
 	Plug 'Shougo/echodoc.vim'
 	Plug 'ryanoasis/vim-devicons'
-    Plug 'lilydjwg/colorizer'
+    Plug 'norcalli/nvim-colorizer.lua'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'neovimhaskell/haskell-vim'
     Plug 'honza/vim-snippets'
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    Plug 'saltstack/salt-vim'
+    Plug 'mechatroner/rainbow_csv'
 call plug#end()
 
+set termguicolors
 set updatetime=300
 set modifiable
 set showmatch
@@ -36,9 +35,11 @@ set clipboard=unnamedplus
 set noshowmode " Disable vim's own mod indicator
 set number relativenumber
 set encoding=utf-8
-"set cursorcolumn
+filetype plugin indent on
 set mouse=a
-"set fdm=syntax
+
+set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
 
 
 " Lifetime undo, WOOOOOOOOOOOOOOOOoo
@@ -255,3 +256,20 @@ let g:NERDDefaultAlign = 'left'
 "------------------------------------------------------------------- fzf.vim
 nnoremap <silent> <C-f> :Files<CR>
 nnoremap <silent> <Leader>f :Rg<CR>
+
+
+"------------------------------------------------------------------- TreeSitter
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+    -- Modules and its options go here
+    ensure_installed = "maintained",
+    highlight = { enable = true },
+    incremental_selection = { enable = true },
+    textobjects = { enable = true },
+    indent = { enable = true },
+}
+EOF
+
+
+"------------------------------------------------------------------- colorizer
+lua require'colorizer'.setup()
